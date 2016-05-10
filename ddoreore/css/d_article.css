@@ -1,0 +1,84 @@
+/*________________article_______________*/
+/*product*/
+
+#product {width:100%; height:440px; height:27.5rem; background-image:url(../img/product/product_bg.png); padding-top:50px; position:relative;}
+#product dt {font-size:22px; font-size:1.375rem; font-weight: bold; text-align: center; font-family:"Noto Sans KR DemiLight" }
+#product_btn {width:420px; width:26.25rem; height:28px; height:1.75rem; margin-top:50px; margin-top:3.125rem; background-color:#fff;position:absolute; left:50%; margin-left:-210px; margin-left:-13.125rem;}
+
+#product_btn>button {width:140px; width:calc(100% / 3); height:100%; float:left;}
+.btn_red {background-color:#e41e26;}
+#pro_btn_1 {font-size:12px; font-size:0.75rem; color:#fff; font-family:"Noto Sans KR Bold Bold";font-weight:bold;}
+#pro_btn_2 {font-size:12px; font-size:0.75rem; color:#fff; font-family:"Noto Sans KR Bold Bold";font-weight:bold;background-color:#f7941e;}
+#pro_btn_3 {font-size:12px; font-size:0.75rem; color:#fff; font-family:"Noto Sans KR Bold Bold";font-weight:bold;}
+
+#productBox {width:804px; width:50.25rem; height:222px; height:13.875rem; position:absolute; top:180px; top:11.25rem; left:50%;  margin-left:-402px; margin-left:-25.125rem; overflow: hidden;}
+
+#productBox>ul {width:100%; height:300%;  margin-top:-222px; margin-top:-13.875rem;}
+#productBox>ul>li {width:100%; height:calc(100% / 3); height:222px; }
+.productBan_1>.chicken {width:804px; width:50.25rem; height:152px; height:9.5rem;}
+.chicken>ul>li {width:188px; width:11.75rem; height:152px; height:9.5rem; float:left; margin-left:17.2px; margin-left:1.075rem; background-color:#e41e26; }
+
+.more_1 {width:804px; width:50.25rem;margin-top:22px; margin-top:1.375rem;  height:48px; height:3rem; background-color:#e41e26;}
+.more_1>a {width:100%; height:100%; text-align: center; font-size:25px; font-size:1.5625rem; font-weight:bold; text-decoration: none; line-height:48px; line-height:3rem; font-family:"Noto Sans KR Black Black"; display: block;color:#fff;}
+
+.productBan_2>.burger {width:804px; width:50.25rem; height:152px; height:9.5rem; }
+.burger>ul>li {width:188px; width:11.75rem; height:152px; height:9.5rem; float:left; margin-left:17.2px; margin-left:1.075rem; background-color:#fff;}
+
+.burger>ul>.me_first {background-image: url(../img/product/burger_1.jpg); background-repeat:no-repeat; background-size: contain; background-position:0 20px;}
+.burger>ul>.burger_2 {background-image:url(../img/product/burger_2.jpg); background-repeat:no-repeat; background-size:82%; background-position: 25px 32px;}
+.burger>ul>.burger_3 {background-image: url(../img/product/burger_3.jpg); background-size: 95%; background-repeat:no-repeat; background-position:5px 22px;}
+
+
+.more_2 {width:804px; margin-top:22px; margin-top:1.375rem; width:50.25rem; height:48px; height:3rem; background-color:#f7941e;}
+.more_2>a {width:100%; height:100%; text-align: center; font-size:25px; font-size:1.5625rem; font-weight:bold; text-decoration: none; line-height:48px; line-height:3rem; font-family:"Noto Sans KR Black Black"; display: block;color:#fff;}
+
+
+.productBan_3>.sidemenu {width:804px; width:50.25rem; height:152px; height:9.5rem;}
+.sidemenu>ul>li {width:188px; width:11.75rem; height:152px; height:9.5rem; float:left; margin-left:17.2px; margin-left:1.075rem; background-color:#e41e26;}
+.more_3 {width:804px; margin-top:22px; margin-top:1.375rem; width:50.25rem; height:48px; height:3rem; background-color:#e41e26;}
+.more_3>a {width:100%; height:100%; text-align: center; font-size:25px; font-size:1.5625rem; font-weight:bold; text-decoration: none; line-height:48px; line-height:3rem; font-family:"Noto Sans KR Black Black"; display: block;color:#fff;}
+
+
+
+
+
+
+/*information*/
+#information {width:100%; height:650px; height:40.625rem; }
+#articleBox {width:960px; width:60rem; height:578px; height:36.125rem; padding-top:98px; padding-top:6.125rem; margin:auto auto;}
+#articleBox>dl {width:716px; width:44.75rem; height:404px; height:25.25rem; margin-left:122px; margin-left:7.625rem; }
+#articleBox dt {font-size:22px; font-size:1.375rem; text-align: center; font-family:"Noto Sans KR DemiLight"; color:#595959; }
+
+#articleBox ol {width:716px; width:44.75rem; height:322px; height:20.125rem; margin-top:50px; margin-top:3.125rem; position:relative;}
+#articleBox li {width:178px; width:11.125rem; height:322px; height:20.125rem; float:left;}
+#articleBox li>a {width:178px; width:11.125rem; height:278px; height:17.375rem; padding-top:44px; padding-top:2.75rem;display: block; color:#fff;text-align: center; font-size:1.375rem; font-family: "Noto Sans KR DemiLight"; text-decoration: none;}
+
+
+.orange01, .orange02 {background-color:#f7941e;}
+.red01, .red02 {background-color:#e41e26;}
+#articleBox>dl>dd>ol>li>a>span {width:0; height:0; display: block; overflow: hidden;}
+#articleBox>dl>dd>ol>li>a {background-image:url(../img/article/hover/article.png); background-repeat:no-repeat; background-position: 50px 45px;}
+#articleBox>dl>dd>ol>.red01>a {background-position:-130px 45px;}
+#articleBox>dl>dd>ol>.orange02>a {background-position:-310px 45px;}
+#articleBox>dl>dd>ol>.red02>a {background-position:-487px 45px;}
+
+
+#articleBox>dl>dd>ol>li>a:hover{background-image: url(../img/article/hover/aritcle_hover.png); background-repeat:no-repeat; background-position: 0 44px;}
+#articleBox>dl>dd>ol>.red01>a:hover {background-position:-179px 45px;}
+#articleBox>dl>dd>ol>.orange02>a:hover {background-position:-358px 45px;}
+#articleBox>dl>dd>ol>.red02>a:hover {background-position:-540px 45px;}
+
+
+.icon_1 {background-position:15px 0; background-position:0.9375rem 0;}
+.icon_2 {background-position:-165px 0;}
+.icon_3 {background-position:-343px 0;}
+.icon_4 {background-position:-520px 0;}
+
+
+
+/*video*/
+#video {width:100%; height:600px;}
+#videoBox {width:960px; width:60rem; height:100%; margin:0 auto; position:relative;}
+#video dt {font-size:22px; font-size:1.375rem; text-align: center; font-family:"Noto Sans KR DemiLight"; color:#595959;}
+#video dd {width:760px; height:404px; margin-top:50px; margin-left:200px; }
+
