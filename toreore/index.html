@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=960, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    
+        <!--stylesheet-->
+    <link rel="stylesheet" href="css/lib/reset.css" />
+    <link rel="stylesheet" href="css/d_login.css" />
+    <link rel="stylesheet" href="css/sub_product.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="./css/tablet-v.css">
+    
+    <!--[if lte IE 9]>
+    
+    <script src="js/dist/html5shiv.min.js"></script>
+    <script src="js/dist/ie9.min.js"></script>
+    <script src="js/dist/PIE.js"></script>
+    <script src="js/dist/responsive.min.js"></script>
+    
+    <![endif]-->
+    
+    <!--javascript-->    
+    <script src="./js/jquery/jquery-1.12.3.min.js"></script>
+    <script src="./js/jquery/jquery-migrate-1.3.0.min.js"></script>
+    <script src="./js/jquery/jquery-ui.min.js"></script>
+    <script src="./js/index.js"></script>
+    
+
+    <title>또래오래</title>
+    
+    <script>
+        $(document).ready(function(){
+            index();
+        });
+    </script>
+</head>
+<body>
+    <header>
+      <div id="headLnb">
+         <section id="headLnbBox">
+           <div id="sns">
+            <ul >
+                <li class="face"><a href="https://www.facebook.com/toreore9292/?fref=ts"><snap class="me_hidden">facebook</snap></a></li>
+                <li class="blog"><a href="#"><snap class="me_hidden">blog</snap></a></li>
+                <li class="inst"><a href="https://www.instagram.com/explore/tags/%EB%98%90%EB%9E%98%EC%98%A4%EB%9E%98/"><snap class="me_hidden">instgram</snap></a></li>
+                <li class="twit"><a href="https://twitter.com/toreore9292"><snap class="me_hidden">twitter</snap></a></li>
+            </ul>
+            </div>
+            
+            <div id="siteMap">
+            <ul>
+                <li><a class="me_first" href="d_login.html">Log In</a></li>
+                <li><a href="#">Join</a></li>
+                <li class="me_last"><a href="#">My Page</a></li>
+            </ul>
+        </div>
+            </section><!--//    #headLnbBox-->
+          
+      </div><!--//    #headLnb-->
+       <div id="headBox">
+       
+        <h1 id="headH1"><a href="#"><span class="me_hidden">또래오래</span></a></h1>
+        
+            
+        <nav id="gnb">
+            <ul class="gnb_box">
+               
+                <li class="menu_1" >
+                <a href="#">또래오래소개</a>
+                <ul class="bar_1">
+                    <li><a href="#">또래오래 소개</a></li>
+                    <li><a href="#">연혁</a></li>
+                    <li><a href="#">비전 및 경영이념</a></li>
+                    <li><a href="#">홍보실</a></li>
+                    <li><a href="#">찾아오시는 길</a></li>
+                </ul>
+                </li><!--menu_1-->
+                
+                <li class="menu_2">
+                 <a href="./sub_product.html">또래오래메뉴</a>
+                  <ul class="bar_2">
+                    <li><a href="./sub_product.html">또래오래 맛의 비밀</a></li>
+                    <li><a href="#">또래오래 추천메뉴</a></li>
+                    <li><a href="#">치킨</a></li>
+                    <li><a href="#">햄버거</a></li>
+                    <li><a href="#">사이드메뉴</a></li>
+                </ul>
+                </li><!--menu_2-->
+                
+                <li class="menu_3">
+                <a href="#">또래오래이벤트</a>
+                </li>
+                
+                <li class="menu_4">
+                <a href="#">또래오래창업안내</a>
+                    <ul class="bar_4">
+                        <li><a href="#">또래오래 성공포인트</a></li>
+                        <li><a href="#">가맹점 개설안내</a></li>
+                        <li><a href="#">창업자금지원안내</a></li>
+                        <li><a href="#">가맹점상담</a></li>
+                    </ul>
+                </li>
+                
+                <li class="me_last"><a href="#">또래오래커뮤니티</a></li>
+            </ul>
+        </nav>
+            
+            
+        </div><!--//    #headBox-->
+    </header>
+    
+    
+    <article id="container">
+    <div id="bannerBox">
+    <section id="indexBanner">
+       
+        <h2>chicken banner</h2>
+        
+        <!--button-->
+        <button id="indexBtn_L" class="index_btn"><span class="me_hidden">left</span></button>
+        <button id="indexBtn_R" class="index_btn"><span class="me_hidden">right</span></button>
+        <ol class="ind">
+            <li class="b_olbtn_1"><!--배너하단버튼--></li>
+            <li class="b_olbtn_2"><!--배너하단버튼--></li>
+            <li class="b_olbtn_3"><!--배너하단버튼--></li>
+            
+        </ol>
+        
+        <!--banner-->
+        <ul class="banner_box">
+            <li class="banner_1"><!--배너--></li>
+            <li class="banner_2"><!--배너--></li>
+            <li class="banner_3"><!--배너--></li>
+        </ul>
+    </section><!--//    #indexBanner-->
+    </div><!--//    #bannerBox-->
+    
+    
+    <article id="product">
+        <h2>PRODUCT</h2>
+        <dl>
+            <dt>PRODUCT</dt>
+            <dd id="product_btn">
+                <button id="pro_btn_1" class="btn_red">CHICKEN</button>
+                <button id="pro_btn_2">BURGER</button>
+                <button id="pro_btn_3" class="btn_red">SIDEMENU</button>
+            </dd>
+            <dd>
+                <ol id="productBox">
+                    <ul>
+                        <li class="productBan_1">
+                            <div class="chicken">
+                                <ul>
+                                    <li class="chi_1"><a href="#"><snap>핫 크리스피 베이크</snap></a></li>
+                                    <li class="chi_2"><a href="#"><snap>스위트칠리 크리스피 베이크</snap></a></li>
+                                    <li class="chi_3"><a href="#"><snap>갈릭 크리스피 베이크</snap></a></li>
+                                    <li class="chi_4"><a href="#"><snap>마늘아 마늘아 치킨</snap></a></li>
+                                </ul>
+                            </div>
+                            <div class="more_1"><a href="#">MORE</a></div>
+                        </li>
+                        <li class="productBan_2">
+                            <div class="burger">
+                                <ul>
+                                   <li class="burger_1"> <a hrer="#"><snap>새우버거</snap></a></li>
+                                    <li class="burger_2"><a hrer="#"><snap>치킨버거</snap></a></li>
+                                    <li class="burger_3"><a hrer="#"><snap>불고기버거</snap></a></li>
+                                    <li class="burger_4"><a hrer="#"><snap>빅불버거</snap></a></li>
+                                </ul>
+                            </div>
+                            <div class="more_2"><a href="#">MORE</a></div>
+                        </li>
+                        
+                        
+                        
+                       
+                        <li class="productBan_3">
+                            <div class="sidemenu">
+                                <ul>
+                                    <li class="side_1"><a href="#"><snap></snap></a></li>
+                                    <li class="side_2"><a href="#"><snap></snap></a></li>
+                                    <li class="side_3"><a href="#"><snap></snap></a></li>
+                                    <li class="side_4"><a href="#"><snap></snap></a></li>
+                                </ul>
+                            </div>
+                            <div class="more_3"><a href="">MORE</a></div>
+                        </li>
+                    </ul>
+                </ol>
+            </dd>
+        </dl>
+   
+        
+        
+    </article><!--//product-->
+    
+    
+    <article id="information">
+        <div id="articleBox">
+            <h2>INFORMATION</h2>
+            <dl>
+                <dt>INFORMATION</dt>
+                <dd>
+                    <dl class="info_menu">
+                        <dt class="orange info_1" ><a href="#"><p>또래오래 이야기</p></a></dt>
+                            <dd class="infobox_1">
+                            <ul>
+                                <li class="title">또래오래 가맹점주들의 <br />솔직담백한 이야기를 <br />소개합니다.</li>
+                            <li class="intro_box1">
+                                <a href="#"><ul>
+                                            <li class= "intro_pic_1"><!--책자1--></li>
+                                            <li class= "intro_title_1">
+                                                <p>2016년 5월<br/>
+                                                또래오래이야기</p>
+                                            </li>
+                                        </ul></a>
+                            </li>
+                            <li class="intro_box2">
+                                    <a href="#"><ul>
+                                                <li class= "intro_pic_2"><!--책자2--></li>
+                                                <li class= "intro_title_2">
+                                                    <p>2016년 6월<br/>
+                                                또래오래이야기</p>
+                                                </li>
+                                            </ul></a>
+                            </li>
+                            <li class="intro_box3">
+                                    <a href="#"><ul>
+                                                <li class= "intro_pic_3"><!--책자3--></li>
+                                                <li class= "intro_title_3">
+                                                    <p>2016년 7월<br/>
+                                                또래오래이야기</p>
+                                                </li>
+                                            </ul></a>
+                            </li>
+                            </ul>
+                            <button><span class="me_hidden">more</span></button>
+                            </dd>
+                            
+                            
+                        <dt class="red info_2"><a href="#"><p>매장안내</p></a></dt>
+                            <dd class="infobox_2">
+                            <div class="chicken_icon"><span class="me_hidden">매장검색을 해보세요</span></div>
+                            <select name="" id="address">
+                                <option>-지역선택-</option>
+                                <option value="000">서울특별시</option>
+                                <option value="001">인천광역시</option>
+                                <option value="002">경기도</option>
+                                <option value="003">충청북도</option>
+                                <option value="004">충청남도</option>
+                                <option value="005">경상북도</option>
+                                <option value="006">경상남도</option>
+                                <option value="007">전라북도</option>
+                                <option value="008">전라남도</option>
+                                <option value="009">제주광역시</option>
+                            </select>
+                            <button type="submit" class="go">GO<span class="me_hidden">이동하기</span></button>
+                            <button class="box2_more"><span class="me_hidden">more</span></button>
+                            </dd>
+                            
+                            
+                        <dt class="orange info_3"><a href="#"><p>창업안내</p></a></dt>
+                            <dd class="infobox_3">
+                                <ul>
+                                    <li><a href="#"><i class="icon_1"><!--아이콘--></i><p>성공포인트</p></a></li>
+                                    <li><a href="#"><i class="icon_2"><!--아이콘--></i><p>가맹점개설안내</p></a></li>
+                                    <li><a href="#"><i class="icon_3"><!--아이콘--></i><p>창업자금지원안내</p></a></li>
+                                    <li><a href="#"><i class="icon_4"><!--아이콘--></i><p>가맹점상담</p></a></li>
+                                </ul>
+                                <button><span class="me_hidden">more</span></button>
+                            </dd>
+                            
+                            
+                        <dt class="red info_4 "><a href="#"><p>이벤트</p></a> </dt>
+                            <dd class="infobox_4 widthView">
+                            <ul>
+                                <li><a href="#"><img src="./img/article/infomenu_box4/evt_banner_01.jpg" /></a></li>
+                                <li><a href="#"><img src="./img/article/infomenu_box4/evt_banner_02.jpg" /></a></li>
+                                <li><a href="#"><img src="./img/article/infomenu_box4/evt_banner_03.jpg" /></a></li>
+                                <li><a href="#"><img src="./img/article/infomenu_box4/evt_banner_04.jpg" /></a></li>
+                            </ul>
+                            <button><span class="me_hidden">more</span></button>
+                            </dd>
+                    </dl>
+                </dd>
+            </dl>
+        </div>
+    </article><!--//    #information-->
+    
+    <article id="video">
+       <div id="videoBox">
+        <h2>VIDEO</h2>
+        <dl>
+            <dt>VIDEO</dt>
+            <dd><iframe width="560" height="315" src="https://www.youtube.com/embed/mgtRuPfqc78" frameborder="0" allowfullscreen></iframe></dd>
+        </dl>
+        </div>
+    </article><!--//    #video-->
+    
+    
+    </article><!--//    #container-->
+    
+     
+    <footer>
+       <div id="footerBox">
+       <h2 id="footH2"><span class="me_hidden">또래오래</span></h2>
+       <article id="footWrap">
+           <ul class="foot_site">
+               <li><a href="#">또래오래소개</a></li>
+               <li><a href="#">매장안내</a></li>
+               <li><a href="#">개인정보취급방침</a></li>
+               <li><a href="#">이용약관</a></li>
+               <li><a href="#">고객의소리</a></li>
+               <li><a href="#">정보공개서</a></li>
+           </ul>
+       </article>
+       <div id="text">
+       <p class="adderess">상호: (주)농협목우촌 대표이사: 성병덕 주소:서울특별시 성동구 성수일로 12길 4
+       전화: 090.991.9991(수신자부담) 팩스: 02-2224-8777  고객만족센터: 이용시간 월~금 11:00~20:00 </p>
+       <p class="copy_right">COPYRIGHT (c) 2016 HWANG JIN KYOUNG RIGHTS RESERVED</p>
+       <div class="top"><a href="#"><snap class="me_hidden">top</snap></a></div>
+       
+       </div>
+        </div>
+    </footer>
+</body>
+</html>

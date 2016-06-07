@@ -1,0 +1,247 @@
+/*index_wrap.css*/
+
+
+
+
+snap {width:0; height:0; display: block; overflow: hidden;}
+
+/*__________________header____________________*/
+
+header {width:100%; height:96px; height:6rem; position:relative; z-index: 500; top:0; left:0; border-bottom:2px solid #e41e26; }
+#headLnb {width:100%; height:30px; height:1.875rem; background-color:#E41E26;}
+#headLnbBox {width:960px; width:60rem; height:100%; margin:0 auto; position:relative;}
+
+/* sns*/
+#sns {width:76px; width:4.75rem; height:16px; height:1rem; position:absolute; top:7px; top:0.4375rem; left:30px; left:1.875rem;}
+#sns>ul>li {width:16px; width:1rem; height:16px; height:1rem; margin-left:3px; margin-left:0.1875rem; float:left;}
+#sns>ul>li>a {background-image: url(../img/header/sns_icon.png);}
+
+.face>a {width:100%; height:100%; display:block; background-repeat:no-repeat; margin-left:0px;}
+.blog>a {width:100%; height:100%; display:block;background-repeat:no-repeat; background-position:-18px 0;}
+.inst>a {width:100%; height:100%; display:block;background-repeat:no-repeat; background-position:-37px 0;}
+.twit>a {width:100%; height:100%; display:block; background-repeat:no-repeat; background-position:-56px 0;}
+
+#sns>ul>li>a:hover {background-image:url(../img/header/hover/sns.png); background-repeat:no-repeat;}
+
+.blog>a:hover {background-position:-18px 0;}
+.inst>a:hover {background-position:-37px 0;}
+.twit>a:hover {background-position:-56px 0;}
+
+/* login*/
+#siteMap {width:128px; width:7.75rem; height:16px; height:1rem; position:absolute; top:5px; right:30px;}
+#siteMap>ul>li {float:left;}
+#siteMap>ul>li>a {color:#fff; font-size:0.875rem; font-family: "Noto Sans KR Regular"; letter-spacing: -0.05rem; margin-left:8px; margin-left:0.5rem; text-decoration: none;}
+#siteMap>ul>li>a:hover {text-decoration: underline;}
+
+
+
+
+
+/*________________________________headGnb*/
+
+
+#headBox {width:960px;  height:56px; padding-top:10px; margin:0 auto; background-image:#fff; }
+
+#headH1 {width:65px; height:55px; float:left; margin-left:40px;}
+#headH1>a {width:100%; height:100%; display: block;
+background-image: url(../img/header/h1_logo.png); background-repeat:no-repeat; background-size: contain;}
+
+#gnb {width:796px; height:20px; float:left;}
+
+#gnb>ul>li {width:auto; height: 50px; float:left; margin-top:10px;}
+#gnb>ul>li>a {width:100%; height:100%; display: block; font-size:0.9375rem; font-family: "Noto Sans KR Medium"; line-height:2.8125rem; margin-right:50px; margin-right:3.125rem; float:left; text-decoration: none; color:#595959;}
+#gnb>ul>li:first-child {margin-left:52px; margin-left:3.25rem;}
+#gnb>ul>li>a:hover {color:#e41e26;}
+
+.menu_1 {position:relative;}
+
+.bar_1 {width:700px; height:0; background-color:#e41e26; position:absolute; top:46px; left:-150px; position: absolute; top:95px; left:410px; overflow: hidden;}
+.bar_1>li {width:auto; height:100%; float:left; margin-right:20px;}
+.bar_1>li:nth-child(1){margin-left:100px;}
+.bar_1>li>a {width:auto; height:100%; display: block;float:left; text-decoration: none; color: #fff; line-height:35px;}
+
+
+
+.bar_2 {width:700px; height:0; background-color:#e41e26; position:absolute; top:46px; left:-150px; position: absolute; top:95px; left:410px; overflow: hidden;}
+.bar_2>li {width:auto; height:100%; float:left; margin-right:20px;}
+.bar_2>li:nth-child(1){margin-left:95px;}
+.bar_2>li>a {width:auto; height:100%; display: block;float:left; text-decoration: none; color: #fff; line-height:35px;}
+
+
+.bar_4 {width:700px; height:0; background-color:#e41e26; position:absolute; top:46px; left:-150px; position: absolute; top:95px; left:410px; overflow: hidden;}
+.bar_4>li {width:auto; height:100%; float:left; margin-right:20px;}
+.bar_4>li:nth-child(1){margin-left:80px;}
+.bar_4>li>a {width:auto; height:100%; display: block;float:left; text-decoration: none; color: #fff; line-height:35px;}
+
+
+/*__________________banner____________________*/
+/*banner*/
+#container {width:100%; height:auto; background-color:#fff}
+#bannerBox {width:100%; height:500px; height:31.25rem; background-color:#f5f0ea;}
+#indexBanner {width:1200px; width:75rem; height:500px; height:31.25rem; margin:0 auto; overflow: hidden; position:relative;}
+#indexBanner>ul {width:300%; height:100%; margin-left:-100%;}
+#indexBanner>ul>li {width:calc(100% / 3); width:1200px; height:100%; float:left;
+    transition:all 1s;}
+
+
+#indexBanner>ul>.banner_1 {background-image:url(../img/banner/banner_pic_3.jpg); background-repeat:no-repeat; background-size:contain;}
+#indexBanner>ul>.banner_2 {background-image:url(../img/banner/banner_pic_2.jpg); background-repeat: no-repeat; background-size:contain;}
+#indexBanner>ul>.banner_3 {background-image:url(../img/banner/banner_pic_1.jpg); background-repeat:no-repeat; background-size:contain;}
+
+
+/*button*/
+
+.index_btn {width:26px; width:1.625rem; 
+            height:46px; height:2.875rem;
+            position:absolute; top:50%; margin-top:-23px; margin-top:-1.4375rem;
+            cursor:pointer;
+background-image: url(../img/banner/arrow.png); background-repeat:no-repeat;}
+    #indexBtn_L {left:70px; background-color:transparent;}
+    #indexBtn_R {right:70px; background-color:transparent; background-position: -775px 0; background-position:-48.4375rem 0; }
+
+/*ol_button*/
+#indexBanner>ol {width:54px; height:10px; height:0.625rem; position:absolute; left:50%; bottom:45px; bottom:2.8125rem; margin-left:-20px; 
+   }
+    #indexBanner>ol>li {width:10px; width:0.625; height:10px; height:0.625rem; margin-right:8px; margin-right:0.5rem; background-color:#ffeaea; float:left; cursor: pointer; border-radius: 50%;}
+
+    #indexBanner>ol>li:hover {background-color:#e41e26;}
+
+
+
+
+/*________________article_______________*/
+/*product*/
+
+#product {width:100%; height:440px; height:27.5rem; background-image:url(../img/product/product_bg.jpg); padding-top:50px; position:relative;}
+#product dt {font-size:22px; font-size:1.375rem; font-weight: bold; text-align: center; font-family:"Noto Sans KR DemiLight" }
+#product_btn {width:420px; width:26.25rem; height:28px; height:1.75rem; margin-top:50px; margin-top:3.125rem; background-color:#fff;position:absolute; left:50%; margin-left:-210px; margin-left:-13.125rem;}
+
+#product_btn>button {width:140px; width:calc(100% / 3); height:100%; float:left;}
+.btn_red {background-color:#e41e26;}
+#pro_btn_1 {font-size:12px; font-size:0.75rem; color:#fff; font-family:"Noto Sans KR Bold Bold";font-weight:bold; cursor:pointer;}
+
+#pro_btn_2 {font-size:12px; font-size:0.75rem; color:#fff; font-family:"Noto Sans KR Bold Bold";font-weight:bold;background-color:#f7941e; cursor:pointer;}
+
+#pro_btn_3 {font-size:12px; font-size:0.75rem; color:#fff; font-family:"Noto Sans KR Bold Bold";font-weight:bold; cursor:pointer;}
+
+/*productBox*/
+
+#productBox {width:804px; width:50.25rem; height:222px; height:13.875rem; position:absolute; top:180px; top:11.25rem; left:50%;  margin-left:-402px; margin-left:-25.125rem; overflow: hidden;}
+
+#productBox>ul {width:804px; height:300%;}
+
+#productBox>ul>li {width:804px; height:calc(100% / 3); height:222px;}
+
+.productBan_1>.chicken {width:804px; width:50.25rem; height:152px; height:9.5rem;}
+.chicken>ul>li {width:180px; height:152px; float:left; margin-left:17.2px; margin-left:1.075rem; background-color:#faf; box-shadow: 0px 2px 10px #999;}
+.chi_1 {background-image:url(../img/product/pbox_chicken_1.jpg); background-repeat:no-repeat;}
+.chi_2 {background-image:url(../img/product/pbox_chicken_2.jpg); background-repeat:no-repeat;}
+.chi_3 {background-image:url(../img/product/pbox_chicken_3.jpg); background-repeat:no-repeat;}
+.chi_4 {background-image:url(../img/product/pbox_chicken_4.jpg); background-repeat:no-repeat;}
+.chicken>ul>li>a {width:100%; height:100%; display: block;}
+
+
+.more_1 {width:804px; width:50.25rem;margin-top:22px; margin-top:1.375rem;  height:48px; height:3rem; background-color:#e41e26;}
+.more_1>a {width:100%; height:100%; text-align: center; font-size:25px; font-size:1.5625rem; font-weight:bold; text-decoration: none; line-height:48px; line-height:3rem; font-family:"Noto Sans KR Black Black"; display: block;color:#fff;}
+
+.productBan_2>.burger {width:804px; width:50.25rem; height:152px; height:9.5rem; }
+.burger>ul>li {width:180px; height:152px; float:left; margin-left:17.2px; margin-left:1.075rem; background-color:#fff;}
+.burger>ul>li>a {width:100%; height:100%; display: block;}
+.burger>ul>.burger_1 {background-image: url(../img/product/burger_1.jpg); background-repeat:no-repeat;}
+.burger>ul>.burger_2 {background-image:url(../img/product/burger_2.jpg); background-repeat:no-repeat;}
+.burger>ul>.burger_3 {background-image: url(../img/product/burger_3.jpg); background-repeat:no-repeat;}
+.burger>ul>.burger_4 {background-image: url(../img/product/burger_4.jpg); background-repeat:no-repeat;}
+
+
+
+.more_2 {width:804px; margin-top:22px; margin-top:1.375rem; width:50.25rem; height:48px; height:3rem; background-color:#f7941e;}
+.more_2>a {width:100%; height:100%; text-align: center; font-size:25px; font-size:1.5625rem; font-weight:bold; text-decoration: none; line-height:48px; line-height:3rem; font-family:"Noto Sans KR Black Black"; display: block;color:#fff;}
+
+
+.productBan_3>.sidemenu {width:804px; width:50.25rem; height:152px; height:9.5rem;}
+.sidemenu>ul>li {width:180px; height:152px; float:left; margin-left:17.2px; margin-left:1.075rem; background-color:#fff;}
+.side_1 {background-image:url(../img/product/side_1.jpg); background-repeat:no-repeat;}
+.side_2 {background-image:url(../img/product/side_2.jpg); background-repeat:no-repeat;}
+.side_3 {background-image:url(../img/product/side_3.jpg); background-repeat:no-repeat;}
+.side_4 {background-image:url(../img/product/side_4.jpg); background-repeat:no-repeat;}
+.more_3 {width:804px; margin-top:22px; margin-top:1.375rem; width:50.25rem; height:48px; height:3rem; background-color:#e41e26;}
+.more_3>a {width:100%; height:100%; text-align: center; font-size:25px; font-size:1.5625rem; font-weight:bold; text-decoration: none; line-height:48px; line-height:3rem; font-family:"Noto Sans KR Black Black"; display: block; color:#fff;}
+
+
+
+
+
+
+/*information*/
+#information {width:100%; height:650px; height:40.625rem; }
+#articleBox {width:1000px; height:700px; margin:0 200px;}
+#articleBox dl {width:100%; height:568px; margin-top:50px;}
+#articleBox .info_menu {width:1000px; height:568px; position:relative;}
+#articleBox .info_menu dt {width:calc(100% / 6); height:100%; float:left; }
+
+/*icon*/
+#articleBox .info_menu dt>a {width:100%; height:100%; display: block; text-decoration: none; background-image: url(../img/article/icon.png); background-repeat: no-repeat;}
+
+.info_1>a {background-position:50px 250px; }
+.info_2>a {background-position:-125px 250px;}
+.info_3>a {background-position:-306px 250px;}
+.info_4>a {background-position:-480px 250px;}
+/*--*/
+
+#articleBox .info_menu dt>a>p {width:100%; height:468px; padding-top:100px; color:#fff;text-align: center; font-size:1.075rem; font-family: "Noto Sans KR DemiLight DemiLight"; letter-spacing: -0.075rem; display: block;}
+
+
+#articleBox .info_menu dd {width:0; height:100%; overflow: hidden; float:left; transition:all 0.3s;}
+
+#articleBox .info_menu .widthView {width:280px;}
+
+/*box_background-image*/
+.infobox_1, .infobox_3 {background-image:url(../img/article/article_bg_orange.jpg);
+background-position:-20px 0;}
+.infobox_2, .infobox_4 {background-image:url(../img/article/article_bg_red.jpg);
+background-position:-20px 0;}
+
+/*.infobox_1*/
+.infobox_1>ul>.title{width:200px; height:70px; font-size: 1.09rem; font-weight: normal; line-height: 1.5rem; letter-spacing: -0.05rem; text-align: center; margin:0 auto; padding-top:50px; border:0; font-family: "Noto Sans KR DemiLight DemiLight"; color:#fff;}
+.infobox_1>ul>.intro_box1 {float:left; width:100px; height:150px; background-color:#faf; margin-right:20px; margin-left:25px; margin-top:50px;}
+.infobox_1>ul>.intro_box2 {float:left; width:100px; height:150px; background-color:#faf; margin-right:20px;margin-top:50px;}
+
+
+
+/*.infobox_4*/
+.infobox_4>ul {width:250px; height:430px; margin-top:10px;}
+.infobox_4>ul>li {width:100%; height:100px; margin-bottom:10px;}
+.infobox_4 button {width:84px; height:28px; background-image:url(../img/article/infomenu_box4/more_btn_red.png); background-repeat: no-repeat;background-size: contain; background-color:transparent;float:right; margin-right:25px; cursor: pointer;margin-top:30px; }
+
+.orange {background-color:#f7941e;}
+.orange:hover {background-image: url(../img/article/article_bg_orange.jpg); background-position:-20px -5px;}
+.red{background-color:#e41e26;}
+.red:hover {background-image: url(../img/article/article_bg_red.jpg); background-position:-20px -5px;}
+
+
+
+/*video*/
+#video {width:100%; height:600px;}
+#videoBox {width:960px; width:60rem; height:100%; margin:0 auto; position:relative;}
+#video dt {font-size:22px; font-size:1.375rem; text-align: center; font-family:"Noto Sans KR DemiLight"; color:#595959;}
+#video dd {width:760px; height:404px; margin-top:100px; margin-left:200px; }
+
+
+
+
+/*________________footer_______________*/
+footer {width:100%; height:150px; height:9.375rem; padding-top:28px; padding-top:1.75rem; background-color:rgba(228, 30, 38, 0.2); clear: both;}
+#footerBox {width:840px; width:52.5rem; height:100%;position:relative; margin:0 auto;}
+
+#footH2 {width:70px; height:70px; background-image:url(../img/header/h1_logo.png); background-size:contain;background-repeat:no-repeat; float:left; margin-top:10px; margin-left:20px;}
+#footWrap>.foot_site {width:580px; height:25px; float:left; margin-left:40px; }
+.foot_site>li {width:auto; height:19px; padding:0 6px; float:left; border-right:1px solid #595959; }
+.foot_site>li>a {display: block; text-decoration: none;}
+.foot_site>li:first-child{padding-left:0;}
+.foot_site>li:last-child{padding-right:0; border-right:0;}
+#text {width:700px; height:auto; margin-left:40px; float:left;}
+.adderess {width:650px; height:44px; display: block; font-size:0.8125rem; letter-spacing: -0.005rem; float:left;}
+.copy_right {width:450px; height:18px; display: block; font-size:0.8125rem;}
+.top>a {width:62px; width:3.875rem; height:76px; height:4.75rem; background-image:url(../img/footer/TOP.png); background-repeat:no-repeat; display: block; position:absolute; top:-105px; right:-100px;}
+
+

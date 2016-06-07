@@ -1,0 +1,205 @@
+#wrap { width: 100%; height: auto; }
+#wrap #header { width: 100%; height: 100vh; }
+#wrap #header #headBox { width: 1000px; height: calc(100% - 80px); margin: 0 auto; padding-top: 80px; }
+#wrap #header #headBox #gnbBox { width: 300px; height: 420px; background-color: #fff; float: left; }
+#wrap #header #headBox #gnbBox > h1 { width: 80px; height: 80px; background-image: url(../img/logo.png); background-repeat: no-repeat; margin-left: 110px; float: left; }
+#wrap #header #headBox #gnbBox > h1 a { width: 100%; height: 100%; display: block; }
+#wrap #header #headBox #gnbBox > #gnb { width: 100%; height: 340px; margin-top: 30px; float: left; /*background-color:#faf;*/ }
+#wrap #header #headBox #gnbBox > #gnb li { width: 100%; height: 40px; margin-bottom: 30px; background-color: #fff; }
+#wrap #header #headBox #gnbBox > #gnb li:nth-child(1) { width: 150px; margin-left: 75px; }
+#wrap #header #headBox #gnbBox > #gnb li:nth-child(2) { width: 60px; margin-left: 120px; }
+#wrap #header #headBox #gnbBox > #gnb li:nth-child(3) { width: 130px; margin-left: 85px; }
+#wrap #header #headBox #gnbBox > #gnb li:nth-child(4) { width: 150px; margin-left: 75px; }
+#wrap #header #headBox #gnbBox > #gnb li a { width: 100%; height: 100%; display: block; text-align: center; font-size: 1.3rem; text-decoration: none; line-height: 30px; color: #333; letter-spacing: 0.5rem; font-weight: lighter; }
+#wrap #header #headBox #gnbBox > #gnb li a:hover { border-bottom: 1px solid #999; color: #999; }
+#wrap #header #headBox > #gnbPic { width: 450px; height: 586px; float: right; margin-right: 20px; background-color: #faf; margin-top: -80px; }
+#wrap #resume { width: 1250px; height: 100vh; background-color: #5a5; position: fixed; top: 0px; left: 1234px; z-index: 1000; }
+#wrap #resume .resm { width: 8%; height: 100%; background-color: #fff; border-left: 1px solid #555; float: left; }
+#wrap #resume .resm .home_btn { width: 60px; height: 60px; margin-left: 20px; margin-top: 15px; background-image: url(../img/home_btn.png); background-repeat: no-repeat; background-size: contain; cursor: pointer; }
+#wrap #resume .resm .home_btn a { width: 100%; height: 100%; display: block; }
+#wrap #resume .resm P { width: 112px; height: 20px; display: block; font-size: 1.3rem; margin-top: 480px; margin-left: -30px; letter-spacing: 0.5rem; font-weight: lighter; transform: rotate(90deg); }
+#wrap #resume .resm_page { width: 91.88%; height: 100%; background-color: #fff; float: left; }
+#wrap #resume .resm_page .resm_profile { width: 18.5vw; height: 100%; background-color: #fff; float: left; margin-right: 30px; border-right: 1px solid #999; }
+#wrap #resume .resm_page .resm_profile ul { /*.pro_pic {width:8.2vw; height:146px; margin-top:24px; margin-left:5vw; padding-bottom: 10px; border-bottom: 3px solid $MAIN;  background-image: url(../img/proifile_pic.jpg); background-repeat: no-repeat; background-size: contain; display: none;}*/ }
+#wrap #resume .resm_page .resm_profile ul .pro_moral { width: 200px; float: right; margin-right: 20px; height: 300px; margin-top: 15px; background-image: url(../img/resm_moral.png); }
+#wrap #resume .resm_page .resm_profile ul .pro { width: 200px; height: 260px; float: right; margin-right: 20px; margin-top: 50px; }
+#wrap #resume .resm_page .resm_profile ul .pro ul li { width: 100%; height: 20px; margin-bottom: 15px; font-size: 0.9rem; }
+#wrap #resume .resm_page .resm_profile ul .pro ul li > i { width: 20px; height: 20px; margin-right: 10px; float: left; background-image: url(../img/profile_icon.png); background-repeat: no-repeat; background-position: -3px -7px; }
+#wrap #resume .resm_page .resm_profile ul .pro ul li .kakao { background-position: -27px -7px; }
+#wrap #resume .resm_page .resm_profile ul .pro ul li .insa { background-position: -52px -7px; }
+#wrap #resume .resm_page .resm_profile ul .pro ul li .git { background-position: -76px -7px; }
+#wrap #resume .resm_page .resm_box { width: 40vw; height: 100%; float: left; margin-right: 20px; }
+#wrap #resume .resm_page .resm_box > ul { width: 100%; height: 100%; }
+#wrap #resume .resm_page .resm_box > ul > li { width: 100%; height: calc(100% / 4 - 35px); margin-bottom: 30px; }
+#wrap #resume .resm_page .resm_box > ul > li:last-child { margin-bottom: 0; }
+#wrap #resume .resm_page .resm_box > ul > li:first-child { margin-top: 25px; }
+#wrap #resume .resm_page .resm_box > ul > li dl { width: 100%; height: 100%; }
+#wrap #resume .resm_page .resm_box > ul > li dl dt { width: 100%; height: 20%; }
+#wrap #resume .resm_page .resm_box > ul > li dl dt p { width: 100%; height: 100%; display: block; line-height: 150%; font-weight: bold; }
+#wrap #resume .resm_page .resm_box > ul > li dl dt i { width: 5%; height: 100%; background-image: url(../img/resm_icon.png); background-repeat: no-repeat; display: block; float: left; margin-left: 35px; margin-right: 5px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dt .ed { background-position: 0 -6px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dt .we { background-position: -27px -6px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dt .awd { background-position: -52px -5px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dt .lcen { background-position: -76px -5px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd { width: 100%; height: 75%; position: relative; margin-top: 3px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_date { width: 100%; height: 16px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_date > li { width: 23%; height: 16px; float: left; font-size: 0.9rem; margin-right: 45px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_date > li:last-child { margin-right: 0; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_date > li:first-child { margin-left: 38px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph { width: 100%; height: 16px; float: left; position: absolute; z-index: 500; top: 25px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph > li { width: 16px; height: 100%; background-color: #ddd; border-radius: 10px; float: left; margin-right: 152px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph > li:last-child { margin-right: 0; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph > li:first-child { margin-left: 85px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph > li > span { width: 65%; height: 65%; background-color: #555; display: block; border-radius: 10px; margin-top: 3px; margin-left: 10px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_line { width: 60%; height: 2px; background-color: #ddd; display: block; float: left; position: absolute; left: 18%; top: 32px; z-index: 100; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_contect { width: 100%; height: 50px; margin-top: 35px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_contect > li { width: auto; height: auto; font-size: 0.8rem; float: left; text-align: center; margin-right: 70px; letter-spacing: -0.5px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_contect > li:first-child { margin-left: 58px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_contect > li:last-child { margin-right: 0; margin-left: 15px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_contect > li:nth-child(2) { margin-right: 38px; margin-left: 4px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd { width: 100%; height: 75%; position: relative; margin-top: 3px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .w_date { width: 100%; height: 16px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .w_date > li { width: 23%; height: 16px; float: left; font-size: 0.9rem; margin-right: 43px; text-align: center; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .w_date > li:last-child { margin-right: 0; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .w_date > li:first-child { margin-left: 28px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph { width: 100%; height: 16px; float: left; position: absolute; z-index: 500; top: 25px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph > li { width: 16px; height: 100%; background-color: #ddd; border-radius: 10px; float: left; margin-right: 152px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph > li:last-child { margin-right: 0; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph > li:first-child { margin-left: 85px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph > li > span { width: 65%; height: 65%; background-color: #555; display: block; border-radius: 10px; margin-top: 3px; margin-left: 3px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_line { width: 60%; height: 2px; background-color: #ddd; display: block; float: left; position: absolute; left: 18%; top: 32px; z-index: 100; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .w_contect { width: 100%; height: 50px; margin-top: 35px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .w_contect > li { width: auto; height: auto; font-size: 0.8rem; float: left; text-align: center; margin-right: 80px; letter-spacing: -0.5px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .w_contect > li:first-child { margin-left: 30px; margin-right: 75px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .w_contect > li:last-child { margin-right: 0; margin-left: 10px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd { width: 100%; height: 75%; position: relative; margin-top: 3px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .a_date { width: 100%; height: 16px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .a_date > li { width: 23%; height: 16px; float: left; font-size: 0.9rem; margin-right: 43px; text-align: center; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .a_date > li:last-child { margin-right: 0; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .a_date > li:first-child { margin-left: 28px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph { width: 100%; height: 16px; float: left; position: absolute; z-index: 500; top: 25px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph > li { width: 16px; height: 100%; background-color: #ddd; border-radius: 10px; float: left; margin-right: 152px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph > li:last-child { margin-right: 0; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph > li:first-child { margin-left: 85px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_graph > li > span { width: 65%; height: 65%; background-color: #555; display: block; border-radius: 10px; margin-top: 3px; margin-left: 3px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .e_line { width: 60%; height: 2px; background-color: #ddd; display: block; float: left; position: absolute; left: 18%; top: 32px; z-index: 100; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .a_contect { width: 100%; height: 50px; margin-top: 35px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .a_contect > li { width: auto; height: auto; font-size: 0.75rem; float: left; text-align: center; margin-right: 12px; letter-spacing: -0.5px; /*                                          &:nth-child(1) {margin-right:75px;}*/ }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .a_contect > li:first-child { margin-left: 10px; margin-right: 15px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .a_contect > li:last-child { margin-left: 42px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd { width: 100%; height: 75%; position: relative; margin-top: 3px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_date { width: 100%; height: 16px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_date > li { width: auto; height: 16px; float: left; font-size: 0.75rem; margin-right: 50px; text-align: center; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_date > li:last-child { margin-right: 0; margin-left: -30px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_date > li:first-child { margin-left: 35px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_date > li:nth-child(3) { margin-left: 10px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_date > li:nth-child(4) { margin-left: 8px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_graph { width: 100%; height: 16px; float: left; position: absolute; z-index: 500; top: 25px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_graph > li { width: 16px; height: 100%; background-color: #ddd; border-radius: 10px; float: left; margin-right: 90px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_graph > li:last-child { margin-right: 0; margin-left: -25px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_graph > li:first-child { margin-left: 60px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_graph > li:nth-child(3) { margin-left: 10px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_graph > li:nth-child(4) { margin-left: 10px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_graph > li > span { width: 65%; height: 65%; background-color: #555; display: block; border-radius: 10px; margin-top: 3px; margin-left: 3px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_line { width: 77%; height: 2px; background-color: #ddd; display: block; float: left; position: absolute; left: 13%; top: 32px; z-index: 100; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_contect { width: 100%; height: 50px; margin-top: 35px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_contect > li { width: auto; height: auto; font-size: 0.7rem; float: left; text-align: center; margin-right: 12px; letter-spacing: -0.5px; /*                                          &:nth-child(1) {margin-right:75px;}*/ }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_contect > li:first-child { margin-left: 12px; }
+#wrap #resume .resm_page .resm_box > ul > li dl dd .L_contect > li:last-child { margin-right: 0; }
+#wrap #resume .resm_page .resm_box > ul > li dl .cont { font-size: 0.68rem; }
+#wrap #resume .resm_page .skill { width: 20vw; height: 100%; float: right; margin-right: 20px; margin-top: -15px; }
+#wrap #resume .resm_page .skill .artwork { width: 100%; height: 100%; }
+#wrap #resume .resm_page .skill .bars { width: 100%; height: calc(100% - 30px); padding-top: 30px; float: right; }
+#wrap #resume .resm_page .skill .bars li dl { margin-top: 1.57vw; }
+#wrap #resume .resm_page .skill .bars li dl dt { margin-bottom: 0.75vw; }
+#wrap #resume .resm_page .skill .bars li dl dd { width: 20vw; height: 0.5vw; background-color: #dfdfdf; }
+#wrap #resume .resm_page .skill .bars li dl dd div { height: 100%; background-color: #fbc80e; }
+#wrap #resume .resm_page .skill .bars li dl dd .ps { width: 90%; animation-name: ps; animation-duration: 4s; }
+@keyframes ps { 0% { width: 0%; }
+  100% { width: 90%; } }
+#wrap #resume .resm_page .skill .bars li dl dd .ai { width: 90%; animation-name: ai; animation-duration: 4s; }
+@keyframes ai { 0% { width: 0%; }
+  100% { width: 90%; } }
+#wrap #resume .resm_page .skill .bars li dl dd .id { width: 90%; animation-name: id; animation-duration: 4s; }
+@keyframes id { 0% { width: 0%; }
+  100% { width: 90%; } }
+#wrap #resume .resm_page .skill .bars li dl dd .ae { width: 60%; animation-name: ae; animation-duration: 4s; }
+@keyframes ae { 0% { width: 0%; }
+  100% { width: 60%; } }
+#wrap #resume .resm_page .skill .bars li dl dd .htm { width: 80%; animation-name: htm; animation-duration: 4s; }
+@keyframes htm { 0% { width: 0%; }
+  100% { width: 80%; } }
+#wrap #resume .resm_page .skill .bars li dl dd .css { width: 80%; animation-name: css; animation-duration: 4s; }
+@keyframes css { 0% { width: 0%; }
+  100% { width: 80%; } }
+#wrap #resume .resm_page .skill .bars li dl dd .sass { width: 70%; animation-name: sass; animation-duration: 4s; }
+@keyframes sass { 0% { width: 0%; }
+  100% { width: 70%; } }
+#wrap #resume .resm_page .skill .bars li dl dd .js { width: 50%; animation-name: js; animation-duration: 4s; }
+@keyframes js { 0% { width: 0%; }
+  100% { width: 50%; } }
+#wrap #resume .resm_page .skill .bars li dl dd .asi { width: 70%; animation-name: asi; animation-duration: 4s; }
+@keyframes asi { 0% { width: 0%; }
+  100% { width: 70%; } }
+#wrap #resume .resm_page .skill .bars li dl dd .git { width: 60%; animation-name: git; animation-duration: 4s; }
+@keyframes git { 0% { width: 0%; }
+  100% { width: 60%; } }
+#wrap #resume .resm_page .skill .bars li dl dd .cad { width: 70%; animation-name: cad; animation-duration: 4s; }
+@keyframes cad { 0% { width: 0%; }
+  100% { width: 70%; } }
+#wrap #resume .resm_page .skill .bars li .top { margin-top: 0; }
+#wrap #resume .resm_btn { width: 70px; height: 70px; position: absolute; left: -35px; top: 200px; }
+#wrap #box_2 { width: 100%; height: 100vh; background-color: #fff; }
+#wrap #box_2 .box2_title { width: 300px; height: 50px; display: block; margin-left: 480px; text-align: center; margin-top: 30px; font-size: 1.8rem; font-weight: bold; border-bottom: 1px solid #555; color: #fbc80e; }
+#wrap #box_2 .box2_btn { width: 60px; height: 200px; float: left; margin-top: 20px; margin-left: 50px; }
+#wrap #box_2 .box2_btn > li { width: 100%; height: 60px; margin-bottom: 5px; }
+#wrap #box_2 .box2_btn > li > button { width: 60px; height: 60px; }
+#wrap #box_2 .box2_btn > li > button > a { width: 100%; height: 100%; display: block; }
+#wrap #box_2 .about_ban { width: 960px; height: 554px; margin-top: 10px; margin-left: 150px; background-color: #faf; overflow: hidden; }
+#wrap #box_2 .about_ban .about_me { width: 100%; height: 300%; background-color: #faa; margin-top: -554px; }
+#wrap #box_2 .about_ban .about_me > li { width: 100%; height: calc(100% / 3); }
+#wrap #box_2 .about_ban .about_me .abt_ban1 { background-color: #faf; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul { width: 900px; height: 100%; margin-left: 30px; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li { width: calc(100% / 4 - 10px); height: 300px; float: left; background-color: #fff; margin-right: 10px; margin-top: 100px; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li:first-child { margin-left: 5px; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li:last-child { margin-right: 0px; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_1 { width: 100%; height: 100%; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_1 .cha_icon_1 { width: 150px; height: 150px; margin-left: 35px; margin-top: 20px; margin-bottom: 20px; background-image: url(../img/about_btn_icon.png); background-repeat: no-repeat; background-position: 18px 0; background-size: cover; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_1 .cha_text_1 > dl > dt { width: 100%; height: 30px; font-size: 1.5rem; text-align: center; line-height: 30px; font-weight: bold; color: #fbc80e; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_1 .cha_text_1 > dl > dd { width: 100%; height: 40px; text-align: center; margin-top: 10px; word-spacing: -3px; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_2 { width: 100%; height: 100%; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_2 .cha_icon_2 { width: 150px; height: 150px; margin-left: 35px; margin-top: 20px; margin-bottom: 20px; background-image: url(../img/about_btn_icon.png); background-repeat: no-repeat; background-position: -125px 15px; background-size: cover; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_2 .cha_text_2 > dl > dt { width: 100%; height: 30px; font-size: 1.5rem; text-align: center; line-height: 30px; font-weight: bold; color: #fbc80e; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_2 .cha_text_2 > dl > dd { width: 100%; height: 40px; text-align: center; margin-top: 10px; word-spacing: -3px; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_3 { width: 100%; height: 100%; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_3 .cha_icon_3 { width: 150px; height: 150px; margin-left: 35px; margin-top: 20px; margin-bottom: 20px; background-image: url(../img/about_btn_icon.png); background-repeat: no-repeat; background-position: -280px 15px; background-size: cover; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_3 .cha_text_3 > dl > dt { width: 100%; height: 30px; font-size: 1.5rem; text-align: center; line-height: 30px; font-weight: bold; color: #fbc80e; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_3 .cha_text_3 > dl > dd { width: 100%; height: 40px; text-align: center; margin-top: 10px; word-spacing: -3px; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_4 { width: 100%; height: 100%; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_4 .cha_icon_4 { width: 150px; height: 150px; margin-left: 35px; margin-top: 20px; margin-bottom: 20px; background-image: url(../img/about_btn_icon.png); background-repeat: no-repeat; background-position: -425px 0; background-size: cover; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_4 .cha_text_4 > dl > dt { width: 100%; height: 30px; font-size: 1.5rem; text-align: center; font-weight: bold; color: #fbc80e; line-height: 30px; }
+#wrap #box_2 .about_ban .about_me .abt_ban1 > ul > li .cha_4 .cha_text_4 > dl > dd { width: 100%; height: 40px; text-align: center; margin-top: 10px; word-spacing: -3px; }
+#wrap #box_2 .about_ban .about_me .abt_ban2 { background-color: #aaf; }
+#wrap #box_2 .about_ban .about_me .abt_ban3 { background-color: #ffa; }
+#wrap #box_3 { width: 100%; height: 100vh; }
+#wrap #box_3 .box3_title { width: 300px; height: 50px; display: block; margin-left: 480px; text-align: center; padding-top: 30px; font-size: 1.8rem; font-weight: bold; border-bottom: 1px solid #555; color: #fbc80e; margin-bottom: 40px; }
+#wrap #box_3 .box3_btn { width: 60px; height: 60px; float: left; margin-top: 20px; margin-left: 50px; }
+#wrap #box_3 .box3_btn > li { width: 100%; height: 60px; margin-bottom: 5px; }
+#wrap #box_3 .box3_btn > li > button { width: 60px; height: 60px; }
+#wrap #box_3 .box3_btn > li > button > a { width: 100%; height: 100%; display: block; }
+#wrap #box_3 .webpo { width: 960px; height: 480px; background-repeat: no-repeat; margin-left: 150px; margin-top: 10px; overflow: hidden; }
+#wrap #box_3 .webpo .webpoBox { width: 200%; height: 100%; }
+#wrap #box_3 .webpo .webpoBox > li { width: calc(100% / 2); height: 100%; }
+#wrap #box_3 .webpo .webpoBox .toreore { background-image: url(../img/webpo_bgg.png); background-repeat: no-repeat; }
+#wrap #box_3 .webpo .webpoBox .toreore > ul { width: 930px; height: 100%; margin-left: 15px; }
+#wrap #box_3 .webpo .webpoBox .toreore > ul li { width: 450px; height: 450px; float: left; margin-right: 30px; margin-top: 40px; }
+#wrap #box_3 .webpo .webpoBox .toreore > ul li:last-child { margin-right: 0; }
+#wrap #box_3 .webpo .webpoBox .toreore > ul .to_mockup { background-image: url(../img/tore_mockup.png); background-repeat: no-repeat; }
+#wrap #box_3 .webpo .webpoBox .toreore > ul .content > dl > dt { width: 100%; height: 30px; font-size: 1.2rem; line-height: 30px; font-weight: bold; color: #fff; margin-top: 5px; margin-bottom: 10px; }
+#wrap #box_3 .webpo .webpoBox .toreore > ul .content > dl > dd { width: 98%; height: 280px; }
+#wrap #box_3 .webpo .webpoBox .toreore > ul .content > dl .click { width: 30%; height: 30px; margin-top: 20px; margin-left: 150px; }
+#wrap #box_3 .webpo .webpoBox .toreore > ul .content > dl .click a { width: 100%; height: 100%; display: block; text-align: center; border: 2px solid #fff; background-color: transparent; color: #fff; line-height: 30px; letter-spacing: 5px; text-decoration: none; }
+#wrap #box_4 { width: 100%; height: 100vh; background-color: #f0a; }
+#wrap #box_5 { width: 100%; height: 100vh; background-color: #0fa; }
+
+/*# sourceMappingURL=index.css.map */

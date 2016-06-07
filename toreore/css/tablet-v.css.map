@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAe",
+"sources": ["../scss/tablet-v.scss"],
+"names": [],
+"file": "tablet-v.css"
+}
