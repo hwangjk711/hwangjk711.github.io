@@ -1,0 +1,380 @@
+@import "./lib/base";
+/*----------------animation----------------*/
+@keyframes cloud 
+{
+    0%{transform:translate(0, 0);
+    }
+    100%{transform:translate(-40px, 0);}
+}
+
+@keyframes ncloud
+{
+    0%{transform:translate(-10px, 0);}
+    100%{transform:translate(50px, 0);}
+}
+
+@keyframes bcloud 
+{
+    0%{transform:translate(0, 0);
+    }
+    100%{transform:translate(-40px, 0);}
+}
+
+@keyframes star
+{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+
+
+/*btn*/  
+
+/*_______________pc_______________*/
+@media screen and (min-width:1200px){
+html body {overflow-x: hidden;}
+#wrap {width: 100%; height: auto;
+    #resume {width: 92%; height: 100vh;position: fixed; right: -85%; z-index: 1000;  transition:all 1s;
+        &.resm_move {right:0;}
+        #resmBar{width: 8%; height: 100%;float: left;margin-left: 1%; background-image: url(../img/resume_bg.png); 
+            h1 {width: 61%; height: 4.5vw/*60px*/; margin-left: 15%; margin-top:20%;
+            button {width: 100%; height: 100%; background-color: transparent; background-image:url(../img/home.png); background-size: cover; background-repeat: no-repeat;
+                &:hover{background-image: url(../img/home_hov.png); background-size: cover; background-repeat: no-repeat;}
+            }
+            a {width: 100%; height: 100%; display: block; text-decoration: none;
+            }
+        }//h1
+        
+            
+            .rem_btn {width:50%; height:40px; margin-top: 240px; padding-top:10px; margin-left:30px; cursor: pointer;
+                &:hover >.btn_up{transform: rotate(-35deg);}
+                &:hover >.btn_down{transform: rotate(35deg);}
+                span{display: block;}
+                .btn_up{width:80%; height:6px; border-radius: 10px; background-color:#fff;  margin-bottom:14px; 
+                transition:all 0.2s; box-shadow: 3px 3px 3px #ff6c6c;}
+                .btn_down{width:80%; height:6px; border-radius: 10px; background-color:#fff;transition:all 0.2s; box-shadow: 3px 3px 3px #ff6c6c;}
+            } 
+        }//#resmBar 
+      
+        .resm {width: 91%; height: 100%; float: left;  background-color: $white;
+            li {height:100%; float:left;}
+            .resm_pro {width: 20%;
+                >ul{width: 100%; height: 100%;
+                    .r_cha {width: 95%; height: 50%; background-image:url(../img/myface.png); background-repeat: no-repeat; background-size:100%; margin-left: 2.5%;  margin-top:10%;}
+                .r_profile {width: 95%; height: 40%; margin-left:2.5%; margin-top:8%;
+                    >ul{width: 100%; height: 100%;
+                        >li{width: 100%; height: 10%; margin-bottom: 0.833vw/*10px*/; font-size:2.2vh; line-height: 2vw; color:$black; font-family: $font; font-weight: normal; word-spacing: 0.2rem;
+                            >i {width: 12%; height: 100%; float:left; display: block; margin-right: 6px; background-repeat: no-repeat; background-size:90%;}
+                            .email {background-image:url(../img/pro_e.png);}
+                            .kakao {background-image:url(../img/pro_ka.png); background-position: 0 6px;}
+                            .insa {background-image:url(../img/pro_in.png);}
+                            .git {background-image:url(../img/pro_git.png); background-position: 0 4px;}
+                            >p {line-height: 2vw; color:$black; font-family: $font;}
+                        }
+                    }
+                    }//.r_profile
+                }  
+
+            }//resm_pro 
+            .resm_con {width: 50%; background-color:$white;
+                >ul {width: 98.5%; height: 100%; margin-left: 1.5%; 
+                    >li{width: 100%; height: 24%; margin-top:1%; 
+                        &:first-child{margin-top: 4%;}
+                        >dl {width: 100%; height: 100%;
+                            >dt {width: 100%; height: 20%; margin-bottom:0.6%;
+                                >i{width: 6%; height: 100%; display: block; float: left; background-repeat: no-repeat; background-size:85%; background-position:center;}
+                                .ied {background-image:url(../img/pro_eu.png); background-size:100%;}
+                                .iwe {background-image:url(../img/pro_work.png);}
+                                .iaw {background-image:url(../img/pro_aw.png);}
+                                .ili {background-image:url(../img/pro_li.png);}
+                                >p{width: 50%; height: 100%; display: block;  margin-left: 7%; font-size: 3.8vh; font-weight: 500; line-height: 2.3vw; font-family: $font; color:#ff6c6c;}
+                            }//dt
+                            >dd {width: 100%; height: 78%;
+                                >ul{width: 100%; height: 100%; position: relative;
+                                    >li {width: 100%; height: 30%; margin-top: 1%;
+                                        &:first-child {margin-top:0;}
+                                        p {width: 25%; height: 100%;float: left; margin-left: 5%; text-align: center; color:$black; font-family: $font; font-weight: 400;}
+                                        .con_tx {font-size: 2vh; font-family: $font; font-weight: 400;}
+                                        .con_txt {font-size: 1.9vh; line-height:2.2vh; font-family: $font; font-weight: 400;}
+                                    }
+                                    .re_graph {width: 100%; height: 12%; position:absolute; top:27%;
+                                        >span {width: 2.6%; height: 100%; border-radius: 10px; background-color: #ff6c6c; display: block; margin-left: 28%; float:left;}
+                                        .fir_span{margin-left:16%;}
+                                    }//.re_graph
+                                    .re_graph_li {width: 100%; height: 12%; position:absolute; top:27%;
+                                        >span {width: 2.6%; height: 100%; border-radius: 10px; background-color: #ff6c6c; display: block; margin-left: 18%; float:left;}
+                                        .fir_span {margin-left:9%;}
+                                        .snd_span {margin-right:-1%}
+                                        .thd_span {margin-right:-1%}
+                                        .for_span {margin-right:-1%}
+                                    }//.re_graph
+                                   
+                                    .date>p {line-height:3vw;}
+                                    .re_bar {width: 90%; height:5%; margin-left: 5%; border-radius: 6px; background-color: $main; margin-bottom: 2%;}
+                                    .licen_li{
+                                        >p{width: 19%; height: 100%; margin-left:0; margin-right:1%;}
+                                        .con_li{font-size:1.8vh; font-family: $font; font-weight: 400;}
+                                        .p_fir{margin-left:0.5%;}
+                                        .p_last{margin-right:0;}
+                                    }//.licen_li
+                                }
+                            }
+                        }
+                    }
+                }
+            }//.resm_con
+            .resm_skill {width: 30%; background-color: $white;
+                >dl {margin-top:1.3vw/*18px*/; margin-left:1.2vw/*17px*/;
+                    >dt{margin-bottom:0.7vw/*10px*/; color:$black; font-size: 2.7vh; font-family: $font; font-weight: 300;}
+                    >dd {
+                        width: 95%; height: 8px; border-radius: 6px; background-color: $main2;
+                        >div {width: 0; height: 100%; background-color:#ff6c6c; border-radius: 6px;
+                        }// div      
+                    }//dd
+                      &:nth-of-type(1){
+//                        div.ps{width:90%;}
+                        div.gage{width: 90%;  transition:width 1s ease-out 0.5s;}
+                        }
+                    &:nth-of-type(2){
+//                        div.ai{width:90%}
+                        div.gage{width: 90%;  transition:width 1s ease-out 0.5s;}
+                        }
+                    &:nth-of-type(3){
+                        div.gage{width: 90%;  transition:width 1s ease-out 0.5s;}
+                        }
+                    &:nth-of-type(4){
+                        div.gage{width: 60%;  transition:width 1s ease-out 0.5s;}
+                        }
+                    &:nth-of-type(5){
+                        div.gage{width: 80%;  transition:width 1s ease-out 0.5s;}
+                        }
+                    &:nth-of-type(6){
+                        div.gage{width: 80%;  transition:width 1s ease-out 0.5s;}
+                        }
+                    &:nth-of-type(7){
+                        div.gage{width: 70%;  transition:width 1s ease-out 0.5s;}
+                        }
+                    &:nth-of-type(8){
+                        div.gage{width: 50%;  transition:width 1s ease-out 0.5s;}
+                        }
+                    &:nth-of-type(9){
+                        div.gage{width: 70%;  transition:width 1s ease-out 0.5s;}
+                        }
+                    &:nth-of-type(10){
+                        div.gage{width: 60%;  transition:width 1s ease-out 0.5s;}
+                        }
+                    &:nth-of-type(11){
+                        div.gage{width: 70%;  transition:width 1s ease-out 0.5s;}
+                        }
+                    
+                }// dl
+                .skill_01 {margin-top: 2vw;/*25px;*/}
+            }//resm_skill
+        }//resm
+    }//#resume
+    #box1 {width: 100%; height: 100vh; position:relative;
+        #box1bg {width:480px; height:298px; position: absolute; right:16%; top:20%;
+
+            ul {width: 100%; height:100%;
+                .bg_text{width:355px; height:152px; margin:70px auto; background-image:url(../img/title.png); background-repeat: no-repeat; position: relative;}
+                
+                .star {width:25px; height:25px; position: absolute; right:21%; top:42%; background-image:url(../img/star.png); background-repeat: no-repeat; animation:star 2s infinite ;
+                }
+                
+                .cloud1 {width:75px; height:42px; background-image: url(../img/cloud3.png); background-repeat: no-repeat; position: absolute; top:10%; right:10%; animation:cloud 3s infinite alternate; 
+                }//.cloud1
+                
+                .cloud2 {width:126px; height:68px; background-image:url(../img/cloud2.png); background-repeat: no-repeat; position: absolute; top:37%; left:5%; animation:ncloud 5s infinite alternate;    }//.cloud2
+                
+                .cloud3 {width:152px; height:83px; background-image: url(../img/cloud.png); background-repeat: no-repeat; position: absolute; top:60%; right:5%; animation:bcloud 5s infinite alternate;
+                }//.cloud3
+            }//ul
+ 
+        }
+    #gnb {width:46%; height:100%/*120px*/; float: left;
+    }//#gnb
+    .gnb_nav {width:100%; height: 100%; background-image:url(../img/menu.png); background-repeat:no-repeat; background-position:50% 30%;background-size:50%;
+        li {width: 90%; height: 6vh; margin-bottom: 2.5vw/*35px*/; margin-left: 5%;
+            &:first-child{padding-top:220px;}
+            a {width: 100%; height: 100%; display: block; text-align: center; text-decoration: none; line-height:2.125rem/*34px*/; font-size: 1.5rem; letter-spacing: 0.375rem/*6px*/; color:$sub; font-family: $font; font-weight: 300;
+        &:hover{color: $main; font-weight: bold;}
+    }
+            
+        }
+    }//.gnb_nav
+
+    #gnb_pic {width: 46%; height: 100%; float: left;
+    
+    ul {width: 100%; height: 100%;
+        li {width: 100%; height: 100%;
+        }
+        .box2_pic {background-color: #ffa; display: none;}
+        .box3_pic {background-color: #aff; display: none;}
+        .box4_pic {background-color: #ccc; display: none;}
+        .box5_pic {background-color: #f21; display: none;}
+    }
+    }//#gnb_pic
+    }//#box1
+    #box2 {width: 100%; height: calc(100vh - 3vw);  padding-top: 3vw;
+        .box2_title {width:20%; height:10vh; margin-left:2vw/*50px*/;display: block; margin-top: 2vw; text-align: center; font-size: 5vh/*2rem*/; font-weight: bold; letter-spacing: 0.5rem; line-height: 10vh/*55px*/; color:$main; font-family: $font;}
+        .box2_bg {width: 20%; height: 75%; background-image:url(../img/abtme.png); background-repeat: no-repeat; background-size: 70%; background-position:0 50px; margin-left:2vw/*50px*/; float: left; margin-top:2.3%;}
+        #aboutMe {width: 67%; height: 80%; margin-left: 1.5vw/*20px*/;  float: left; overflow: hidden; position: relative;
+            .abt_btn {width: 15%; height: 5%; display: none; position: absolute; left: 50%; margin-left: -8%; bottom:0;
+                li{width: 20%; height: 100%; float:left; margin-left:18%;
+                    &:first-child{display: none;}}
+            }
+            .abt_box {width: 100%; height: 400%; 
+                li{width: 100%; height: calc(100% / 4);}
+                .abt_box1{display: none;}
+                .abt_box2{display: none;}
+                .abt_box3{height:30.3%; padding-top: 5%; 
+                    .abtb_me{width: 100%; height: 90%; 
+                        >li{width:23%; height: 45%; float:left; margin-left:1vh;  background-size:contain; background-repeat: no-repeat; background-position: center; background-size: 55%;
+                            &:first-child {margin-left:4vh;}
+                        }
+                        .abtb_me_1 {background-image: url(../img/abticon_1.png);}
+                        .abtb_me_2 {background-image: url(../img/abticon_2.png);}
+                        .abtb_me_3 {background-image: url(../img/abticon_3.png);}
+                        .abtb_me_4 {background-image: url(../img/abticon_4.png);}
+                    }//.abtb_me
+                    .abtb_name {width: 100%; height:30%; float:left;
+                        >.abtb_title{width: 100%; height: 30%;
+                            >p{width: 23%; height: 100%; margin-left:1vh; display: block; float:left; text-align: center; font-size: 3vh; line-height: 5vh; font-weight: normal; font-family: $font; color:#ff6c6c;}
+                            .abtb_t{margin-left: 4vh;}
+                        
+                        }//.abtb_title
+                        >.abtb_con{width:100%; height:70%;
+                          >span{width: 23%; height: 100%; display: block; text-align:center; line-height:6vh; float:left; margin-left:1vh; font-size: 1vw;    }
+                            .abtb_c {margin-left:4vh; line-height:12vh;}
+                        }
+                        
+                    }//.abtb_name
+                }//.abt_box3
+                .abt_box4{display: none;}
+            }//.abt_box
+            
+        }//#aboutMe
+    }//#box2
+    #box3{width: 100%; height: calc(100vh - 3vw); padding-top: 3vw;
+        .box3_title {width:20%; height:10vh; margin-left:2vw/*50px*/;display: block; margin-top: 2vw; text-align: center; font-size: 5vh/*2rem*/; font-weight: bold; letter-spacing: 0.5rem; line-height: 10vh/*55px*/; color:$main; font-family: $font;}
+        .box3_bg {width: 20%; height: 75%; background-image:url(../img/web.png); background-repeat: no-repeat; background-size:80%; background-position:0px 40px;margin-left:2vw/*50px*/; float: left; margin-top:2.7%;}
+        .web {width: 67%; height: 91%; margin-top:-4.5vw; margin-left: 1.5vw/*20px*/; float: left;
+            >dt{width: 100%; height: 10%; border-bottom: 1px solid $main; transition: all 0.3s;
+                &:hover{background-color:$white; cursor: pointer;}
+                >p{width: 100%; height: 100%; font-size: 1.25rem; text-align: center; line-height:4vw/*50px*/; font-family: $font; color:#888; font-weight: 300;}   
+            }//dt
+            >dd{width: 100%;  height:0%/*80%*/;  overflow: hidden; transition:all 0.5s;
+                &.height_view {height:80%; } 
+            }
+            .webpo_1 {
+                .webpo_pic1{width:48%; height:100%;  background-image: url(../img/tore_web.png); background-position: 0 2.5rem; background-repeat: no-repeat; background-size: contain; float:left; margin-right:2%; margin-left:1%;}
+                .webpo_con1{width:48%; height:100%;  float:left;
+                    .con1_title {width:90%; height:10%; display: block; margin-bottom:10%; margin-top:15%; margin-left:5%; text-align: center; font-family: $font; font-size: 1.3rem; color:$sub;}
+                    .con_btn{width:100%; height:50%; 
+                        >li {width:35%; height:100%; float:left; margin-right:5%; cursor:pointer;
+                            &:hover button{color:#fff;}
+                            &:first-child {margin-left:12%;}
+                            &:last-child {margin-right:0;}
+                                >button{width : 100%; height:50%; margin-top:60%; cursor:pointer;  font-family: $font; font-weight: 500; background-color:transparent; color: #ff6c66; 
+                                    
+                            }
+                            }
+                        .process {background-image:url(../img/procesbtn_hov.png); background-repeat: no-repeat; background-position:center; background-size:contain;
+                            &:hover {background-image: url(../img/procesbtn.png); background-repeat: no-repeat; transition:all 0.5s;background-size:contain;}
+                        }
+                        .sitego {background-image:url(../img/sitebtn.png); background-repeat: no-repeat; background-position: center; background-size:contain;
+							a{width: 100%; height: 70%; display: block;  text-decoration: none; padding-top:30%; cursor:pointer;  font-family: $font; font-weight: 500; background-color:transparent; color: #ff6c66; 
+								&:hover {color:#fff;}}
+                        &:hover {background-image:  url(../img/sitebtn_hov.png); background-repeat: no-repeat;  transition:all 0.5s;background-size:contain;}
+                        }
+                    }//.con_btn
+                }//.webpo_con1
+            }//.webpo_1
+            .webpo_2 {
+                .webpo_pic2{width:48%; height:100%;  background-image:url(../img/seven-eleven_web.png); background-repeat: no-repeat; background-size: 110%;background-position:-1.6rem 3rem;float: left;margin-right:2%; margin-left:1%;}
+                .webpo_con2{width:48%; height:100%;  float:left;
+                    .con2_title {width:90%; height:10%; display: block; margin-bottom:10%; margin-top:15%; margin-left:5%; text-align: center; font-family: $font; font-size: 1.3rem; color:$sub;}
+                    .con_btn{width:100%; height:50%; 
+                        >li {width:35%; height:100%; float:left; margin-right:5%; cursor:pointer;
+                            &:hover button{color:#fff;}
+                            &:first-child {margin-left:12%;}
+                            &:last-child {margin-right:0;}
+                                >button{width : 100%; height:50%; margin-top:60%; cursor:pointer;  font-family: $font; font-weight: 500; background-color:transparent; color: #ff6c66; 
+                                    
+                            }
+                            }
+                        .process {background-image:url(../img/procesbtn_hov.png); background-repeat: no-repeat; background-position:center;background-size:contain;
+                            &:hover {background-image: url(../img/procesbtn.png); background-repeat: no-repeat;  transition:all 0.5s;background-size:contain;}
+                        }
+                        .sitego {background-image:url(../img/sitebtn.png); background-repeat: no-repeat; background-position: center;background-size:contain;
+							a{width: 100%; height: 70%; display: block;  text-decoration: none; padding-top:30%; cursor:pointer;  font-family: $font; font-weight: 500; background-color:transparent; color: #ff6c66; 
+								&:hover {color:#fff;}}
+                        &:hover {background-image:  url(../img/sitebtn_hov.png); background-repeat: no-repeat;  transition:all 0.5s;background-size:contain;}
+                        }
+                    }//.con_btn
+                }//.webpo_con2
+            }//.webpo_2
+            
+        }//.web
+    }//#box3
+    #box4 {width: 100%; height: calc(100vh - 3vw);  padding-top: 3vw;
+        .box4_title {width:20%; height:10vh; margin-left:2vw/*50px*/;display: block; margin-top: 2vw; text-align: center; font-size: 5vh/*2rem*/; font-weight: bold; letter-spacing: 0.5rem; line-height: 10vh/*55px*/; font-family: $font; color:$main;}
+        .box4_bg {width: 20%; height: 75%; margin-left:2vw/*50px*/; float: left; margin-top:2.7%; background-image:url(../img/visual.png); background-repeat: no-repeat; background-size:100%; background-position: 0 50px;}
+        .gallery {width: 67%; height: 91%; margin-top:-4.5vw;  margin-left: 1.5vw/*20px*/; float: left;
+            >dt{width: 100%; height: 10%; cursor: pointer; transition: all 0.3s;
+                p{width: 100%; height: 100%; font-size: 1.2rem; text-align: center; line-height:55px; font-family: $font; color:$sub; border-bottom: 1px solid $main; font-weight: 300;}
+                &:hover {background-color: $white;}
+            }//dt
+            >dd{width: 100%; height:0%; overflow: hidden; transition:all 0.5s;
+                        &.ga_height {height:70%; } 
+            }
+            .vpo_1 {
+                >ul{width: 100%; height: 100%; 
+                    >li{width: 30%; height:70%; margin-left:5%; margin-top:10vh;  float:left;
+                        &:first-child {margin-left:17%;}}
+					.info_1 {background-image:url(../img/infomap.jpg); background-size:cover; background-repeat: no-repeat; background-position: 0 -6rem;
+/*							a{width:100%; height: 100%; display: block; transition:all 0.7s;
+								&:hover {background-color:rgba(3, 3, 3, 0.2);}
+						}*/
+					}//.info_1
+					.info_2 {background-image: url(../img/infographic.png); background-size:90%; background-repeat: no-repeat; background-position: center;}
+                }
+            }//.vpo_1
+            .vpo_2 {
+                >ul{width: 100%; height: 100%;
+                    >li{width: 25%; height:70%; margin-left:2%; margin-top:10vh; background-color:#ddd; float:left;
+                        &:first-child {margin-left:11%;}}
+                }
+            }//.vpo_2
+            .vpo_3 {
+                 >ul{width: 100%; height: 100%;
+                    >li{width: 25%; height:70%; margin-left:2%; margin-top:10vh; background-color:#eee; float:left;
+                        &:first-child {margin-left:11%;}}
+                }
+            }//.vpo_3
+            
+        }//.web
+    }//#box4
+    #box5 {width: 100%; height: calc(100vh - 3vw);  padding-top: 3vw;
+        #pro_box {width: 20%; height: 80%; margin:0 auto; 
+            >ul{width: 100%; height: 100%;
+                li{width: 100%; height: 10%; margin-bottom: 10px;
+                    &:first-child {height:70%;}
+                    &:last-child {margin-bottom:0;}
+                    i{width:20%; height: 100%;display: block; float: left; background-repeat: no-repeat; background-size:70%; background-position: center;}
+                    .ic_phone {background-image: url(../img/ic_phone.png); background-size:50%;}
+                    .ic_kakao {background-image:url(../img/ic_kakao.png);}
+                    .ic_email {background-image:url(../img/ic_email.png);}
+                    .ic_site {background-image:url(../img//ic_webpage.png);}
+                    p{width: 78%; height: 100%; float: left; color:$sub; font-size: 2.8vh; line-height: 7vh; margin-left:2%; font-family: $font; font-weight: 300;
+                        a{width: 100%; height: 100%; display: block; text-decoration: none; color:$sub; line-height: 7vh;}
+                    }
+                    .email {font-size: 1.2vw;}
+                    .last_p4{font-size: 1.2vw; line-height:8vh;}
+                }
+                .contect_pic {background-image: url(../img/contect_pic.png); background-repeat: no-repeat; background-size:contain; background-position: center;}
+
+            }
+        }
+    }//#box5
+}//#wrap
+}//                pc

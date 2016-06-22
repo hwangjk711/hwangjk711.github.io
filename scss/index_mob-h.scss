@@ -1,0 +1,365 @@
+/*_______________mobile_h_______________*/
+@media screen and (min-width:481px)and(max-width:640px){
+     html body {overflow-x: hidden;}
+#wrap {width: 100%; height: auto;
+    #resume {width: 100%; height: 100vh; background-color: $main; position: fixed; /*right: -84%;*/ z-index: 1000; top:-91%;
+        #resmBar{width: 100%; height: 9%; background-color:$main; float: left;background-color: $main; position:absolute; bottom:0;
+            h1 {width: 6vh; height: 65%/*60px*/; background-color: #fff; margin-left: 5%; margin-top:1%; float:left;
+            button {width: 100%; height: 100%; background-color: transparent;
+            }//h1
+            a {width: 100%; height: 100%; display: block; text-decoration: none;
+            }
+        }//h1
+        
+        .resm_btn {width:6vh; height:65%; margin-top: 1%; margin-left: 35%; float:left;}
+        }//#resmBar
+        .resm {width: 100%; height: 100%; float: left;
+            li {width:100%; float:left;}
+            .resm_pro {height: 10%; background-color: #fff; display: none;
+                >ul{width: 100%; height: 100%;
+                    .r_cha {width: 95%; height: 50%; background-color: #faa; margin-left: 2.5%;  margin-top:10%; display: none;}
+                .r_profile {width: 95%; height: 40%; margin-left:2.5%; margin-top:8%;
+                    >ul{width: 100%; height: 100%;
+                        >li{width: 100%; height: 10%; margin-bottom: 0.833vw/*10px*/; font-size:2.2vh; line-height: 2vw; color:#fff;
+                            >i {width: 12%; height: 100%; background-color: #faa; float:left; display: block; margin-right: 6px;}
+                            >p {line-height: 2vw; color:#fff}
+                        }
+                    }
+                    }//.r_profile
+                }
+
+            }//resm_pro
+            .resm_con {height: 100%; background-color:$main; background-color: #faa;
+                >ul {width: 100%; height: 100%;
+                    >li{width: 100%; height: 23%;
+                        &:first-child{margin-top: 2%;}
+                        >dl {width: 100%; height: 70%; 
+                            >dt {width: 100%; height: 20%; margin-bottom:0.6%;
+                                >i{width: 4vh; height: 100%; background-color: #faf; display: block; float: left; margin-left:5%; margin-right:2%;}
+                                >p{width: 50%; height: 100%; display: block;  margin-left: 7%; font-size: 3.5vh; font-weight: 500; line-height: 3.2vh; color:$white; font-family: $font;}
+                            }//dt
+                            >dd {width: 100%; height: 77%;
+                                >ul{width: 100%; height: 100%; position: relative;
+                                    >li {width: 100%; height: 30%; margin-top: 1%;
+                                        &:first-child {margin-top:0;}
+                                        p {width: 25%; height: 100%;float: left; margin-left: 5%; text-align: center; color:#fff; font-size:2.2vh; font-family: $font; font-weight:300;}
+                                        .date_2 {margin-right:-0.5%;}
+                                        .p_one {margin-right:-0.7%}
+                                        .con_tx {font-size: 2vh;}
+                                        .con_txt {font-size: 1.9vh; line-height:2.2vh;}
+                                    }
+                                    .re_graph {width: 100%; height: 12%; position:absolute; top:27%;
+                                        >span {width: 1.5vh; height: 100%; border-radius: 10px; background-color: #fff; display: block; margin-left: 28%; float:left;}
+                                        .fir_span{margin-left:17%;}
+                                    }//.re_graph
+                                    .re_graph_li {width: 100%; height: 12%; position:absolute; top:27%;
+                                        >span {width: 1.5vh; height: 100%; border-radius: 20px; background-color: #fff; display: block; margin-left: 18%; float:left;}
+                                        .fir_span {margin-left:9%; margin-right:1%;}
+                                        .for_span {margin-right:-3%}
+                                    }//.re_graph
+                                   
+                                    .date>p {line-height:3vw;}
+                                    
+                                    .re_bar {width: 90%; height:5%; margin-left: 5%; border-radius: 6px; background-color: $white; margin-bottom: 2%;}
+                                    .licen_li{
+                                        >p{width: 19%; height: 100%; margin-left:0; margin-right:1%;}
+                                        .con_li{font-size:1.8vh;}
+                                        .p_fir{margin-left:0;}
+                                        .p_last{margin-right:0;}
+                                    }//.licen_li
+                                }
+                            }
+                        }
+                    }
+                }
+            }//.resm_con
+            .resm_skill {width: 30%; background-color: $main; display: none;
+                >dl {margin-top:1.3vw/*18px*/; margin-left:1.2vw/*17px*/;
+                    >dt{margin-bottom:0.7vw/*10px*/; color:#fff; font-size: 2.7vh;}
+                    >dd {width: 95%; height: 8px; border-radius: 6px; background-color: $main2;
+                        >div {height: 100%; background-color:$white; border-radius: 6px;}
+                                .ps{width:90%; animation-name: ps; animation-duration: 4s;
+                                @keyframes ps {
+                                                        0% {width:0%;}
+                                                        100% {width:90%} }
+                                }//ps
+                                .ai{width:90%; animation-name: ai; animation-duration: 4s;
+                                @keyframes ai {
+                                                        0% {width:0%;}
+                                                        100% {width:90%} }
+                                }//ai
+                                .id{width:90%; animation-name: id; animation-duration: 4s;
+                                @keyframes id {
+                                                        0% {width:0%;}
+                                                        100% {width:90%} } 
+                                }
+                                .ae{width:60%; animation-name: ae; animation-duration: 4s;
+                                @keyframes ae {
+                                                        0% {width:0%;}
+                                                        100% {width:60%} }
+                                }
+                                .htm{width:80%; animation-name: htm; animation-duration: 4s;
+                                @keyframes htm {
+                                                        0% {width:0%;}
+                                                        100% {width:80%} }
+                                }
+                                .css{width:80%; animation-name: css; animation-duration: 4s;
+                                @keyframes css {
+                                                        0% {width:0%;}
+                                                        100% {width:80%} }
+                                }
+                                .sass{width:70%; animation-name: sass; animation-duration: 4s;
+                                @keyframes sass {
+                                                        0% {width:0%;}
+                                                        100% {width:70%} }
+                                }
+                                .js{width:50%; animation-name: js; animation-duration: 4s;
+                                @keyframes js {
+                                                        0% {width:0%;}
+                                                        100% {width:50%} }
+                                }
+                                .asi{width:70%; animation-name: asi; animation-duration: 4s;
+                                @keyframes asi {
+                                                        0% {width:0%;}
+                                                        100% {width:70%} }}
+                                .git{width:60%; animation-name: git; animation-duration: 4s;
+                                @keyframes git {
+                                                        0% {width:0%;}
+                                                        100% {width:60%} }
+                                }
+                                .cad{width:70%; animation-name: cad; animation-duration: 4s;
+                                @keyframes cad {
+                                                        0% {width:0%;}
+                                                        100% {width:70%} }
+                                }   
+                        
+                    }//dd
+                }
+                .skill_01 {margin-top: 2vw;/*25px;*/}
+            }//resm_skill
+        }//resm
+    }//#resume
+    #box1 {width: 100%; height: 100vh;
+    
+    #gnb {width:100%; height:calc(100% - 20vw); padding-top: 20vw/*120px*/; float: left;
+    }//#gnb
+    .gnb_nav {width:50vh; height: calc(80% - 10vw); margin:0 auto; padding-top:10vw/*30px*/; padding-bottom: 3vw;
+        li {width: 100%; height: 6vh; background-color: #eee; margin-bottom: 2.9vw/*35px*/;
+            a {width: 100%; height: 100%; display: block; text-align: center; text-decoration: none; line-height:2.125rem/*34px*/; font-size: 1.5rem; letter-spacing: 0.375rem/*6px*/; color:$sub;
+        &:hover{color: $main;}
+    }
+            
+        }
+    }//.gnb_nav
+
+    #gnb_pic {width: 50%; height: 100%; background-color: #afa; float: left; display: none;
+    
+    ul {width: 100%; height: 100%;
+        li {width: 100%; height: 100%;
+        }
+        .box2_pic {background-color: #ffa; display: none;}
+        .box3_pic {background-color: #aff; display: none;}
+        .box4_pic {background-color: #ccc; display: none;}
+        .box5_pic {background-color: #f21; display: none;}
+    }
+    }//#gnb_pic
+    }//#box1
+    #box2 {width: 100%; height: calc(100vh - 13vw); padding-top: 13vw;
+        .box2_title {width:50%; height:5vh; margin:0 auto;/*50px*/;display: block; margin-top: 2vw; text-align: center; font-size: 4vh/*2rem*/; font-weight: bold; letter-spacing: 0.5rem; line-height: 5vh/*55px*/; color:$main; font-family: $font;}
+        .box2_bg {width: 20%; height: 75%; margin-left:2vw/*50px*/; float: left; margin-top:2.3%; display: none;}
+        #aboutMe {width: 97%; height: 86%; margin-left: 1.5vw/*20px*/;  float: left;  overflow: hidden;  position: relative; margin-top:5%;
+            .abt_btn {width: 40%; height: 10%; position: absolute; left: 50%; margin-left: -20%; bottom:0;
+            >li {width:8vh; height: 100%; background-color:#fa5; margin-left: 5%; float:left;}
+                .abtn_1 {margin-left:11%;}
+                .abtn_2 {}
+                .abtn_3 {}
+                .abtn_4 {display: none;}
+            }//.abt_btn
+            .abt_box {width: 100%; height: 300%; margin-top:-150vh/*77vh*/;
+                li{width: 100%; height: calc(100% / 3);}
+                .abt_box1{
+                    .abt_profile {width:100%; height:100%; float:left;
+                        .abt_cha{width: 40%; height:60vh; background-color: #eee; float: left; margin-top:5%;}
+                        .abt_probox{
+                            >ul{width: 58%;height:60vh; float: left; margin-left:2%; margin-top:5%;
+                                >li{width: 100%; height:5vw; margin-top:1.5%; font-size: 3vw; font-family: $font; color:$sub;
+                                    &:first-child{margin-top:10%;}
+                                    >i{width: 5vh; height: 100%; background-color:#eee; display: block; float: left;}
+                                    >p{width: 80%; height: 100%; float: left; margin-left: 2%; line-height:5vw; color:$sub;}
+                                }
+                            }
+                        }//.abt_probod
+                    }//.abt_profile
+                }//.abt_box1
+                .abt_box2{
+                    .abt_profile {display: none;}
+                    .abt_skill {width:48%; height:80%; float:left; margin-left:2%; float:left; 
+                       >dl{margin-top:6vw/*18px*/; margin-left:1.2vw/*17px*/;
+                       >dt{margin-bottom:0.7vw/*10px*/; color:$sub; font-size: 2.7vh; font-family: $font; font-weight: 300;}
+                       >dd{width: 95%; height: 8px; border-radius: 6px; background-color: $white;
+                           >div {height: 100%; background-color:$main2; border-radius: 6px;}
+                               .ps{width:90%; animation-name: ps; animation-duration: 4s;
+                                @keyframes ps {
+                                                        0% {width:0%;}
+                                                        100% {width:90%} }
+                                }//ps
+                                .ai{width:90%; animation-name: ai; animation-duration: 4s;
+                                @keyframes ai {
+                                                        0% {width:0%;}
+                                                        100% {width:90%} }
+                                }//ai
+                                .id{width:90%; animation-name: id; animation-duration: 4s;
+                                @keyframes id {
+                                                        0% {width:0%;}
+                                                        100% {width:90%} } 
+                                }
+                                .ae{width:60%; animation-name: ae; animation-duration: 4s;
+                                @keyframes ae {
+                                                        0% {width:0%;}
+                                                        100% {width:60%} }
+                                }
+                                .htm{width:80%; animation-name: htm; animation-duration: 4s;
+                                @keyframes htm {
+                                                        0% {width:0%;}
+                                                        100% {width:80%} }
+                                }
+                                .css{width:80%; animation-name: css; animation-duration: 4s;
+                                @keyframes css {
+                                                        0% {width:0%;}
+                                                        100% {width:80%} }
+                                }
+                                .sass{width:70%; animation-name: sass; animation-duration: 4s;
+                                @keyframes sass {
+                                                        0% {width:0%;}
+                                                        100% {width:70%} }
+                                }
+                                .js{width:50%; animation-name: js; animation-duration: 4s;
+                                @keyframes js {
+                                                        0% {width:0%;}
+                                                        100% {width:50%} }
+                                }
+                                .asi{width:70%; animation-name: asi; animation-duration: 4s;
+                                @keyframes asi {
+                                                        0% {width:0%;}
+                                                        100% {width:70%} }}
+                                .git{width:60%; animation-name: git; animation-duration: 4s;
+                                @keyframes git {
+                                                        0% {width:0%;}
+                                                        100% {width:60%} }
+                                }
+                                .cad{width:70%; animation-name: cad; animation-duration: 4s;
+                                @keyframes cad {
+                                                        0% {width:0%;}
+                                                        100% {width:70%} }
+                                }  
+                           }
+                       }
+                    } //.sill_1
+                }//.abt_box2
+                .abt_box3{
+                .abtb_me{ 
+                        >li{width:22vw; height: 35vh; float:left; margin-left:1vw; background-color: #fac; margin-top:7vh;
+                            &:first-child {margin-left:1.6vw;}
+                        }
+                    }//.abtb_me
+                    .abtb_name {width: 100%; height:30%; margin-top:0.7%; float:left;
+                        >.abtb_title{width: 100%; height: 30%; 
+                            >p{width: 22vw; height: 100%; margin-left:1vw;  display: block; float:left; text-align: center; font-size: 2.5vw; line-height: 7vh; font-weight: normal; font-family: $font; color:$main;}
+                            .abtb_t{margin-left: 1.6vw;}
+                        
+                        }//.abtb_title
+                        >.abtb_con{width:100%; height:70%; margin-top:1vh;
+                          >span{width: 22vw; height:10vh; display: block;  text-align:center; line-height:3vw; float:left; margin-left:1vw; font-size: 1.8vh; letter-spacing: -0.12vw;    }
+                            .abtb_c {margin-left:1.6vw; line-height:3vw;}
+                        }
+                        
+                    }//.abtb_name
+                }//.abt_box
+                .abt_box4{display: none;}
+            }//.abt_box
+            
+        }//#aboutMe
+    }//#box2
+    #box3{width: 100%; height: calc(100vh - 13vw); padding-top: 13vw;
+        .box3_title {width:50%; height:5vh;  margin:0 auto;/*50px*/;display: block; margin-top: 2vw; text-align: center; font-size: 4vh/*2rem*/; font-weight: bold; letter-spacing: 0.5rem; line-height: 5vh/*55px*/; color:$main; font-family: $font;}
+        .box3_bg {display: none;}
+        .web {width: 97%; height: 86%; margin-left: 1.5vw/*20px*/;  float: left; overflow: hidden; position: relative; margin-top:5%;
+            >dt{width: 100%; height: 10%; background-color:$main; border-bottom:1px solid $white;
+                p{width: 100%; height: 100%;  font-size: 1rem; text-align: center; line-height:6vw/*50px*/; color:#fff;}   
+            }//dt
+            >dd{width: 100%; height:80%/*80%*/; overflow: hidden;}
+            .webpo_1 { display: none;
+                .webpo_pic1{width:48%; height:100%; background-color:#eee; float:left; margin-right:2%; margin-left:1%;}
+                .webpo_con1{width:48%; height:100%; float:left;
+                    .con1_title {width:90%; height:10%; display: block; color:$sub; text-align: center; font-size: 1.2rem; font-family: $font; margin-bottom:10%; margin-top:5%; margin-left:5%;}
+                    .con_btn{width:100%; height:70%; 
+                        >li {width:80%; height:35%;  float:left; margin-top:10%; margin-left:10%;
+                                >button{width : 100%; height:100%; cursor:pointer; font-family: $font; font-weight: 300;}
+                            }
+                    
+                    }//.con_btn
+                }//.webpo_con1
+            }//.webpo_1
+             .webpo_2 {
+                .webpo_pic2{width:48%; height:100%; background-color:#eee; float:left; margin-right:2%; margin-left:1%;}
+                .webpo_con2{width:48%; height:100%; float:left;
+                    .con2_title {width:90%; height:10%; display: block; margin-bottom:10%; margin-top:5%; margin-left:5%; font-size: 1.2rem; font-family: $font; text-align: center; color:$sub;}
+                    .con_btn{width:100%; height:70%;
+                        >li {width:80%; height:35%; background-color:#faa; float:left; margin-top:10%; margin-left:10%;
+                                >button{width : 100%; height:100%; cursor:pointer; font-family: $font; }
+                            }
+                    
+                    }//.con_btn
+                }//.webpo_con1
+            }//.webpo_2
+            
+        }//.web
+    }//#box3
+    #box4 {width: 100%; height: calc(100vh - 10vw); padding-top: 10vw;
+        .box4_title {width:50%; height:5vh; background-color:#fff; margin:0 auto;/*50px*/;display: block; margin-top: 2vw; text-align: center; font-size: 4vh/*2rem*/; font-weight: bold; letter-spacing: 0.5rem; line-height: 5vh/*55px*/; color:$main; font-family: $font;}
+        .box4_bg {width: 20%; height: 75%; margin-left:2vw/*50px*/; float: left; margin-top:2.7%; display: none;}
+        .gallery {width: 97%; height: 86%; margin-left: 1.5vw/*20px*/; float: left; overflow: hidden; position: relative; margin-top:5%;
+            >dt{width: 100%; height: 10%; background-color: $main; border-bottom: 1px solid $white;
+                p{width: 100%; height: 100%; font-size: 3vh; text-align: center; line-height:50px; color:#fff;}   
+            }//dt
+
+            >dd{width: 100%; height:/*70%*/0%; overflow: hidden;}
+                .vpo_1 {
+                >ul{width: 100%; height: 100%; 
+                    >li{width: 30%; height:80%; margin-left:5vh; margin-top:5vh; background-color:#eee; float:left;
+                        &:first-child {margin-left:16vw;}}
+                }
+            }//.vpo_1
+                .vpo_2 {
+                >ul{width: 100%; height: 100%;
+                    >li{width: 26%; height:80%; margin-left:4vh; margin-top:5vh; background-color:#eee; float:left;
+                        &:first-child {margin-left:7vw;}}
+                }
+            }//.vpo_2
+                .vpo_3 {
+                >ul{width: 100%; height: 100%; 
+                    >li{width: 26%; height:80%; margin-left:4vh; margin-top:5vh; background-color:#eee; float:left;
+                        &:first-child {margin-left:7vw;}}
+                }
+            }//.vpo_3
+            
+        }//.web
+    }//#box4
+    #box5 {width: 100%; height: calc(100vh - 13vw); padding-top: 13vw;
+        #pro_box {width: 50vh; height: 80%; margin:0 auto;
+            >ul{width: 100%; height: 100%;
+                li{width: 100%; height: 10%; background-color: #eee; margin-bottom: 10px;
+                    &:first-child {height:52%;}
+                    &:last-child {margin-bottom:0;}
+                    i{width:20%; height: 100%; background-color: #fac;display: block; float: left;}
+                    p{width: 78%; height: 100%; float: left; color:$sub; font-size: 2.8vh; line-height: 7vh; margin-left:2%; font-family: $font; font-weight: 300;
+                        a{width: 100%; height: 100%; display: block; text-decoration: none; color:$sub; line-height: 7vh;}
+                    }
+                    .email {font-size: 3vh;}
+                    .last_p4{font-size: 3vh; line-height:8vh;}
+                }
+            }
+        }
+    }//#box5
+}//#wrap
+}//                mob_h

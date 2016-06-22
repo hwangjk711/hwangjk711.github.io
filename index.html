@@ -3,360 +3,582 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
     
-        <!--stylesheet-->
+    <!--stylesheet-->
     <link rel="stylesheet" href="./css/lib/reset.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/site.css">
     
+	<script src="js/jquery/jquery-1.12.3.min.js"></script>
+	<script src="js/jquery/jquery-migrate-1.3.0.min.js"></script>
+	<script src="js/jquery/jquery-ui.min.js"></script>
+	<script src="js/index.js"></script>
     <!--[if lte IE 9]>
-        <script src="js/dist/html5shiv.min.js"></script>
+    <script src="js/dist/html5shiv.min.js"></script>
     <script src="js/dist/ie9.min.js"></script>
     <script src="js/dist/PIE.js"></script>
-    <script src="js/dist/responsive.min.js"></script
-    <![endif]-->
-    
-    <script src="js/jquery/jquery-1.12.3.min.js"></script>
+    <script src="js/dist/responsive.min.js"></script>
+     <script src="js/jquery/jquery-1.12.3.min.js"></script>
     <script src="js/jquery/jquery-migrate-1.3.0.min.js"></script>
     <script src="js/jquery/jquery-ui.min.js"></script>
+    <![endif]-->
+    
 
     <title>Document</title>
-    <script>
-   $(function(){
-       var resmBtn = $('.resm_btn'),
-           resm = $('#resume');
-       resmBtn.on('click',function(){
-           resm.animate({'left':70+'px'},700,'swing');
-       });
-       
-   });
-    </script>
+
 </head>
 <body>
-   <container id="wrap">
-    <div id="header">
-      <div id="headBox">
-      <div id="gnbBox">
-       <h1><a href="#header"><span class="me_hidden">LOGO</span></a></h1>
-        <ul id="gnb">
-            <li><a href="#box_2">HWANGJK</a></li>
-            <li><a href="#box_3">WEB</a></li>
-            <li><a href="#box_4">VISUAL</a></li>
-            <li><a href="#box_5">CONTECT</a></li>
-        </ul><!--//    #gnb-->
-        </div><!--//    #gnbBox-->
-        <button></button>
-        <div id="gnbPic">사진</div>
-        </div><!--//    #headBox-->
-<!--//    #resume-->
-    </div><!--//    #header-->
-           
-            <div id="resume">
-				<div class="resm">
-				    <button class="home_btn"><a href="#header"><span class="me_hidden">home</span></a></button>
-				    <p>RESUME</p>
-				</div>
-				<h2><span class="me_hidden">황진경 이력서</span></h2>
-				<div class="resm_page">
-                    <div class="resm_profile">
+    <container id="wrap">
+        <div id="resume">
+        <div id="resmBar">
+        <h1><button class="homeBtn"><a href="#box1" >
+        <span class="me_hidden">logo</span>
+        </a></button></h1>
+             
+              <div class="rem_btn">
+            <span class="btn_up"><!--btn_up--></span>
+            <span class="btn_down"><!--btn_down--></span>
+        </div><!--//    .rem_Btn-->
+        </div><!--//    #resmBar-->
+        <ul class="resm">
+            <li class="resm_pro">
+                <ul>
+                    <li class="r_cha"><!--토끼캐릭터--></li>
+                    <li class="r_profile">
                         <ul>
-                            <!--<li class="pro_pic"></li>-->
-                            <li class="pro_moral"></li>
-                            <li class="pro">
+                            <li>&#8226; 황진경 &#40;Hwang Jin Kyoung&#41;</li>
+                            <li>&#8226; Birth&#58; 1995. 07. 11</li>
+                            <li>&#8226; Address&#58; 경기도 광주시</li>
+                            <li><i class="email"><!--icon--></i>                      
+                                <p>hwangjk711@gmail.com</p></li>
+                            <li><i class="kakao"><!--icon--></i>
+                                <p>qo3op1995</p></li>
+                            <li><i class="insa"><!--icon--></i>
+                                <p>hjin_nk</p></li>
+                            <li><i class="git"><!--icon--></i>
+                                <p>hwangjk</p></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li><!--//    .resm_pro-->
+            <li class="resm_con">
+                <ul>
+                    <li class="re_ed">
+                        <dl>
+                            <dt><i class="ied"><!--icon--></i><p>Education</p></dt>
+                            <dd>
                                 <ul>
-                                    <li> &#8226; 황진경 &#40;Hwang Jin Kyoung&#41;</li>
-                                    <li> &#8226; Birth&#58; 1995. 07. 11</li>
-                                    <li> &#8226; Address&#58; 경기도 광주시</li>
-                                    <li><i class="email"><!--icon--></i><p>hwangjk711@gmail.com</p></li>
-                                    <li><i class="kakao"><!--icon--></i><p>qo3op1995</p></li>
-                                    <li><i class="insa"><!--icon--></i><p>hjin_nk</p></li>
-                                    <li><i class="git"><!--icon--></i><p>hwangjk</p></li>
+                                    <li class="date">
+                                        <p class="p_one">2016&#46;03&#45;07</p>
+                                        <p class="date_2">2014&#46;03&#45;2016&#46;02</p>
+                                        <p>2011&#46;03&#45;2014&#46;02</p>
+                                    </li>
+                                    <li class="re_graph">
+                                        <span class="fir_span"><!--circle--></span>
+                                        <span><!--circle--></span>
+                                        <span><!--circle--></span>
+                                    </li>
+                                    <li class="re_bar"><!--graph--></li>
+                                    <li>
+                                        <p class="con_tx p_one">그린컴퓨터<br/>아카데미 수료</p>
+                                        <p class="con_tx">한국폴리텍 1대학<br/>시각디자인과</p>
+                                        <p class="con_tx">수원정보과학고<br/>캐릭터디자인과</p>
+                                    </li>
                                 </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="resm_box">
-                        <ul>
-                            <li>
-                                <dl>
-                                    <dt class="edcation"><i class="ed"><!--icon--></i><p>Education</p></dt>
-                                    <dd>
-                                        <ul class="e_date">
-                                            <li>2016&#46;03&#45;2016&#46;07</li>
-                                            <li>2014&#46;03&#45;2016&#46;02</li>
-                                            <li>2011&#46;03&#45;2014&#46;02</li>
-                                        </ul>
-                                        <ul class="e_graph">
-                                            <li><!--cirle 표시--><span><!--cirle 표시--></span></li>
-                                            <li><!--cirle 표시--><span><!--cirle 표시--></span></li>
-                                            <li><!--cirle 표시--><span><!--cirle 표시--></span></li>
-                                        </ul>
-                                        <span class="e_line"><!--line--></span>
-
-                                        <ul class="e_contect">
-                                            <li>그린컴퓨터 <br>아카데미 수료</li>
-                                            <li>한국폴리텍1대학<br/>정수캠퍼스<br/><span class="cont">커뮤니케이션디자인과</span></li>
-                                            <li>수원정보과학고등학교<br/><span class="cont">캐릭터디자인과</span></li>
-                                        </ul>
-
-                                    </dd>
-                                </dl>
-                            </li> <!--education-->
-                            <li>
-                                <dl>
-                                    <dt><i class="we"><!--icon--></i><p>Work Experience</p></dt>
-                                    <dd>
-                                        <ul class="w_date">
-                                            <li>2015&#46;12&#45;2016&#46;02</li>
-                                            <li>2015&#46;02</li>
-                                            <li>2014&#46;08&#45;2015&#46;02</li>
-                                        </ul>
-                                        <ul class="e_graph">
-                                            <li><!--cirle 표시--><span><!--cirle 표시--></span></li>
-                                            <li><!--cirle 표시--><span><!--cirle 표시--></span></li>
-                                            <li><!--cirle 표시--><span><!--cirle 표시--></span></li>
-                                        </ul>
-                                        <span class="e_line"><!--line--></span>
-
-                                        <ul class="w_contect">
-                                            <li>&#40;주&#41;CSC커뮤니케이션<br><span class="cont">광고&#44;편집 디자인</span></li>
-                                            <li>&#40;주&#41;켈코스메틱<br/><span class="cont">패키지디자인</span></li>
-                                            <li>&#40;주&#41;원일테크<br/><span class="cont">라벨디자인 수정<br/>인쇄공정 관리</span></li>
-                                        </ul>
-                                    </dd>
-                                </dl>
-                            </li> <!--work experience-->
-                            <li>
-                                <dl>
-                                    <dt><i class="awd"><!--icon--></i><p>Award</p></dt>
-                                    <dd>
-                                        <ul class="a_date">
-                                            <li>2014</li>
-                                            <li>2013</li>
-                                            <li>2011</li>
-                                        </ul>
-                                        <ul class="e_graph">
-                                            <li><!--cirle 표시--><span><!--cirle 표시--></span></li>
-                                            <li><!--cirle 표시--><span><!--cirle 표시--></span></li>
-                                            <li><!--cirle 표시--><span><!--cirle 표시--></span></li>
-                                        </ul>
-                                        <span class="e_line"><!--line--></span>
-
-                                        <ul class="a_contect">
-                                            <li>제20회 국제커뮤니케이션공모전 <br><span class="cont">광고디자인부문 입선</span></li>
-                                            <li>청소년디자인전람회<br/><span class="cont">멀티미디어디자인부문 입선</span></li>
-                                            <li>청소년디자인전람회<br/><span class="cont">제품디자인부문 특선</span></li>
-                                        </ul>
-                                    </dd>
-                                </dl>
-                            </li><!--award-->
-                            <li>
-                                <dl>
-                                    <dt><i class="lcen"><!--icon--></i><p>Licence</p></dt>
-                                    <dd>
-                                        <ul class="L_date">
-                                            <li>2015&#46;12&#46;28</li>
-                                            <li>2015&#46;07&#46;17</li>
-                                            <li>2013&#46;07&#46;19</li>
-                                            <li>2012&#46;04&#46;28</li>
-                                            <li>2016&#46;03&#46;25</li>
-                                        </ul>
-                                        <ul class="L_graph">
-                                            <li><!--cirle 표시--><span><!--cirle 표시--></span></li>
-                                            <li><!--cirle 표시--><span><!--cirle 표시--></span></li>
-                                            <li><!--cirle 표시--><span><!--cirle 표시--></span></li>
-                                            <li><!--cirle 표시--><span><!--cirle 표시--></span></li>
-                                            <li><!--cirle 표시--><span><!--cirle 표시--></span></li>
-                                        </ul>
-                                        <span class="L_line"><!--line--></span>
-
-                                        <ul class="L_contect">
-                                            <li>시각디자인산업기사사<br>한국산업인력공단</li>
-                                            <li>GTQ일러스트1급<br/>한국생산성본부부</li>
-                                            <li>컴퓨터그래픽스운용기능사<br/>한국산업인력공단</li>
-                                            <li>AUTO CAD2급<br/>한국ATC센터</li>
-                                            <li>운전면허보통2종<br/>경기지방경찰청</li>
-                                        </ul>
-                                    </dd>
-                                </dl>
-                            </li><!--licence-->
-                            
-                        </ul>
-                    </div>
-                    <div class="skill">
-	<div class="artwork">
-		<ul class="bars">
-			<li>
-			    <dl class="top">
+                            </dd>
+                        </dl>
+                    </li><!--//.re_education-->
+                    <li class="re_we">
+                        <dl>
+                            <dt><i class="iwe"><!--icon--></i><p>Work experience</p></dt>
+                            <dd>
+                                <ul>
+                                    <li class="date">
+                                        <p class="p_one">2015&#46;12&#45;2016&#46;02</p>
+                                        <p class="date_2">2015&#46;02</p>
+                                        <p>2014&#46;08&#45;2015&#46;02</p>
+                                    </li>
+                                    <li class="re_graph">
+                                        <span class="fir_span"><!--circle--></span>
+                                        <span><!--circle--></span>
+                                        <span><!--circle--></span>
+                                    </li>
+                                    <li class="re_bar"><!--graph--></li>
+                                    <li>
+                                        <p class="con_tx p_one">&#40;주&#41;CSC커뮤니케이션<br/>편집디자인</p>
+                                        <p class="con_tx">&#40;주&#41;켈코스메틱
+                                        <br/>패키지디자인</p>
+                                        <p class="con_tx">&#40;주&#41;원일테크
+                                        <br/>인쇄시안수정</p>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li><!--//.re_we-->
+                    <li class="re_aw">
+                        <dl>
+                            <dt><i class="iaw"><!--icon--></i><p>Award</p></dt>
+                            <dd>
+                                <ul>
+                                    <li class="date">
+                                        <p class="p_one ">2014</p>
+                                        <p class="date_2">2013</p>
+                                        <p>2011</p>
+                                    </li>
+                                    <li class="re_graph">
+                                        <span class="fir_span"><!--circle--></span>
+                                        <span><!--circle--></span>
+                                        <span><!--circle--></span>
+                                    </li>
+                                    <li class="re_bar"><!--graph--></li>
+                                    <li>
+                                        <p class="con_txt p_one">국제커뮤니케이션<br/>광고디자인입선</p>
+                                        <p class="con_txt">청소년디자인전람회<br/>
+                                        멀티미디어디자인입선
+                                        </p>
+                                        <p class="con_txt">청소년디자인전람회<br/>
+                                        제품디자인특선
+                                        </p>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li><!--//.re_aw-->
+                    <li class="re_li">
+                        <dl>
+                            <dt><i class="ili"><!--icon--></i><p>Licence</p></dt>
+                            <dd>
+                                <ul>
+                                    <li class="licen_li date">
+                                        <p class="p_fir">2015&#46;12&#46;28</p>
+                                        <p>2015&#46;07&#46;17</p>
+                                        <p>2013&#46;07&#46;19</p>
+                                        <p>2012&#46;04&#46;28</p>
+                                        <p class="p_last">2016&#46;03&#46;25</p>
+                                    </li>
+                                    <li class="re_graph_li">
+                                        <span class="fir_span"><!--circle--></span>
+                                        <span class="snd_span"><!--circle--></span>
+                                        <span class="thd_span"><!--circle--></span>
+                                        <span class="for_span"><!--circle--></span>
+                                        <span><!--circle--></span>
+                                    </li>
+                                    <li class="re_bar"><!--graph--></li>
+                                    <li class="licen_li">
+                                        <p class="con_li p_fir">시각디자인<br/>산업기사</p>
+                                        <p class="con_li">GTQ일러스트1급</p>
+                                        <p class="con_li">컴퓨터그래픽스<br/>운용기능사</p>
+                                        <p class="con_li">AUTO CAD2급</p>
+                                        <p class="con_li p_last">운전면허보통2종</p>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li><!--//.re_li-->
+                </ul>
+            </li>
+            <li class="resm_skill">
+                <dl class="skill_01">
 			        <dt>Adobe Photoshop</dt>
 			        <dd>
 			            <div class="ps"><!--bar--></div>
 			        </dd>
 			    </dl>
-			    <dl>
+			    <dl class="skill_02">
 			        <dt>Adobe illustation</dt>
 			        <dd>
 			            <div class="ai"><!--bar--></div>
 			        </dd>
 			    </dl>
-			    <dl>
+			    <dl class="skill_03">
 			        <dt>Adobe Indesign</dt>
 			        <dd>
 			            <div class="id"><!--bar--></div>
 			        </dd>
 			    </dl>
-			    <dl>
+			    <dl class="skill_04">
 			        <dt>Adobe aftereffct</dt>
 			        <dd>
 			            <div class="ae"><!--bar--></div>
 			        </dd>
 			    </dl>
-			    <dl>
+			    <dl class="skill_05">
 			        <dt>HTML</dt>
 			        <dd>
 			            <div class="htm"><!--bar--></div>
 			        </dd>
 			    </dl>
-			    <dl>
+			    <dl class="skill_06">
 			        <dt>CSS</dt>
 			        <dd>
 			            <div class="css"><!--bar--></div>
 			        </dd>
 			    </dl>
-			    <dl>
+			    <dl class="skill_07">
 			        <dt>SASS(SCSS)</dt>
 			        <dd>
 			            <div class="sass"><!--bar--></div>
 			        </dd>
 			    </dl>
-			    <dl>
+			    <dl class="skill_08">
 			        <dt>Javascript(jQuery)</dt>
 			        <dd>
 			            <div class="js"><!--bar--></div>
 			        </dd>
 			    </dl>
-			    <dl>
+			    <dl class="skill_09">
 			        <dt>Assistor PS</dt>
 			        <dd>
 			            <div class="asi"><!--bar--></div>
 			        </dd>
 			    </dl>
-			    <dl>
+			    <dl class="skill_10">
 			        <dt>Git hurb</dt>
 			        <dd>
 			            <div class="git"><!--bar--></div>
 			        </dd>
 			    </dl>
-			    <dl>
+			    <dl class="skill_11">
 			        <dt>Auto CAD</dt>
 			        <dd>
 			            <div class="cad"><!--bar--></div>
 			        </dd>
 			    </dl>
-			</li>
-		</ul>
-	</div>
-                        </div>
-                    
-                </div><!--.resm_page-->
-                <button class="resm_btn"><span class="me_hidden">resm</span></button>
-			</div><!--#resume-->
-			
-    <div id="box_2">
-    <h2>about me</h2>
-    <span class="box2_title">ABOUT ME</span>
-    <ul class="box2_btn">
-        <li><button><a href="#box_3"></a></button></li>
-        <li><button><a href="#box_4"></a></button></li>
-        <li><button><a href="#box_5"></a></button></li>
-    </ul>
-    <div class="about_ban">
-    <ul class="about_me">
-        <li class="abt_ban1">
-            <ul>
-                <li>
-                    <ul class="cha_1">
-                        <li class="cha_icon_1"><!--icon--></li>
-                        <li class="cha_text_1">
-                        <dl>
-                            <dt>CREATIVE</dt>
-                            <dd>톡톡튀고 반짝이는<br/>창의력을 가진 사람</dd>
-                        </dl></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul class="cha_2">
-                        <li class="cha_icon_2"><!--icon--></li>
-                        <li class="cha_text_2">
-                        <dl>
-                            <dt>POSITIVE</dt>
-                            <dd>밝고 긍정적인<br/>마인드를 가진 사람</dd>
-                        </dl></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul class="cha_3">
-                        <li class="cha_icon_3"><!--icon--></li>
-                        <li class="cha_text_3">
-                        <dl>
-                            <dt>RESPONSIBILITY</dt>
-                            <dd>한번 보면 끝을보는<br/>책임감을 가진 사람</dd>
-                        </dl></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul class="cha_4">
-                        <li class="cha_icon_4"><!--icon--></li>
-                        <li class="cha_text_4">
-                        <dl>
-                            <dt>ARDENT</dt>
-                            <dd>디자인의 열정이<br/>불타오르는 사람</dd>
-                        </dl></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li class="abt_ban2">abt_ban2</li>
-        <li class="abt_ban3">abt_ban3</li>
-    </ul>
-    </div>
-    </div><!--// #box_2-->
-    
-    <div id="box_3">
-    <span class="box3_title">WEB DESIGN</span>
-    <ul class="box3_btn">
-        <li><button><a href="#"></a></button></li>
-        <li><button><a href="#"></a></button></li>
-    </ul>
-    <div class="webpo">
-    <ul class="webpoBox">
-        <li class="toreore">
+            </li><!--//    .resm_skill-->
+        </ul>
+        </div><!--//    #resume-->
+        <article id="box1">
+
+            <aside id="gnb">
+                <ul class="gnb_nav">
+                    <li class="gnb_1"><a href="#box2" class="pic_2">ABOUT ME</a></li>
+                    <li><a href="#box3" class="pic_3">WEB</a></li>
+                    <li><a href="#box4" class="pic_4">GALLERY</a></li>
+                    <li><a href="#box5" class="pic_5">CONTECT</a></li>
+                </ul>
+            </aside><!--//    #gnb-->
+             <div id="box1bg">
                <ul>
-                   <li class="to_mockup"></li>
-                   <li class="content">
-                       <dl>
-                           <dt>또래오래 (Toreore)</dt>
-                           <dd></dd>
-                           <dd class="click"><a href="./toreore/index.html">Click</a></dd>
-                       </dl>
-                   </li>
+                  <li class="bg_text"><span class=" me_hidden">황진경 웹포트폴리오 사이트</span></li>
+                   <li class="star"></li>
+                   <li class="cloud1"></li>
+                   <li class="cloud2"></li>
+                   <li class="cloud3"></li>
                </ul>
-        </li>
-        <li class="webpo_2"></li>
-    </ul>
-       </div>
-    </div>
-    
-    <div id="box_4">
-    </div>
-    
-    <div id="box_5">
-    </div>
-    
-    
-    
-    
-    
-    </container><!--//    #wrap-->
+           </div>
+            <div id="gnb_pic">
+                <ul>
+                    <li class="box2_pic">box2_pic</li>
+                    <li class="box3_pic">box3_pic</li>
+                    <li class="box4_pic">box4_pic</li>
+                    <li class="box5_pic">box5_pic</li>
+                </ul>
+            </div><!--//    #gnb_pic-->
+        </article><!--//    #box1-->
+        <article id="box2">
+           <h2>about me</h2>
+           <span class="box2_title">ABOUT ME</span>
+            <div class="box2_bg"><!--토끼pic--></div>
+            <div id="aboutMe">
+               <ol class="abt_btn">
+                        <li class="abtn_1"><button></button></li>
+                        <li class="abtn_2"><button></button></li>
+                        <li class="abtn_3"><button></button></li>
+                        <li class="abtn_4"><button></button></li>
+                </ol>
+                <ul class="abt_box">
+                    <li class="abt_box1">
+                        <div class="abt_profile">
+                           <ul>
+                                <li class="abt_cha"><!--토끼캐릭터--></li>
+                                <li class="abt_probox">
+                        <ul>
+                            <li>&#8226; 황진경 &#40;Hwang Jin Kyoung&#41;</li>
+                            <li>&#8226; Birth&#58; 1995. 07. 11</li>
+                            <li>&#8226; Address&#58; 경기도 광주시</li>
+                            <li><i class="email"><!--icon--></i>                      
+                                <p>hwangjk711@gmail.com</p></li>
+                            <li><i class="kakao"><!--icon--></i>
+                                <p>qo3op1995</p></li>
+                            <li><i class="insa"><!--icon--></i>
+                                <p>hjin_nk</p></li>
+                            <li><i class="git"><!--icon--></i>
+                                <p>hwangjk</p></li>
+                        </ul>
+                    </li>
+                            </ul>
+                       </div><!--//    .abt_profile-->
+                    </li>
+                    <li class="abt_box2">
+                       <div class="abt_profile">
+                           <ul>
+                    <li class="abt_cha"><!--토끼캐릭터--></li>
+                    <li class="abt_probox">
+                        <ul>
+                            <li>&#8226; 황진경 &#40;Hwang Jin Kyoung&#41;</li>
+                            <li>&#8226; Birth&#58; 1995. 07. 11</li>
+                            <li>&#8226; Address&#58; 경기도 광주시</li>
+                            <li><i class="email"><!--icon--></i>                      
+                                <p>hwangjk711@gmail.com</p></li>
+                            <li><i class="kakao"><!--icon--></i>
+                                <p>qo3op1995</p></li>
+                            <li><i class="insa"><!--icon--></i>
+                                <p>hjin_nk</p></li>
+                            <li><i class="git"><!--icon--></i>
+                                <p>hwangjk</p></li>
+                        </ul>
+                    </li>
+                </ul>
+                       </div><!--//    .abt_profile-->
+                       <div class="abt_skill skill_1">
+                        <dl class="skill_01">
+			        <dt>Adobe Photoshop</dt>
+			        <dd>
+			            <div class="ps"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_02">
+			        <dt>Adobe illustation</dt>
+			        <dd>
+			            <div class="ai"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_03">
+			        <dt>Adobe Indesign</dt>
+			        <dd>
+			            <div class="id"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_04">
+			        <dt>Adobe aftereffct</dt>
+			        <dd>
+			            <div class="ae"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_05">
+			        <dt>HTML</dt>
+			        <dd>
+			            <div class="htm"><!--bar--></div>
+			        </dd>
+			    </dl>
+                       </div>
+                       <div class="abt_skill">
+                        <dl class="skill_06">
+			        <dt>CSS</dt>
+			        <dd>
+			            <div class="css"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_07">
+			        <dt>SASS(SCSS)</dt>
+			        <dd>
+			            <div class="sass"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_08">
+			        <dt>Javascript(jQuery)</dt>
+			        <dd>
+			            <div class="js"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_09">
+			        <dt>Assistor PS</dt>
+			        <dd>
+			            <div class="asi"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_10">
+			        <dt>Git hurb</dt>
+			        <dd>
+			            <div class="git"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_11">
+			        <dt>Auto CAD</dt>
+			        <dd>
+			            <div class="cad"><!--bar--></div>
+			        </dd>
+			    </dl>
+                       </div>
+                    </li>
+                    <li class="abt_box3">
+                        <ul class="abtb_me">
+                            <li class="abtb_me_1"><span class="me_hidden">abtb_me_1</span></li>
+                            <li class="abtb_me_2"><span class="me_hidden">abtb_me_2</span></li>
+                            <li class="abtb_me_3"><span class="me_hidden">abtb_me_3</span></li>
+                            <li class="abtb_me_4"><span class="me_hidden">abtb_me_4</span></li>
+                            <ul class="abtb_name">
+                                <li class="abtb_title">
+                                   <p class="abtb_t">CREATIVE</p>
+                                   <p>POSITIVE</p>
+                                   <p>RESPONSIBILITY</p>
+                                   <p>ARDENT</p>
+                                    
+                                </li>
+                                <li class="abtb_con">
+                                    <span class="abtb_c">톡톡튀는 창의력을 가진 사람</span>
+                                    <span>항상 밝은얼굴<br/>긍정적인 마인드를 가진 사람</span>
+                                    <span>맡은 일은 책임감을 가지고<br/>최선을 다해 임하는 사람</span>
+                                    <span>불타오르는 열정과<br/> 불꽃같은 심장을 가진 사람</span>
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="abt_box4">
+                       <div class="abt_skill skill_1">
+                        <dl class="skill_01">
+			        <dt>Adobe Photoshop</dt>
+			        <dd>
+			            <div class="ps"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_02">
+			        <dt>Adobe illustation</dt>
+			        <dd>
+			            <div class="ai"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_03">
+			        <dt>Adobe Indesign</dt>
+			        <dd>
+			            <div class="id"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_04">
+			        <dt>Adobe aftereffct</dt>
+			        <dd>
+			            <div class="ae"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_05">
+			        <dt>HTML</dt>
+			        <dd>
+			            <div class="htm"><!--bar--></div>
+			        </dd>
+			    </dl>
+                       </div>
+                       <div class="abt_skill">
+                        <dl class="skill_06">
+			        <dt>CSS</dt>
+			        <dd>
+			            <div class="css"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_07">
+			        <dt>SASS(SCSS)</dt>
+			        <dd>
+			            <div class="sass"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_08">
+			        <dt>Javascript(jQuery)</dt>
+			        <dd>
+			            <div class="js"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_09">
+			        <dt>Assistor PS</dt>
+			        <dd>
+			            <div class="asi"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_10">
+			        <dt>Git hurb</dt>
+			        <dd>
+			            <div class="git"><!--bar--></div>
+			        </dd>
+			    </dl>
+                        <dl class="skill_11">
+			        <dt>Auto CAD</dt>
+			        <dd>
+			            <div class="cad"><!--bar--></div>
+			        </dd>
+			    </dl>
+                       </div>
+                    </li>
+                    
+                </ul><!--//    .abt_box-->
+            </div><!--//    #aboutMe-->
+        </article><!--//    #box2-->
+        <article id="box3">
+            <span class="box3_title">WEB</span>
+            <div class="box3_bg"><!--토끼pic--></div>
+            <dl class="web">
+                <dt class="webpo_title1"><p>origin project</p></dt>
+                    <dd class="webpo_1 height_view">
+                        <div class="webpo_pic1"></div>
+                        <div class="webpo_con1">
+                           <span class="con1_title">또래오래(Toreore)</span>
+                           
+                            <ul class="con_btn">
+                                <li class="process">
+                                <button>작업과정</button></li>
+                                <li class="sitego"><button><a href="./toreore/index.html" target="_blank">SITE</a></button></li>
+                            </ul>
+                        </div>
+                    </dd>
+                <dt class="webpo_title2"><p>team project</p></dt>
+                    <dd class="webpo_2">
+                        <div class="webpo_pic2"></div>
+                        <div class="webpo_con2">
+                           <span class="con2_title">세븐일레븐(seven eleven)</span>
+                           
+                            <ul class="con_btn">
+                                <li class="process">
+                                <button>작업과정</button></li>
+                                <li class="sitego"><button><a href="./seven/index.html" target="_blank">SITE</a></button></li>
+                            </ul>
+                        </div>
+                    </dd>
+            </dl>
+        </article><!--//    #box3-->
+        <article id="box4">
+            <span class="box4_title">GALLERY</span>
+            <div class="box4_bg"><!--토끼pic--></div>
+            <dl class="gallery">
+                <dt class="g_title1"><p>INFOGRAPHIC</p></dt>
+                    <dd class="vpo_1 ga_height">
+                        <ul>
+                            <li class="info_1"><a href="#"><span class="me_hidden">info_1</span></a></li>
+                            <li class="info_2"><span class="me_hidden">info_2</span></li>
+                        </ul>
+                    </dd>
+                    
+                <dt class="g_title2"><p>EDIT</p></dt>
+                    <dd class="vpo_2">
+                        <ul>
+                            <li class="edit_1"><a href="#"><span class="me_hidden">edit_1</span></a></li>
+                            <li class="edit_2"><a href="#"><span class="me_hidden">edit_2</span></a></li>
+                            <li class="edit_3"><a href="#"><span class="me_hidden">edit_3</span></a></li>
+                        </ul>
+                    </dd>
+                    
+                <dt class="g_title3"><p>AD</p></dt>
+                    <dd class="vpo_3">
+                        <ul>
+                            <li>ad_1</li>
+                            <li>ad_2</li>
+                            <li>ad_3</li>
+                        </ul>
+                    </dd>
+            </dl>
+        </article><!--//    #box4-->
+        <article id="box5">
+            <div id="pro_box">
+                <ul>
+                    <li class="contect_pic"><!--토끼사진--></li>
+                    <li ><i class="ic_phone"><!--icon--></i><p>010-4194-1322</p></li>
+                    <li ><i class="ic_kakao"><!--icon--></i><p><a href="http://open.kakao.com/o/s5yyGFk">카카오톡 채팅하기</a></p></li>
+                    <li ><i class="ic_email"><!--icon--></i><p class="email">hwangjk711@gmail.com</p></li>
+                    <li ><i class="ic_site"><!--icon--></i><p class="last_p4"><a href="http://hwangjk711.github.io">http://hwangjk711.github.io</a></p></li>
+                </ul>
+            </div>
+        </article><!--//    #box5-->
+    </container>
+        <script>
+        $(document).ready(function(){
+            index();
+        });
+    </script>
 </body>
 </html>

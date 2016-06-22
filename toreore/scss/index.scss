@@ -6,23 +6,22 @@ $sub2:#f7941e;
 $white:#fff;
 $black:#595959;
 
-
 snap {width: 0; height: 0; display: block; overflow: hidden;}
     html, body{overflow-x: hidden;}
 
 /*___________________________header______________________________*/
 
-header {width: 100%; height: 96px; position: relative; z-index: 500; top: 0; left: 0; border-bottom: 2px solid $main;
-    >#headLnb {width: 100%; height: 30px; background-color:$main;
-        >#headLnbBox {width:960px; height:100%; margin:0 auto; position:relative;}
+header {width: 100%; height: 6rem/*96px*/; position: relative; z-index: 500; top: 0; left: 0; border-bottom: 0.125rem/*2px*/ solid $main;
+    >#headLnb {width: 100%; height: 1.875rem/*30px*/; background-color:$main;
+        >#headLnbBox {width:60rem/*960px*/; height:100%; margin:0 auto; position:relative;}
     }//#headLnb
 
 
 /*_________sns_________*/
 
-#sns {width:76px; height:16px; position:absolute; top:7px; left:30px;
+#sns {width:4.75rem/*76px*/; height:1rem/*16px*/; position:absolute; top:0.4375rem/*7px*/; left:1.875rem/*30px*/;
     >ul{
-        >li{width:16px; width:1rem; height:16px; height:1rem; margin-left:3px; float:left;
+        >li{width:1rem/*16px*/; width:1rem; height:1rem/*16px*/; height:1rem; margin-left:0.1875rem/*3px*/; float:left;
             >a{width:100%; height:100%; display:block; background-repeat:no-repeat; background-image: url(../img/header/sns_icon.png);
                 &:hover{background-image:url(../img/header/hover/sns.png); background-repeat:no-repeat;}
             }//#sns li>a
@@ -31,18 +30,18 @@ header {width: 100%; height: 96px; position: relative; z-index: 500; top: 0; lef
             >a{margin-left:0px;}
         }//.face
         .blog{
-            >a{background-position:-18px 0;
-                &:hover{background-position:-18px 0;}
+            >a{background-position:-1.125rem/*18px*/ 0;
+                &:hover{background-position:-1.125rem/*18px*/ 0;}
             }
         }//.blog
         .inst{
-            >a{background-position:-37px 0;
-                &:hover{background-position:-37px 0;}
+            >a{background-position:-2.3125rem/*37px*/ 0;
+                &:hover{background-position:-2.3125rem/*37px*/ 0;}
             }
         }//.inst
         .twit{
-            >a{background-position:-56px 0;
-                &:hover{background-position:-56px 0;}
+            >a{background-position:-3.5rem/*56px*/ 0;
+                &:hover{background-position:-3.5rem/*56px*/ 0;}
             }
         }//.twit
     }
@@ -50,10 +49,10 @@ header {width: 100%; height: 96px; position: relative; z-index: 500; top: 0; lef
 
 
 /*_________login_________*/
-#siteMap{width:128px; height:16px; position:absolute; top:5px; right:30px;
+#siteMap{width:8rem/*128px*/; height:1rem/*16px*/; position:absolute; top:0.3125rem/*5px*/; right:1.875rem/*30px*/;
     >ul{
         >li{float:left;
-            >a{color:$white; font-size:0.875rem; font-family: "Noto Sans KR Regular"; letter-spacing: -0.05rem; margin-left:8px; text-decoration: none;
+            >a{color:$white; font-size:0.875rem; font-family: "Noto Sans KR Regular"; letter-spacing: -0.05rem; margin-left:0.5rem/*8px*/; text-decoration: none;
                 &:hover{text-decoration: underline;}
             }//#siteMap li>a
         }//#siteMap li
@@ -62,40 +61,42 @@ header {width: 100%; height: 96px; position: relative; z-index: 500; top: 0; lef
 
     
 /*_________headGnb_________*/
-#headBox {width:960px; height:56px; padding-top:10px; margin:0 auto; background-color:$white;
-    #headH1 {width:65px; height:55px; float:left; margin-left:40px;
+#headBox {width:60rem/*960px*/; height:3.5rem/*56px*/; padding-top:0.625rem/*10px*/; margin:0 auto; background-color:$white;
+    #headH1 {width:4.0625rem/*65px*/; height:3.4375rem/*55px*/; float:left; margin-left:2.5rem/*40px*/;
         >a{width:100%; height:100%; display: block; background-image: url(../img/header/h1_logo.png); background-repeat:no-repeat; background-size: contain;}
     }//headH1  
     
-    #gnb{width:796px; height:20px; float:left;
-        >ul{
-            >li{width:auto; height: 50px; float:left; margin-top:10px;
-                >a{width:100%; height:100%; display: block; font-size:0.9375rem; font-family: "Noto Sans KR Medium"; line-height:2.8125rem; margin-left:10px; margin-right:40px; float:left; text-decoration: none; color:$black;
+    #gnb{width:49.75rem/*796px*/; height:1.25rem/*20px*/; float:left;
+        >ul{width:100%; height:100%; float:left; margin-top:0.9375rem;
+            >li{width:calc(100% / 6); height:100%;/*3.125rem50px;*/ float:left; 
+                &:nth-child(3){margin-right:/*10px*/0.625rem;}
+                &:nth-child(4){margin-right:1.5625rem/*25px*/;}
+                >a{width:100%; height:100%; display: block; font-size:0.9375rem; font-family: "Noto Sans KR Medium"; line-height:1.25rem; float:left; text-decoration: none; color:$black;
                     &:hover{color:$main;}
                 }//#gnb li>a
-                &:first-child {margin-left:52px;}
+                &:first-child {margin-left:3.25rem/*52px*/;}
             }//#gnb_box>li 
             .menu_1{position:relative;
-                >.bar_1{width:700px; height:0; background-color:$main; position:absolute; top:46px; left:3px; overflow: hidden;
-                    >li{width:auto; height:100%; float:left; margin-right:20px;
-                        >a{width:100%; height:100%; display: block;float:left; text-decoration: none; color:$white; line-height:35px;}
-                        &:nth-child(1){margin-left:100px;}
+                >.bar_1{width:43.75rem/*700px*/; height:0; background-color:$main; position:absolute; top:2.56rem/*40.96px*/; left:0.1875rem/*3px*/; overflow: hidden;
+                    >li{width:auto; height:100%; float:left; margin-right:1.25rem/*20px*/;
+                        >a{width:100%; height:100%; display: block;float:left; text-decoration: none; color:$white; line-height:2.1875rem/*35px*/;}
+                        &:nth-child(1){margin-left:6.25rem/*100px*/;}
                     }
                 }
             }//.menu_1
             .menu_2{position:relative;
-                >.bar_2{width:700px; height:0; background-color:$main; position:absolute; top:46px; left:-130px; overflow: hidden;
-                    >li{width:auto; height:100%; float:left; margin-right:20px;
-                        >a{width:100%; height:100%; display: block;float:left; text-decoration: none; color:$white; line-height:35px;}
-                        &:nth-child(1){margin-left:90px;}
+                >.bar_2{width:43.75rem/*700px*/; height:0; background-color:$main; position:absolute; top:2.56rem/*40.96px*/; left:-8.125rem/*130px*/; overflow: hidden;
+                    >li{width:auto; height:100%; float:left; margin-right:1.25rem/*20px*/;
+                        >a{width:100%; height:100%; display: block;float:left; text-decoration: none; color:$white; line-height:2.1875rem/*35px*/;}
+                        &:nth-child(1){margin-left:5.625rem/*90px*/;}
                     }
                 }
             }//.menu_2
             .menu_4{position:relative;
-                >.bar_4{width:700px; height:0; background-color:$main; position:absolute; top:46px; left:-410px; overflow: hidden;
-                    >li{width:auto; height:100%; float:left; margin-right:20px;
-                        >a{width:100%; height:100%; display: block;float:left; text-decoration: none; color:$white; line-height:35px;}
-                        &:nth-child(1){margin-left:80px;}
+                >.bar_4{width:45.75rem/*700px*/; height:0; background-color:$main; position:absolute; top:2.56rem/*40.96px*/; left:-25.625rem/*410px*/; overflow: hidden;
+                    >li{width:auto; height:100%; float:left; margin-right:1.25rem/*20px*/;
+                        >a{width:100%; height:100%; display: block;float:left; text-decoration: none; color:$white; line-height:2.1875rem/*35px*/;}
+                        &:nth-child(1){margin-left:5rem/*80px*/;}
                     }
                 }
             }//.menu_4
@@ -113,8 +114,8 @@ header {width: 100%; height: 96px; position: relative; z-index: 500; top: 0; lef
 
 
 /*_________banner_________*/
-#bannerBox {width:100%; height:500px; background-color:$sub;
-    #indexBanner {width:1200px; height:500px; margin:0 auto; overflow: hidden; position:relative;
+#bannerBox {width:100%; height:31.25rem/*500px*/; background-color:$sub;
+    #indexBanner {width:75rem/*1200px*/; height:31.25rem/*500px*/; margin:0 auto; overflow: hidden; position:relative;
         >.banner_box{width:300%; height:100%; margin-left:-100%;
             >li{width:calc(100% / 3); height:100%;float:left; transition:all 1s;}
             .banner_1 {background-image:url(../img/banner/banner_pic_3.jpg); background-repeat:no-repeat; background-size:contain;}
@@ -124,11 +125,11 @@ header {width: 100%; height: 96px; position: relative; z-index: 500; top: 0; lef
         
 /*_________button_________*/
         
-        >.index_btn {width:26px; height:46px; position:absolute; top:50%; margin-top:-23px; cursor:pointer; background-image: url(../img/banner/arrow.png); background-repeat: no-repeat;}//.index_btn
-        #indexBtn_L {left:70px; background-color:transparent;}
-        #indexBtn_R {right:70px; background-color:transparent; background-position: -774px 0;}
-        >ol{width:86px; height:10px; position:absolute; left:50%; bottom:25px; margin-left:-43px;
-            >li {width:10px;height:10px; margin-right:28px; background-color:$white; float:left; cursor: pointer; border-radius: 50%;
+        >.index_btn {width:1.625rem/*26px*/; height:2.875rem/*46px*/; position:absolute; top:50%; margin-top:-1.4375rem/*23px*/; cursor:pointer; background-image: url(../img/banner/arrow.png); background-repeat: no-repeat;}//.index_btn
+        #indexBtn_L {left:4.375rem/*70px*/; background-color:transparent;}
+        #indexBtn_R {right:4.375rem/*70px*/; background-color:transparent; background-position: -48.375rem/*774px*/ 0;}
+        >ol{width:5.375rem/*86px*/; height:0.625rem/*10px*/; position:absolute; left:50%; bottom:1.5625rem/*25px*/; margin-left:-2.6875rem/*43px*/;
+            >li {width:0.625rem/*10px*/;height:0.625rem/*10px*/; margin-right:1.75rem/*28px*/; background-color:$white; float:left; cursor: pointer; border-radius: 50%;
                 &:last-child{margin-right: 0;}}
         }//ol
 
@@ -139,26 +140,26 @@ header {width: 100%; height: 96px; position: relative; z-index: 500; top: 0; lef
 
 
 /*___________________________product______________________________*/
-#product {width:100%; height:440px; background-image:url(../img/product/product_bg.jpg); padding-top:50px; position:relative;
-   >dl {font-size:22px; font-size:1.375rem; font-weight: bold; text-align: center; font-family:"Noto Sans KR DemiLight";
-       #product_btn{width:420px; height:28px; margin-top:50px; background-color:$white; position:absolute; left:50%; margin-left:-210px;
-           >button {width:140px; width:calc(100% / 3); height:100%; float:left;
+#product {width:100%; height:27.5rem/*440px*/; background-image:url(../img/product/product_bg.jpg); padding-top:3.125rem/*50px*/; position:relative;
+   >dl {font-size:1.375rem/*22px*/; font-size:1.375rem; font-weight: bold; text-align: center; font-family:"Noto Sans KR DemiLight";
+       #product_btn{width:26.25rem/*420px*/; height:1.75rem/*28px*/; margin-top:3.125rem/*50px*/; background-color:$white; position:absolute; left:50%; margin-left:-13.125rem/*210px*/;
+           >button {width:8.75rem/*140px*/; width:calc(100% / 3); height:100%; float:left;
            }//button
            .btn_red {background-color:$main;}
-           #pro_btn_1 {font-size:12px; color:$white; font-family:"Noto Sans KR Bold Bold";font-weight:bold; cursor:pointer;}
-           #pro_btn_2 {font-size:12px; font-size:0.75rem; color:#fff; font-family:"Noto Sans KR Bold Bold";font-weight:bold;background-color:$sub2; cursor:pointer;}
-           #pro_btn_3 {font-size:12px; font-size:0.75rem; color:#fff; font-family:"Noto Sans KR Bold Bold";font-weight:bold; cursor:pointer;}
+           #pro_btn_1 {font-size:0.75rem/*12px*/; color:$white; font-family:"Noto Sans KR Bold Bold";font-weight:bold; cursor:pointer;}
+           #pro_btn_2 {font-size:0.75rem/*12px*/; font-size:0.75rem; color:#fff; font-family:"Noto Sans KR Bold Bold";font-weight:bold;background-color:$sub2; cursor:pointer;}
+           #pro_btn_3 {font-size:0.75rem/*12px*/; font-size:0.75rem; color:#fff; font-family:"Noto Sans KR Bold Bold";font-weight:bold; cursor:pointer;}
        }//#product_btn
        
 /*_________productBox_________*/
        dd{
-           #productBox{width:804px; height:222px; position:absolute; top:180px; left:50%; margin-left:-402px; overflow: hidden;
-               >ul{width:804px; height:300%;
-                   >li {width:804px; height:calc(100% / 3); height:222px;}
+           #productBox{width:50.25rem/*804px*/; height:13.875rem/*222px*/; position:absolute; top:11.25rem/*180px*/; left:50%; margin-left:-25.125rem/*402px*/; overflow: hidden;
+               >ul{width:50.25rem/*804px*/; height:300%;
+                   >li {width:50.25rem/*804px*/; height:calc(100% / 3); height:13.875rem/*222px*/;}
                    .productBan_1{
-                       .chicken {width:804px; width:50.25rem; height:152px; height:9.5rem;
+                       .chicken {width:50.25rem/*804px*/; width:50.25rem; height:9.5rem/*152px*/; height:9.5rem;
                            >ul{
-                               >li{width:180px; height:152px; float:left; margin-left:17.2px; box-shadow: 0px 2px 10px #999;
+                               >li{width:11.25rem/*180px*/; height:9.5rem/*152px*/; float:left; margin-left:1.075rem/*17.2px*/; box-shadow: 0px 0.125rem/*2px*/ 0.625rem/*10px*/ #999;
                                    >a {width:100%; height:100%; display: block;}
                                }
                                .chi_1 {background-image:url(../img/product/pbox_chicken_1.jpg); background-repeat:no-repeat;}
@@ -167,14 +168,14 @@ header {width: 100%; height: 96px; position: relative; z-index: 500; top: 0; lef
                                 .chi_4 {background-image:url(../img/product/pbox_chicken_4.jpg); background-repeat:no-repeat;}
                            }
                        }//.chicken
-                       .more_1 {width:804px; margin-top:22px; height:48px; background-color:$main;
-                           >a {width:100%; height:100%; text-align: center; font-size:25px; font-weight:bold; text-decoration: none; line-height:48px; font-family:"Noto Sans KR Black Black"; display: block; color:$white;}
+                       .more_1 {width:50.25rem/*804px*/; margin-top:1.375rem/*22px*/; height:3rem/*48px*/; background-color:$main;
+                           >a {width:100%; height:100%; text-align: center; font-size:1.5625rem/*25px*/; font-weight:bold; text-decoration: none; line-height:3rem/*48px*/; font-family:"Noto Sans KR Black Black"; display: block; color:$white;}
                        }//more_1
                    }//.productBan_1
                    .productBan_2{
-                       .burger {width:804px; height:152px;
+                       .burger {width:50.25rem/*804px*/; height:9.5rem/*152px*/;
                            >ul{
-                               >li{width:180px; height:152px; float:left; margin-left:17.2px; background-color:$white;
+                               >li{width:11.25rem/*180px*/; height:9.5rem/*152px*/; float:left; margin-left:1.075rem/*17.2px*/; background-color:$white;
                                    a{width:100%; height:100%; display:block;}
                                }
                                .burger_1 {background-image: url(../img/product/burger_1.jpg); background-repeat:no-repeat;}
@@ -183,16 +184,16 @@ header {width: 100%; height: 96px; position: relative; z-index: 500; top: 0; lef
                                .burger_4 {background-image: url(../img/product/burger_4.jpg); background-repeat:no-repeat;}
                            }//.burger >ul
                        }//.burger
-                       .more_2 {width:804px; margin-top:22px; height:48px;  background-color:$sub2;
-                           >a{width:100%; height:100%; text-align: center; font-size:25px; font-weight:bold; text-decoration: none; line-height:48px; font-family:"Noto Sans KR Black Black"; display: block;color:$white;}
+                       .more_2 {width:50.25rem/*804px*/; margin-top:1.375rem/*22px*/; height:3rem/*48px*/;  background-color:$sub2;
+                           >a{width:100%; height:100%; text-align: center; font-size:1.5625rem/*25px*/; font-weight:bold; text-decoration: none; line-height:3rem/*48px*/; font-family:"Noto Sans KR Black Black"; display: block;color:$white;}
                        }//.more_2
                    }//.productBan_2
                    
                    
                    .productBan_3{
-                       .sidemenu {width:804px; width:50.25rem; height:152px; height:9.5rem;
+                       .sidemenu {width:50.25rem/*804px*/; width:50.25rem; height:11.25rem/*152px*/; height:9.5rem;
                            ul{
-                               li{width:180px; height:152px; float:left; margin-left:17.2px; margin-left:1.075rem; background-color:$white;
+                               li{width:11.25rem/*180px*/; height:9.5rem/*152px*/; float:left; margin-left:1.075rem/*17.2px*/; margin-left:1.075rem; background-color:$white;
                                    a{width:100%; height:100%; display: block;}
                                }
                                .side_1 {background-image:url(../img/product/side_1.jpg); background-repeat:no-repeat;}
@@ -201,8 +202,8 @@ header {width: 100%; height: 96px; position: relative; z-index: 500; top: 0; lef
                                .side_4 {background-image:url(../img/product/side_4.jpg); background-repeat:no-repeat;}
                            }
                        }//sidemene
-                        .more_3 {width:804px; margin-top:22px; margin-top:1.375rem; width:50.25rem; height:48px; height:3rem; background-color:$main;
-                           >a{width:100%; height:100%; text-align: center; font-size:25px; font-weight:bold; text-decoration: none; line-height:48px; font-family:"Noto Sans KR Black Black"; display: block; color:$white;}
+                        .more_3 {width:50.25rem/*804px*/; margin-top:1.375rem/*22px*/; margin-top:1.375rem; width:50.25rem; height:3rem/*48px*/; height:3rem; background-color:$main;
+                           >a{width:100%; height:100%; text-align: center; font-size:1.5625rem/*25px*/; font-weight:bold; text-decoration: none; line-height:3rem/*48px*/; font-family:"Noto Sans KR Black Black"; display: block; color:$white;}
                        }
                    }//.productBan_3
                }
@@ -213,102 +214,102 @@ header {width: 100%; height: 96px; position: relative; z-index: 500; top: 0; lef
 
 
 /*_________information_________*/
-#information {width:100%; height:650px;
-    #articleBox{width:1000px; height:700px; margin:132px;
-        >dl{width:100%; height:568px; margin-top:50px;
+#information {width:100%; height:40.625rem/*650px*/;
+    #articleBox{width:59.0625rem/*945px*/; height:46.75rem/*700px*/; margin:0 auto;
+        >dl{width:100%; height:35.5rem/*568px*/; margin-top:3.125rem/*50px*/;
             >dd{
-                .info_menu{width:1000px; height:568px; position:relative;
+                .info_menu{width:62.5rem/*1000px*/; height:35.5rem/*568px*/; position:relative;
                     >dt {width:calc(100% / 6); height:100%; float:left;
                         >a{width:100%; height:100%; display: block; text-decoration: none; background-image: url(../img/article/icon.png); background-repeat: no-repeat;
-                            p{width:100%; height:1200px; padding-top:100px; color:#fff;text-align: center; font-size:1.075rem; font-family: "Noto Sans KR DemiLight DemiLight"; letter-spacing: -0.075rem; display: block;}
+                            p{width:100%; height:5rem/*1200px*/; padding-top:6.25rem/*100px*/; color:#fff;text-align: center; font-size:1.075rem; font-family: "Noto Sans KR DemiLight DemiLight"; letter-spacing: -0.075rem; display: block;}
                         }
                     }
                     >dd{width:0; height:100%; overflow: hidden; float:left; transition:all 0.3s;}
                     .info_1{
-                        a{background-position:50px 250px;}    
+                        a{background-position:3.125rem/*50px*/ 15.625rem/*250px*/;}    
                     }//.info_1
-                    .infobox_1{background-image:url(../img/article/article_bg_orange.jpg); background-position:-20px 0;
+                    .infobox_1{background-image:url(../img/article/article_bg_orange.jpg); background-position:-1.25rem/*20px*/ 0;
                         >ul{
                             .title{width: 0; height: 0; overflow: hidden;}
-                            .intro_box1 {width:250px; height:101px;  margin-right:20px; margin-left:10px; margin-top:50px; border-bottom: 1px solid $sub;
+                            .intro_box1 {width:15.625rem/*250px*/; height:6.3125rem/*101px*/;  margin-right:1.25rem/*20px*/; margin-left:0.625rem/*10px*/; margin-top:3.125rem/*50px*/; border-bottom: 0.0625rem/*1px*/ solid $sub;
                                 >a{width:100%; height:100%; display: block;
                                 >ul{width:100%; height:100%; 
-                                    .intro_pic_1 {float:left; width:70px; height:101px; background-image: url(../img/article/infomenu_box1/art_book_2.png); background-size:contain; float:left; background-repeat: no-repeat;}//intro_pic_1
-                                    .intro_title_1{float:left; width:180px; height:101px;
-                                        >p{width:160px; height:60px; display: block; margin-left: 10px; text-align: center; font-size: 1.07rem; font-weight: bold; margin-top:15px; color:$sub;}
+                                    .intro_pic_1 {float:left; width:4.375rem/*70px*/; height:6.3125rem/*101px*/; background-image: url(../img/article/infomenu_box1/art_book_2.png); background-size:contain; float:left; background-repeat: no-repeat;}//intro_pic_1
+                                    .intro_title_1{float:left; width:11.25rem/*180px*/; height:6.3125rem/*101px*/;
+                                        >p{width:10rem/*160px*/; height:3.75rem/*60px*/; display: block; margin-left: 0.625rem/*10px*/; text-align: center; font-size: 1.07rem; font-weight: bold; margin-top:0.9375rem/*15px*/; color:$sub;}
                                     }//.intro_title_1
                                 }//intro_box1>ul
                                 }//intro_box1>a
                             }//.intro_box1
-                            .intro_box2 {width:250px; height:101px;  margin-right:20px; margin-left:10px; margin-top:50px; border-bottom: 1px solid $sub;
+                            .intro_box2 {width:15.625rem/*250px*/; height:6.3125rem/*101px*/;  margin-right:1.25rem/*20px*/; margin-left:0.625rem/*10px*/; margin-top:3.125rem/*50px*/; border-bottom: 0.0625rem/*1px*/ solid $sub;
                                 >a{width:100%; height:100%; display: block;
                                     >ul{width:100%; height:100%; 
-                                    .intro_pic_2{float:left; width:70px; height:101px; background-image: url(../img/article/infomenu_box1/art_book_3.png); background-size:contain; float:left; background-repeat: no-repeat;}//.intro_pic_2
-                                    .intro_title_2{float:left; width:180px; height:101px;
-                                        p{width:160px; height:60px; display: block; margin-left: 10px; text-align: center; font-size: 1.07rem; font-weight: bold; margin-top:15px; color:$sub;}
+                                    .intro_pic_2{float:left; width:4.375rem/*70px*/; height:6.3125rem/*101px*/; background-image: url(../img/article/infomenu_box1/art_book_3.png); background-size:contain; float:left; background-repeat: no-repeat;}//.intro_pic_2
+                                    .intro_title_2{float:left; width:11.25rem/*180px*/; height:6.3125rem/*101px*/;
+                                        p{width:10rem/*160px*/; height:3.75rem/*60px*/; display: block; margin-left: 0.625rem/*10px*/; text-align: center; font-size: 1.07rem; font-weight: bold; margin-top:0.9375rem/*15px*/; color:$sub;}
                                         }//.intro_title_2
                                     }//intro_box2 ul
                                 }//intro_box2>a
                             }//.intro_box2
-                            .intro_box3 {width:250px; height:101px;  margin-right:20px; margin-left:10px; margin-top:50px; border-bottom: 1px solid $sub;
+                            .intro_box3 {width:15.625rem/*250px*/; height:6.3125rem/*101px*/;  margin-right:1.25rem/*20px*/; margin-left:0.625rem/*10px*/; margin-top:3.125rem/*50px*/; border-bottom: 0.0625rem/*1px*/ solid $sub;
                                 >a{width:100%; height:100%; display: block;
                                     >ul{width:100%; height:100%; 
-                                    .intro_pic_3{float:left; width:70px; height:101px; background-image: url(../img/article/infomenu_box1/art_book_1.png); background-size:contain; float:left; background-repeat: no-repeat;}//.intro_pic_2
-                                    .intro_title_3{float:left; width:180px; height:101px;
-                                        p{width:160px; height:60px; display: block; margin-left: 10px; text-align: center; font-size: 1.07rem; font-weight: bold; margin-top:15px; color:$sub;}
+                                    .intro_pic_3{float:left; width:4.375rem/*70px*/; height:6.3125rem/*101px*/; background-image: url(../img/article/infomenu_box1/art_book_1.png); background-size:contain; float:left; background-repeat: no-repeat;}//.intro_pic_2
+                                    .intro_title_3{float:left; width:11.25rem/*180px*/; height:6.3125rem/*101px*/;
+                                        p{width:10rem/*160px*/; height:3.75rem/*60px*/; display: block; margin-left: 0.625rem/*10px*/; text-align: center; font-size: 1.07rem; font-weight: bold; margin-top:0.9375rem/*15px*/; color:$sub;}
                                         }//.intro_title_2
                                     }//intro_box2 ul
                                 }//intro_box2>a
                             }//.intro_box2
                         }//.infobox_1 >ul
-                        button{width:84px; height:28px; background-image:url(../img/article/infomenu_box1/more_icon.png); background-repeat: no-repeat;background-size: auto; background-color:transparent;float:right; margin-right:25px; cursor: pointer;margin-top:30px;}
+                        button{width:5.25rem/*84px*/; height:1.75rem/*28px*/; background-image:url(../img/article/infomenu_box1/more_icon.png); background-repeat: no-repeat;background-size: auto; background-color:transparent;float:right; margin-right:1.5625rem/*25px*/; cursor: pointer;margin-top:30px;}
                     }//.infobox_1
                     
                     .info_2{
-                        a{background-position:-125px 250px;}
+                        a{background-position:-7.8125rem/*125px*/ 15.625rem/*250px*/;}
                     }//.info_2
-                    .infobox_2{background-image:url(../img/article/article_bg_red.jpg); background-position:-20px 0;
-                        .chicken_icon {width:200px; height:200px; background-image: url(../img/article/infomenu_box2/chicken.png); margin-top:100px; margin-left:40px;}
-                        #address {width:100px; height:25px;margin-left:70px; margin-top: 50px; float:left;}
-                        .go {width:30px; height:25px; margin-top:50px; margin-left:5px; background-color:$white;}
-                        .box2_more{width:84px; height:28px; background-image:url(../img/article/infomenu_box4/more_btn_red.png); background-repeat: no-repeat;background-size: auto; background-color:transparent;float:right; margin-right:25px; cursor: pointer;margin-top:60px;}
+                    .infobox_2{background-image:url(../img/article/article_bg_red.jpg); background-position:-1.25rem/*20px*/ 0;
+                        .chicken_icon {width:12.5rem/*200px*/; height:12.5rem/*200px*/; background-image: url(../img/article/infomenu_box2/chicken.png); margin-top:6.25rem/*100px*/; margin-left:2.5rem/*40px*/;}
+                        #address {width:6.25rem/*100px*/; height:1.5625rem/*25px*/;margin-left:4.375rem/*70px*/; margin-top: 3.125rem/*50px*/; float:left;}
+                        .go {width:1.875rem/*30px*/; height:1.5625rem/*25px*/; margin-top:3.125rem/*50px*/; margin-left:5px; background-color:$white;}
+                        .box2_more{width:5.25rem/*84px*/; height:1.75rem/*28px*/; background-image:url(../img/article/infomenu_box4/more_btn_red.png); background-repeat: no-repeat;background-size: auto; background-color:transparent;float:right; margin-right:1.5625rem/*25px*/; cursor: pointer;margin-top:3.75rem/*60px*/;}
                     }//.infobox_2
                     
                     .info_3{
-                        a{background-position:-306px 250px;}
+                        a{background-position:-306px 15.625rem/*250px*/;}
                     }//.info_3
-                    .infobox_3{background-image:url(../img/article/article_bg_orange.jpg); background-position:-20px 0;
-                        ul{width:250px; height:500px; margin-top:10px;
-                            li{width:100%; height:calc(100% / 4 - 40px);  margin-bottom: 20px; border-bottom: 1px solid $sub;
-                                &:first-child{margin-top:20px;}
+                    .infobox_3{background-image:url(../img/article/article_bg_orange.jpg); background-position:-1.25rem/*20px*/ 0;
+                        ul{width:15.625rem/*250px*/; height:31.25rem/*500px*/; margin-top:0.625rem/*10px*/;
+                            li{width:100%; height:calc(100% / 4 - 2.5rem/*40px*/);  margin-bottom: 1.25rem/*20px*/; border-bottom: 0.0625rem/*1px*/ solid $sub;
+                                &:first-child{margin-top:1.25rem/*20px*/;}
                                 a{width:100%; height:100%; display: block; text-decoration: none;
-                                    i{ margin-left:10px;width:58px; height:100%; display: block; float:left;}
+                                    i{ margin-left:0.625rem/*10px*/;width:3.625rem/*58px*/; height:100%; display: block; float:left;}
                                     .icon_1{background-image:url(../img/article/infomenu_box3/up.png); background-repeat: no-repeat;background-size: contain; background-position:center;}
                                     .icon_2{background-image:url(../img/article/infomenu_box3/open.png); background-repeat: no-repeat;background-size: contain; background-position:center;}
                                     .icon_3{background-image:url(../img/article/infomenu_box3/start.png); background-repeat: no-repeat;background-size: contain; background-position:center;}
                                     .icon_4{background-image:url(../img/article/infomenu_box3/sangdam.png); background-repeat: no-repeat; background-size: contain; background-position:center;}
-                                    p{width:200px; height:100%; display: block; margin-left:50px; flaot:left; font-size: 1.2rem; text-align:center; line-height:75px; font-weight: bold; color:$sub}
+                                    p{width:12.5rem/*200px*/; height:100%; display: block; margin-left:3.125rem/*50px*/; flaot:left; font-size: 1.2rem; text-align:center; line-height:4.6875rem/*75px*/; font-weight: bold; color:$sub}
                                 }
                             }//infobox_3>ul li
                         }//infobox_3>ul
-                        button{width:84px; height:28px; background-image:url(../img/article/infomenu_box1/more_icon.png); background-repeat: no-repeat;background-size: auto; background-color:transparent;float:right; margin-right:25px; cursor: pointer; margin-top:-10px;}
+                        button{width:5.25rem/*84px*/; height:1.75rem/*28px*/; background-image:url(../img/article/infomenu_box1/more_icon.png); background-repeat: no-repeat;background-size: auto; background-color:transparent;float:right; margin-right:1.5625rem/*25px*/; cursor: pointer; margin-top:-0.625rem/*10px*/;}
                     }//infobox_3
                     
                     .info_4{
-                        a{background-position:-480px 250px;}
+                        a{background-position:-30rem/*480px*/ 15.625rem/*250px*/;}
                     }//.info_4
-                    .infobox_4{background-image:url(../img/article/article_bg_red.jpg); background-position:-20px 0;
-                        ul{width:250px; height:430px; margin-top:10px;
-                            li{width:100%; height:100px; margin-bottom:10px;}
+                    .infobox_4{background-image:url(../img/article/article_bg_red.jpg); background-position:-1.25rem/*20px*/ 0;
+                        ul{width:15.625rem/*250px*/; height:430px; margin-top:0.625rem/*10px*/;
+                            li{width:100%; height:6.25rem/*100px*/; margin-bottom:0.625rem/*10px*/;}
                         }
-                        button{width:84px; height:28px; background-image:url(../img/article/infomenu_box4/more_btn_red.png); background-repeat: no-repeat;background-size: auto; background-color:transparent;float:right; margin-right:25px; cursor: pointer;margin-top:60px;}
+                        button{width:5.25rem/*84px*/; height:1.75rem/*28px*/; background-image:url(../img/article/infomenu_box4/more_btn_red.png); background-repeat: no-repeat;background-size: auto; background-color:transparent;float:right; margin-right:1.5625rem/*25px*/; cursor: pointer;margin-top:3.75rem/*60px*/;}
                     }//.infobox_4
-                    .widthView{width:280px;}
+                    .widthView{width:17.5rem/*280px*/;}
                     .orange {background-color:$sub2;
-                        &:hover{background-image: url(../img/article/article_bg_orange.jpg); background-position:-20px -5px;}
+                        &:hover{background-image: url(../img/article/article_bg_orange.jpg); background-position:-1.25rem/*20px*/ -0.63125rem/*-5px*/;}
                     }//.orange
                     .red{background-color:$main;
-                        &:hover{background-image: url(../img/article/article_bg_red.jpg); background-position:-20px -5px;}
+                        &:hover{background-image: url(../img/article/article_bg_red.jpg); background-position:-1.25rem/*20px*/ -0.63125rem/*-5px*/;}
                     }//.red
                 }//.info_menu
             }
@@ -317,11 +318,11 @@ header {width: 100%; height: 96px; position: relative; z-index: 500; top: 0; lef
 }//#information
     
 /*_________video_________*/
-    #video {width:100%; height:600px;
-        #videoBox{width:960px; height:100%; margin:0 auto; position:relative;
+    #video {width:100%; height:37.5rem/*600px*/;
+        #videoBox{width:60rem/*960px*/; height:100%; margin:0 auto; position:relative;
             dl{
-                dt{font-size:22px; font-size:1.375rem; text-align: center; font-family:"Noto Sans KR DemiLight"; color:$black;}
-                dd{width:760px; height:404px; margin-top:100px; margin-left:200px;}
+                dt{font-size:1.375rem/*22px*/; font-size:1.375rem; text-align: center; font-family:"Noto Sans KR DemiLight"; color:$black;}
+                dd{width:47.5rem/*760px*/; height:25.25rem/*404px*/; margin-top:6.25rem/*100px*/; margin-left:12.5rem/*200px*/;}
             }
         }//#videoBox
     }//#video
@@ -332,23 +333,23 @@ header {width: 100%; height: 96px; position: relative; z-index: 500; top: 0; lef
     
    
 /*___________________________footer______________________________*/
-    footer{width:100%; height:150px; padding-top:28px; background-color:$black; clear: both;
-        #footerBox{width:840px; height:100%; position:relative; margin:0 auto;
-            #footH2{width:90px; height:80px; background-image:url(../img/footer/f_logo.png); background-size:146%; background-position:-22px 0; background-repeat:no-repeat; float:left; margin-left:20px;}
+    footer{width:100%; height:9.375rem/*150px*/; padding-top:1.75rem/*28px*/; background-color:$black; clear: both;
+        #footerBox{width:52.5rem/*840px*/; height:100%; position:relative; margin:0 auto;
+            #footH2{width:5.625rem/*90px*/; height:5rem/*80px*/; background-image:url(../img/footer/f_logo.png); background-size:146%; background-position:-1.375rem/*22px*/ 0; background-repeat:no-repeat; float:left; margin-left:20px;}
             #footWrap{
-                >.foot_site{width:580px; height:25px; float:left; margin-left:40px;
-                    li{width:auto; height:19px; padding:0 6px; float:left; border-right:1px solid $black;
+                >.foot_site{width:36.25rem/*580px*/; height:1.5625rem/*25px*/; float:left; margin-left:2.5rem/*40px*/;
+                    li{width:auto; height:1.1875rem/*19px*/; padding:0 0.375rem/*6px*/; float:left; border-right:0.0625rem/*1px*/ solid $black;
                         a{display: block; text-decoration: none; color:$white;}
                         &:first-child{padding-left:0;}
                         &:last-child{padding-right:0; border-right:0;}
                     }
                 }
             }//#footWrap
-            #text{width:650px; height:44px; display: block; font-size:0.8125rem; letter-spacing: -0.005rem; float:left; margin-left:40px;
-                .adderess {width:650px; height:44px; display: block; font-size:0.8125rem; letter-spacing: -0.005rem; float:left; color:$white;}
-.copy_right {width:450px; height:18px; display: block; font-size:0.8125rem; color:$white;}
+            #text{width:40.625rem/*650px*/; height:2.75rem/*44px*/; display: block; font-size:0.8125rem; letter-spacing: -0.005rem; float:left; margin-left:2.5rem/*40px*/;
+                .adderess {width:40.625rem/*650px*/; height:2.75rem/*44px*/; display: block; font-size:0.8125rem; letter-spacing: -0.005rem; float:left; color:$white;}
+.copy_right {width:28.125rem/*450px*/; height:1.125rem/*18px*/; display: block; font-size:0.8125rem; color:$white;}
             .top{
-                a {width:62px; width:3.875rem; height:76px; height:4.75rem; background-image:url(../img/footer/TOP.png); background-repeat:no-repeat; background-size:90%; display: block; position:absolute; top:-105px; right:-100px;}
+                a {width:3.875rem/*62px*/; width:3.875rem; height:4.75rem/*76px*/; height:4.75rem; background-image:url(../img/footer/TOP.png); background-repeat:no-repeat; background-size:90%; display: block; position:absolute; top:-6.5625rem/*105px*/; right:-6.25rem/*100px*/;}
                 }
             
             }//#text

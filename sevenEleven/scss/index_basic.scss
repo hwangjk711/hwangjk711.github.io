@@ -1,0 +1,34 @@
+$MAIN :#30a959;
+$ORANGE :#e8902a;
+$BK : #333;
+
+@import "./lib/index_pc.scss";
+@import "./lib/index_tab_h.scss";
+@import "./lib/index_tab_v.scss";
+@import "./lib/index_mobile_h.scss";
+@import "./lib/index_mobile_v.scss";
+
+
+#headBox>h1>a{background-image: url(../img/header/h1_logo.png); background-repeat: no-repeat; background-size: contain; background-position: center;}
+
+.h_bar{background-image:url(../img/header/h_bar.jpg);}
+
+//-------submenuhover_메뉴호버 가상클래스
+
+
+
+//-------submenuhover_메뉴호버 가상클래스
+
+//-----------------------------------------------------------------
+
+article{ background-image: url(../img/homeBackground/homeBack.jpg); background-position: center; background-size: cover;}
+
+
+.home_btn {background-image:url(../img/container/homeBtn.png); background-repeat:no-repeat; background-size: contain; background-position: center;}
+.evt_btn {background-image:url(../img/container/eventBtn.png); background-repeat:no-repeat; background-size: contain; background-position: center;}
+.pro_btn {background-image:url(../img/container/proBtn.png); background-repeat:no-repeat; background-size: contain; background-position: center;}
+.do_btn {background-image:url(../img/container/doBtn.png); background-repeat:no-repeat; background-size: contain; background-position: center;}
+
+//-------------------------------------------------------------------------------------
+
+footer{background-color: $MAIN;}
