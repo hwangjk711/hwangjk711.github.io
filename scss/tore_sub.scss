@@ -1,0 +1,88 @@
+$black : #595959;
+$point: #ff5555;
+#wrap {width:100%; height:auto; overflow-x: hidden;
+	
+	#box1 {width:100%; height:100vh; 
+		>ul {width:100%; height:100%; 
+			>li {width:50%; height:100%; float: left; font-family:'Noto Sans KR';}
+				.to_pic {background-image:url(../img/tore_web.png); background-size:contain; background-repeat: no-repeat; background-position: center;}
+				.text {background-color:rgba(255, 125, 125, 0.2);
+					>ul {width: 70%; height: 100%;
+						>li {width: 100%; height: 2rem;  margin-top:20px; margin-left:70px; line-height:2rem; color:$black; font-size: 1rem	;
+							&:first-child {margin-top:6rem; margin-bottom: 2rem; height: 2.5rem;  font-size: 2.5rem; font-weight: bold;  color:$point;}
+							&:last-child {width: 100%; height: 7rem; margin-top: 5rem;}
+							>a {text-decoration: none; color: $black;}
+							.concept {width: 100%; height: 100%; 
+								>li {width: 7rem; height: 100%; background-color: $point; float: left; margin-right: 2.5rem; border-radius: 20rem; color:#fff; line-height:7rem; text-align:center; box-shadow: 2px 2px 2px #ffbcbc;}
+
+							}//.concept
+						}
+					}
+			}//.text
+		}//ul
+	}//#box1
+	#box2 {width:100%; height:100vh; 
+		>ul {width: 100%; height: 100%;
+			>li {width: 50%; height: 100%; float:left;  font-family:'Noto Sans KR';}
+			.to_pic {background-color:rgba(255, 125, 125, 0.2);background-image:url(../img/tore_web.png); background-size:contain; background-repeat: no-repeat; background-position: center;}
+							.text {
+					>ul {width: 100%; height: 100%;
+						>li {width: 70%; height: 15rem;  margin-top:20px; margin-left:70px; line-height:2rem; color:$black; font-size: 1rem	;
+							&:first-child {margin-top:6rem; margin-bottom: 2rem; height: 2.5rem;  font-size: 2.5rem; font-weight: bold;  color:$point;}
+							>.color{width: 100%;  height: 100%; 
+								>li {width: 100%; height:4rem; margin-top:20px;
+									
+									>ul {width: 100%; height: 100%; 
+										.mc {width: 4rem; height: 100%; background-color:#e41e26; border-radius: 2rem; float:left; margin-right:2rem;}
+										.mc_2 {width: 4rem; height: 100%; background-color:#f7941e; border-radius: 2rem; float:left; margin-right:2rem;}
+										.sub {width: 4rem; height: 100%; background-color:#595959; border-radius: 2rem; float:left; margin-right:2rem;}
+									}
+								}
+							}//color
+						}
+						.font {width: 70%; height: 12rem; background-image: url(../img/font.png); background-repeat: no-repeat; background-size: 100%; background-position: center;}
+					}
+			}//.text
+		}
+	}//box2
+	#box3 {width:100%; height:100vh; 
+		#boxWrap {width: 50%; height: 100%;  overflow: hidden; float:left;
+			>ul {width: 200%; height:100%; margin-left:-100%;
+				>li {width: 50%; height:100%; float:left;}
+				.mockup {background-image:url(../img/tore-mockup.png); background-repeat: no-repeat; background-size: 50%; background-position: center; position:relative; 
+						.next {width: 3rem; height: 3rem;  position:absolute; right:1rem; bottom:1rem;}
+				}//mockup
+				.image {background-color:rgba(255, 125, 125, 0.05);background-image:url(../img/tore-site.png); background-repeat: no-repeat; background-size: 50%; background-position: center; position:relative; 
+					.site_button {width: 6rem; height: 100%;  float:right; margin-right:4rem; 
+						>li {width: 100%; height:auto;
+							>button {background-color:transparent; color:$black; cursor: pointer; font-family:'Noto Sans KR';
+								&:hover {color:$point;}
+							}
+						}
+						.header {margin-top:1rem;}
+						.bb {margin-top:4rem;}
+						.pro {margin-top:5.5rem;}
+						.info {margin-top:8.3rem;}
+						.video {margin-top:7.5rem;}
+						.footer {margin-top:5rem;}
+					}//.site_button
+						.before {width: 3rem; height: 3rem;  position:absolute; right:1rem; bottom:1rem;}
+				}//.image
+
+			}
+		}//#boxWrap
+		#codding {width: 50%; height:100%; float:left; 
+			>ul {width: 100%; height:100%; overflow: hidden;
+				>li {width: 0%; height:0%; }
+				.title_c {height:calc(100% - 30%); padding-top:30%;  text-align: center;  color:#ccc; font-size:3rem;}
+				.header_c {background-image:url(../img/header.png); background-repeat: no-repeat; background-size: 66%; background-position: center;}//.header_c
+				.bb_c {background-image:url(../img/banner.png); background-repeat: no-repeat; background-size: 66%; background-position: center;}//.bb_c
+				.pro_c {background-image:url(../img/product.png); background-repeat: no-repeat; background-size: 80%; background-position: center;}//.pro_c
+				.info_c {background-image:url(../img/info.png); background-repeat: no-repeat; background-size: 80%; background-position: center;}//.info_c
+				.video_c {background-color: #fcc;background-image:url(../img/vi.png); background-repeat: no-repeat; background-size: 80%; background-position: center;}//video_c
+			}
+							.codewith{width:100%; height:100%;}
+		}//#codding
+		
+	}//box3
+}//#wrap
