@@ -33,10 +33,10 @@
 @media screen and (min-width:1200px){
 html body {overflow-x: hidden;}
 #wrap {width: 100%; height: auto;
-    #resume {width: 92%; height: 100vh;position: fixed; right: -85%; z-index: 1000;  transition:all 1s;
+    #resume {width: 92%; height: 100vh;position: fixed; right: -85%; z-index: 1000;  transition:all 1s; background-color: #fff;
         &.resm_move {right:0;}
-        #resmBar{width: 8%; height: 100%;float: left;margin-left: 1%; background-image: url(../img/resume_bg.png); 
-            h1 {width: 61%; height: 4.5vw/*60px*/; margin-left: 15%; margin-top:20%;
+        #resmBar{width: 7vw; height: 100%;float: left;margin-left: 1%; background-image: url(../img/resume_bg.png);  background-repeat: repeat-y;
+            h1 {width: 5vw; height: 4.5vw/*60px*/; margin-left: 15%; margin-top:20%;
             button {width: 100%; height: 100%; background-color: transparent; background-image:url(../img/home.png); background-size: cover; background-repeat: no-repeat;
                 &:hover{background-image: url(../img/home_hov.png); background-size: cover; background-repeat: no-repeat;}
             }
@@ -45,25 +45,25 @@ html body {overflow-x: hidden;}
         }//h1
         
             
-            .rem_btn {width:50%; height:40px; margin-top: 240px; padding-top:10px; margin-left:30px; cursor: pointer;
+            .rem_btn {width:50%; height:3vw; margin-top: 17vw; padding-top:1vw; margin-left:30px; cursor: pointer; 
                 &:hover >.btn_up{transform: rotate(-35deg);}
                 &:hover >.btn_down{transform: rotate(35deg);}
                 span{display: block;}
-                .btn_up{width:80%; height:6px; border-radius: 10px; background-color:#fff;  margin-bottom:14px; 
+                .btn_up{width:80%; height:0.5vw; border-radius: 10px; background-color:#fff;  margin-bottom:0.9vw; 
                 transition:all 0.2s; box-shadow: 3px 3px 3px #ff6c6c;}
-                .btn_down{width:80%; height:6px; border-radius: 10px; background-color:#fff;transition:all 0.2s; box-shadow: 3px 3px 3px #ff6c6c;}
+                .btn_down{width:80%; height:0.5vw; border-radius: 10px; background-color:#fff;transition:all 0.2s; box-shadow: 3px 3px 3px #ff6c6c;}
             } 
         }//#resmBar 
       
-        .resm {width: 91%; height: 100%; float: left;  background-color: $white;
+        .resm {width:82vw; height: 100%; float: left;  background-color: $white;
             li {height:100%; float:left;}
             .resm_pro {width: 20%;
                 >ul{width: 100%; height: 100%;
                     .r_cha {width: 95%; height: 50%; background-image:url(../img/myface.png); background-repeat: no-repeat; background-size:100%; margin-left: 2.5%;  margin-top:10%;}
                 .r_profile {width: 95%; height: 40%; margin-left:2.5%; margin-top:8%;
                     >ul{width: 100%; height: 100%;
-                        >li{width: 100%; height: 10%; margin-bottom: 0.833vw/*10px*/; font-size:2.2vh; line-height: 2vw; color:$black; font-family: $font; font-weight: normal; word-spacing: 0.2rem;
-                            >i {width: 12%; height: 100%; float:left; display: block; margin-right: 6px; background-repeat: no-repeat; background-size:90%;}
+                        >li{width: 100%; height: 10%; margin-bottom: 0.833vw/*10px*/; font-size:1vw; line-height: 2vw; color:$black; font-family: $font; font-weight: normal; word-spacing: 0.2rem;
+                            >i {width: 12%; height: 100%; float:left; display: block; margin-right: 0.5vw; background-repeat: no-repeat; background-size:90%;}
                             .email {background-image:url(../img/pro_e.png);}
                             .kakao {background-image:url(../img/pro_ka.png); background-position: 0 6px;}
                             .insa {background-image:url(../img/pro_in.png);}
@@ -86,7 +86,7 @@ html body {overflow-x: hidden;}
                                 .iwe {background-image:url(../img/pro_work.png);}
                                 .iaw {background-image:url(../img/pro_aw.png);}
                                 .ili {background-image:url(../img/pro_li.png);}
-                                >p{width: 50%; height: 100%; display: block;  margin-left: 7%; font-size: 3.8vh; font-weight: 500; line-height: 2.3vw; font-family: $font; color:#ff6c6c;}
+                                >p{width: 50%; height: 100%; display: block;  margin-left: 7%; font-size: 2vw; font-weight: 500; line-height: 2.3vw; font-family: $font; color:#ff6c6c;}
                             }//dt
                             >dd {width: 100%; height: 78%;
                                 >ul{width: 100%; height: 100%; position: relative;
@@ -94,10 +94,10 @@ html body {overflow-x: hidden;}
                                         &:first-child {margin-top:0;}
                                         p {width: 25%; height: 100%;float: left; margin-left: 5%; text-align: center; color:$black; font-family: $font; font-weight: 400;}
                                         .con_tx {font-size: 2vh; font-family: $font; font-weight: 400;}
-                                        .con_txt {font-size: 1.9vh; line-height:2.2vh; font-family: $font; font-weight: 400;}
+                                        .con_txt {font-size: 1.9vh; line-height:1vw; font-family: $font; font-weight: 400;}
                                     }
                                     .re_graph {width: 100%; height: 12%; position:absolute; top:27%;
-                                        >span {width: 2.6%; height: 100%; border-radius: 10px; background-color: #ff6c6c; display: block; margin-left: 28%; float:left;}
+                                        >span {width: 2.6%; height: 100%; border-radius: 5vw; background-color: #ff6c6c; display: block; margin-left: 28%; float:left;}
                                         .fir_span{margin-left:16%;}
                                     }//.re_graph
                                     .re_graph_li {width: 100%; height: 12%; position:absolute; top:27%;
@@ -109,10 +109,10 @@ html body {overflow-x: hidden;}
                                     }//.re_graph
                                    
                                     .date>p {line-height:3vw;}
-                                    .re_bar {width: 90%; height:5%; margin-left: 5%; border-radius: 6px; background-color: $main; margin-bottom: 2%;}
+                                    .re_bar {width: 90%; height:5%; margin-left: 5%; border-radius: 5vw; background-color: $main; margin-bottom: 2%;}
                                     .licen_li{
                                         >p{width: 19%; height: 100%; margin-left:0; margin-right:1%;}
-                                        .con_li{font-size:1.8vh; font-family: $font; font-weight: 400;}
+                                        .con_li{font-size:1vw; font-family: $font; font-weight: 400;}
                                         .p_fir{margin-left:0.5%;}
                                         .p_last{margin-right:0;}
                                     }//.licen_li
@@ -124,10 +124,10 @@ html body {overflow-x: hidden;}
             }//.resm_con
             .resm_skill {width: 30%; background-color: $white;
                 >dl {margin-top:1.3vw/*18px*/; margin-left:1.2vw/*17px*/;
-                    >dt{margin-bottom:0.7vw/*10px*/; color:$black; font-size: 2.7vh; font-family: $font; font-weight: 300;}
+                    >dt{margin-bottom:0.7vw/*10px*/; color:$black; font-size: 1.2vw; font-family: $font; font-weight: 300;}
                     >dd {
-                        width: 95%; height: 8px; border-radius: 6px; background-color: $main2;
-                        >div {width: 0; height: 100%; background-color:#ff6c6c; border-radius: 6px;
+                        width: 95%; height: 8px; border-radius: 5vw; background-color: $main2;
+                        >div {width: 0; height: 100%; background-color:#ff6c6c; border-radius: 5vw;
                         }// div      
                     }//dd
                       &:nth-of-type(1){
@@ -172,20 +172,20 @@ html body {overflow-x: hidden;}
         }//resm
     }//#resume
     #box1 {width: 100%; height: 100vh; position:relative;
-        #box1bg {width:40vw; height:20vw; position: absolute; right:16%; top:20%; background-color: #fac;
+        #box1bg {width:40vw; height:20vw; position: absolute; right:16%; top:20%; 
 
-            ul {width: 100%; height:100%;
-                .bg_text{width:355px; height:152px; margin:70px auto; background-image:url(../img/title.png); background-repeat: no-repeat; position: relative;}
+            ul {width: 100%; height:100%; position: relative; 
+                .bg_text{width:25vw; height:5vw; margin:5vw auto; background-image:url(../img/title.png); background-repeat: no-repeat;  background-size: contain; padding-top: 10vw;}
                 
-                .star {width:25px; height:25px; position: absolute; right:25%; top:45%; background-image:url(../img/star.png); background-repeat: no-repeat; animation:star 2s infinite ;
+                .star {width:1.8vw; height:1.8vw; position: absolute; right:26%; top:20%; background-image:url(../img/star.png); background-repeat: no-repeat; animation:star 2s infinite ; background-size:contain;
                 }
                 
-                .cloud1 {width:75px; height:42px; background-image: url(../img/cloud3.png); background-repeat: no-repeat; position: absolute; top:10%; right:10%; animation:cloud 3s infinite alternate; 
+                .cloud1 {width:5.8vw; height:3vw; background-image: url(../img/cloud3.png); background-repeat: no-repeat; position: absolute; top:10%; right:10%; animation:cloud 3s infinite alternate;   background-size:contain; 
                 }//.cloud1
                 
-                .cloud2 {width:126px; height:68px; background-image:url(../img/cloud2.png); background-repeat: no-repeat; position: absolute; top:37%; left:5%; animation:ncloud 5s infinite alternate;    }//.cloud2
+                .cloud2 {width:9.5vw; height:5vw; background-image:url(../img/cloud2.png); background-repeat: no-repeat; position: absolute; top:37%; left:5%; animation:ncloud 5s infinite alternate;   background-size:contain; }//.cloud2
                 
-                .cloud3 {width:152px; height:83px; background-image: url(../img/cloud.png); background-repeat: no-repeat; position: absolute; top:60%; right:5%; animation:bcloud 5s infinite alternate;
+                .cloud3 {width:12vw; height:6.5vw; background-image: url(../img/cloud.png); background-repeat: no-repeat; position: absolute; top:60%; right:5%; animation:bcloud 5s infinite alternate; background-size:contain;
                 }//.cloud3
             }//ul
  
@@ -193,9 +193,9 @@ html body {overflow-x: hidden;}
     #gnb {width:46%; height:100%/*120px*/; float: left;
     }//#gnb
     .gnb_nav {width:100%; height: 100%; background-image:url(../img/menu.png); background-repeat:no-repeat; background-position:50% 30%;background-size:50%;
-        li {width: 90%; height: 6vh; margin-bottom: 2.5vw/*35px*/; margin-left: 5%;
+        li {width: 90%; height: 2.5vw; margin-bottom: 2.5vw/*35px*/; margin-left: 5%;
             &:first-child{padding-top:16vw;}
-            a {width: 100%; height: 100%; display: block; text-align: center; text-decoration: none; line-height:2.125rem/*34px*/; font-size: 1.5rem; letter-spacing: 0.375rem/*6px*/; color:$sub; font-family: $font; font-weight: 300;
+            a {width: 100%; height: 100%; display: block; text-align: center; text-decoration: none; line-height:3vw/*34px*/; font-size: 1.6vw; letter-spacing: 0.8vw/*6px*/; color:$sub; font-family: $font; font-weight: 300;
         &:hover{color: $main; font-weight: bold;}
     }
             
@@ -249,15 +249,15 @@ html body {overflow-x: hidden;}
         .web {width: 67%; height: 91%; margin-top:-4.5vw; margin-left: 1.5vw/*20px*/; float: left;
             >dt{width: 100%; height: 10%; border-bottom: 1px solid $main; transition: all 0.3s;
                 &:hover{background-color:$white; cursor: pointer;}
-                >p{width: 100%; height: 100%; font-size: 1.25rem; text-align: center; line-height:4vw/*50px*/; font-family: $font; color:#888; font-weight: 300;}   
+                >p{width: 100%; height: 100%; font-size: 1.5vw; text-align: center; line-height:4vw/*50px*/; font-family: $font; color:#888; font-weight: 300;}   
             }//dt
-            >dd{width: 100%;  height:0%/*80%*/;  overflow: hidden; transition:all 0.5s;
+            >dd{width: 100%;  height:0%/*80%*/;  overflow: hidden; transition:all 0.2s;
                 &.height_view {height:80%; } 
             }
             .webpo_1 {
-                .webpo_pic1{width:30vw; height:100%;  background-image: url(../img/tore_web.png); background-position: 2vw 2vw; background-repeat: no-repeat; background-size: contain; float:left; margin-right:2%; margin-left:1%;}
+                .webpo_pic1{width:30vw; height:100%;  background-image: url(../img/tore_web.png); background-position: 0vw 5vw; background-repeat: no-repeat; background-size: contain; float:left; margin-right:2%; margin-left:1%;}
                 .webpo_con1{width:48%; height:100%;  float:left;
-                    .con1_title {width:90%; height:10%; display: block; margin-bottom:10%; margin-top:15%; margin-left:5%; text-align: center; font-family: $font; font-size: 1.3rem; color:$sub;}
+                    .con1_title {width:90%; height:10%; display: block; margin-bottom:10%; margin-top:15%; margin-left:5%; text-align: center; font-family: $font; font-size: 1.8vw; color:$sub;}
                     .con_btn{width:100%; height:50%; 
                         >li {width:35%; height:100%; float:left; margin-right:5%; cursor:pointer;
                             &:hover button{color:#fff;}
@@ -268,22 +268,22 @@ html body {overflow-x: hidden;}
                             }
                             }
                         .process {background-image:url(../img/procesbtn_hov.png); background-repeat: no-repeat; background-position:center; background-size:contain;
-							a{width: 100%; height: 70%; display: block;  text-decoration: none; padding-top:30%; cursor:pointer;  font-family: $font; font-weight: 500; background-color:transparent; color: #ff6c66; 
+							a{width: 100%; height: 100%; display: block;  text-decoration: none; padding-top:30%; cursor:pointer;  font-family: $font; font-weight: 500; background-color:transparent; color: #ff6c66;  font-size: 1.2vw;
 								&:hover {color:#fff;}}
-                            &:hover {background-image: url(../img/procesbtn.png); background-repeat: no-repeat; transition:all 0.5s;background-size:contain;}
+                            &:hover {background-image: url(../img/procesbtn.png); background-repeat: no-repeat; transition:all 0.2s;background-size:contain;}
                         }
                         .sitego {background-image:url(../img/sitebtn.png); background-repeat: no-repeat; background-position: center; background-size:contain;
-							a{width: 100%; height: 70%; display: block;  text-decoration: none; padding-top:30%; cursor:pointer;  font-family: $font; font-weight: 500; background-color:transparent; color: #ff6c66; 
+							a{width: 100%; height: 100%; display: block;  text-decoration: none; padding-top:30%; cursor:pointer;  font-family: $font; font-weight: 500; background-color:transparent; color: #ff6c66; font-size: 1.2vw;
 								&:hover {color:#fff;}}
-                        &:hover {background-image:  url(../img/sitebtn_hov.png); background-repeat: no-repeat;  transition:all 0.5s;background-size:contain;}
+                        &:hover {background-image:  url(../img/sitebtn_hov.png); background-repeat: no-repeat;  transition:all 0.2s;background-size:contain;}
                         }
                     }//.con_btn
                 }//.webpo_con1
             }//.webpo_1
             .webpo_2 {
-                .webpo_pic2{width:48%; height:100%;  background-image:url(../img/seven-eleven_web.png); background-repeat: no-repeat; background-size: 110%;background-position:-1.6rem 3rem;float: left;margin-right:2%; margin-left:1%;}
+                .webpo_pic2{width:48%; height:100%;  background-image:url(../img/seven-eleven_web.png); background-repeat: no-repeat; background-size: 110%;background-position:-1.5vw 5vw;float: left;margin-right:2%; margin-left:1%;}
                 .webpo_con2{width:48%; height:100%;  float:left;
-                    .con2_title {width:90%; height:10%; display: block; margin-bottom:10%; margin-top:15%; margin-left:5%; text-align: center; font-family: $font; font-size: 1.3rem; color:$sub;}
+                    .con2_title {width:90%; height:10%; display: block; margin-bottom:10%; margin-top:15%; margin-left:5%; text-align: center; font-family: $font; font-size: 1.8vw;  color:$sub;}
                     .con_btn{width:100%; height:50%; 
                         >li {width:35%; height:100%; float:left; margin-right:5%; cursor:pointer;
                             &:hover button{color:#fff;}
@@ -294,12 +294,14 @@ html body {overflow-x: hidden;}
                             }
                             }
                         .process {background-image:url(../img/procesbtn_hov.png); background-repeat: no-repeat; background-position:center;background-size:contain;
-                            &:hover {background-image: url(../img/procesbtn.png); background-repeat: no-repeat;  transition:all 0.5s;background-size:contain;}
+							a{width: 100%; height: 70%; display: block;  text-decoration: none; padding-top:30%; cursor:pointer;  font-family: $font; font-weight: 500; background-color:transparent; color: #ff6c66; font-size: 1.2vw;
+								&:hover {color:#fff;}}
+                            &:hover {background-image: url(../img/procesbtn.png); background-repeat: no-repeat;  transition:all 0.2s;background-size:contain;}
                         }
                         .sitego {background-image:url(../img/sitebtn.png); background-repeat: no-repeat; background-position: center;background-size:contain;
-							a{width: 100%; height: 70%; display: block;  text-decoration: none; padding-top:30%; cursor:pointer;  font-family: $font; font-weight: 500; background-color:transparent; color: #ff6c66; 
+							a{width: 100%; height: 70%; display: block;  text-decoration: none; padding-top:30%; cursor:pointer;  font-family: $font; font-weight: 500; background-color:transparent; color: #ff6c66; font-size: 1.2vw;
 								&:hover {color:#fff;}}
-                        &:hover {background-image:  url(../img/sitebtn_hov.png); background-repeat: no-repeat;  transition:all 0.5s;background-size:contain;}
+                        &:hover {background-image:  url(../img/sitebtn_hov.png); background-repeat: no-repeat;  transition:all 0.2s;background-size:contain;}
                         }
                     }//.con_btn
                 }//.webpo_con2
@@ -309,7 +311,7 @@ html body {overflow-x: hidden;}
     }//#box3
     #box4 {width: 100%; height: calc(100vh - 3vw);  padding-top: 3vw;
         .box4_title {width:20%; height:10vh; margin-left:2vw/*50px*/;display: block; margin-top: 2vw; text-align: center; font-size: 5vh/*2rem*/; font-weight: bold; letter-spacing: 0.5rem; line-height: 10vh/*55px*/; font-family: $font; color:$main;}
-        .box4_bg {width: 20%; height: 75%; margin-left:2vw/*50px*/; float: left; margin-top:2.7%; background-image:url(../img/visual.png); background-repeat: no-repeat; background-size:100%; background-position: 0 50px;}
+        .box4_bg {width: 20%; height: 75%; margin-left:2vw/*50px*/; float: left; margin-top:2.7%; background-image:url(../img/visual.png); background-repeat: no-repeat; background-size:100%; background-position: 0 3vw;}
         .gallery {width: 67%; height: 91%; margin-top:-4.5vw;  margin-left: 1.5vw/*20px*/; float: left;
             >dt{width: 100%; height: 10%; cursor: pointer; transition: all 0.3s;
                 p{width: 100%; height: 100%; font-size: 1.2rem; text-align: center; line-height:55px; font-family: $font; color:$sub; border-bottom: 1px solid $main; font-weight: 300;}
@@ -338,8 +340,11 @@ html body {overflow-x: hidden;}
             }//.vpo_2
             .vpo_3 {
                  >ul{width: 100%; height: 100%;
-                    >li{width: 25%; height:70%; margin-left:2%; margin-top:10vh; background-color:#eee; float:left;
+                    >li{width: 25%; height:70%; margin-left:2%; margin-top:10vh;float:left; background-size:contain; background-repeat: no-repeat; background-position:center;
                         &:first-child {margin-left:11%;}}
+						 .ad-1 {background-image: url(../img/ad_1.png); }
+						 .ad-2 {background-image: url(../img/ad.2.png);}
+						 .ad-3 {background-image: url(../img/ad_3.png);}
                 }
             }//.vpo_3
             
