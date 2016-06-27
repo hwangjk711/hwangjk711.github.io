@@ -1,6 +1,3 @@
-$MAIN :#30a959;
-$ORANGE :#e8902a;
-$BK : #333;
 
 @import "./lib/index_pc.scss";
 @import "./lib/index_tab_h.scss";
@@ -8,6 +5,9 @@ $BK : #333;
 @import "./lib/index_mobile_h.scss";
 @import "./lib/index_mobile_v.scss";
 
+$MAIN :#30a959;
+$ORANGE :#e8902a;
+$BK : #333;
 
 #headBox>h1>a{background-image: url(../img/header/h1_logo.png); background-repeat: no-repeat; background-size: contain; background-position: center;}
 

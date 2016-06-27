@@ -2,7 +2,7 @@
 Error: Undefined variable: "$ORANGE".
         on line 37 of scss/lib/index_tab_h.scss
 
-32:         >article{width:100%; height:90vw; padding-top:50px; background-color:#afa;
+32:         >article{width:100%; height:90vw; padding-top:50px;
 33:             >#bannerWrap{width:100%; height:64.5vw; margin:0 auto;
 34:                 >.button{width:316px; height:66px;float:right; margin-right:5.5vw;
 35:                     >li{width: 66px; height:100%; margin-right:13px; float:left;
@@ -139,14 +139,17 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:4
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin.rb:109:in `method_missing'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+C:/Ruby23-x64/bin/sass:23:in `load'
+C:/Ruby23-x64/bin/sass:23:in `<main>'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$ORANGE\".\A         on line 37 of scss/lib/index_tab_h.scss\A \A 32:         >article{width:100%; height:90vw; padding-top:50px; background-color:#afa;\A 33:             >#bannerWrap{width:100%; height:64.5vw; margin:0 auto;\A 34:                 >.button{width:316px; height:66px;float:right; margin-right:5.5vw;\A 35:                     >li{width: 66px; height:100%; margin-right:13px; float:left;\A 36:                         >button{width:100%; height:100%; background-color:transparent; transition: all 0.1s; border:2px solid #aaa; border-radius: 50%;\A 37:                            &:hover {border: 3px solid $ORANGE; border-radius: 50%; cursor: pointer;}}/*button*/\A 38:                         .color{border: 3px solid $ORANGE; border-radius: 50%;}\A 39:                     }/* .button li*/\A 40:                 }/* .button*/\A 41:                 >.banner{width:85.070892vw; height: 51.666666vw; float: left; margin-top:40px; margin-left:7.464553794829024vw; overflow: hidden;\A 42:                     >ul{width:400%; height:100%;  "; }
+  content: "Error: Undefined variable: \"$ORANGE\".\A         on line 37 of scss/lib/index_tab_h.scss\A \A 32:         >article{width:100%; height:90vw; padding-top:50px;\A 33:             >#bannerWrap{width:100%; height:64.5vw; margin:0 auto;\A 34:                 >.button{width:316px; height:66px;float:right; margin-right:5.5vw;\A 35:                     >li{width: 66px; height:100%; margin-right:13px; float:left;\A 36:                         >button{width:100%; height:100%; background-color:transparent; transition: all 0.1s; border:2px solid #aaa; border-radius: 50%;\A 37:                            &:hover {border: 3px solid $ORANGE; border-radius: 50%; cursor: pointer;}}/*button*/\A 38:                         .color{border: 3px solid $ORANGE; border-radius: 50%;}\A 39:                     }/* .button li*/\A 40:                 }/* .button*/\A 41:                 >.banner{width:85.070892vw; height: 51.666666vw; float: left; margin-top:40px; margin-left:7.464553794829024vw; overflow: hidden;\A 42:                     >ul{width:400%; height:100%;  "; }

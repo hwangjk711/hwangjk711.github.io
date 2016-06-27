@@ -1,4 +1,7 @@
 /*      pc       */
+$MAIN :#30a959;
+$ORANGE :#e8902a;
+$BK : #333;
 
 @media screen and (min-width:1200px) {
     %banner_set {background-color:$MAIN; border:10px solid $MAIN; box-sizing: border-box;}
@@ -43,7 +46,9 @@
                 >.banner{width:100%; height: 620px; float: left; margin-top:40px;overflow: hidden;
                     >ul{width:400%; height:100%;
                         li{width:calc(100% / 4); height:100%; float:left;}
-                        .banner_1{} /* .banner_1*/
+                        .banner_1{@extend%banner_set;
+							.se_video {width:100%; height:100%}
+						} /* .banner_1*/
                         .banner_2{@extend %banner_set; position:relative;
                             >.ev_li{width:290px; height:600px; float:left;
                                 li {width:100%; height:142px; margin-bottom:11px; background-color:#fff;
@@ -77,30 +82,44 @@
                                 }/*.ev_btn*/
                             
                         } /* .banner_2*/
-                        .banner_3{@extend %banner_set;
+    					 .banner_3{@extend %banner_set;
                             >.pro_bob{width:394px; height:600px; float:left; position:relative;
                                 .bob{width:100%; height:72px;font-size:1.75rem; font-weight: bold; text-align: center; line-height:72px; color:#fff;}
-                                .bob_box {width:100%; height:527px; background-color:#afa; overflow: hidden;
-                                    ul{width:300%; height:100%; background-color:#f00; margin-left:-100%;
-                                        li{width:calc(100% / 3); height:100%;} /*li*/
-                                        .best_1 {background-color:#1f1;}
-                                        .best_2 {background-color:#555;}
-                                        .best_3 {background-color:#ddd;}
+                                .bob_box {width:100%; height:527px; background-color:#fff; overflow: hidden;
+                                    .bobBtn{width:300%; height:428px; margin-top: 20px; /*margin-left:-100%;*/
+                                        li{width:calc(100% / 3); height:100%;
+                        
+                                            >a{width: 100%; height: 100%; display: block;
+                                             background-position: center; background-repeat: no-repeat;}
+                                        } /*li*/
+                                        .best_1>a {background-image: url(../img/container/banner_3/pc/bob_01.jpg);}
+                                        .best_2>a {background-image: url(../img/container/banner_3/pc/bob_02.jpg);}
+                                        .best_3>a {background-image: url(../img/container/banner_3/pc/bob_03.jpg);}
                                     } /*ul*/
                                 }/* .bob_box*/
-                                .pro_btn{width:100px; height:22px; position:absolute; bottom:22px; left:147px;
+                                .bob_btn{width:100px; height:22px; position:absolute; bottom:22px; left:147px;
                                     li{width:22px; height:22px; margin-right:16px;
                                         &:last-child{margin-right:0;}
-                                        button{width:100%; height:100%; border-radius: 10px; background-color:#fff;}
+                                        button{width:100%; height:100%; border-radius: 10px; background-color:#aaa;
+                                                cursor: pointer;}
                                     }
                                 }/*.pro_btn*/
                             }/* .pro_bob*/
                             >.pro_li{width:596px; height:600px; margin-left:10px; float:left;
                                 li{width:190px; height:295px; margin-top:10px; margin-right:13px; &.up{margin-top:0;
-                                    }&:last-child{margin-right:0;}
-                                    a{width:100%; height:100%; background: #faf;  display: block; float:left;}
-                                   }/* li*/
-                                .three {margin-right:0;}
+                                     
+                                    }&:last-child{margin-right:0; }
+                                    
+                                    a{width:100%; height:100%;   display: block; float:left; background-color: #fff;
+                                      background-position: center; background-repeat: no-repeat; background-size:50%;}
+                                }/* li*/
+                                li:nth-child(1)>a{background-image: url(../img/container/banner_3/pc/product_01.png);}
+                                li:nth-child(2)>a{background-image: url(../img/container/banner_3/pc/product_02.png);}
+                                li:nth-child(3)>a{background-image: url(../img/container/banner_3/pc/product_03.png);}
+                                li:nth-child(4)>a{background-image: url(../img/container/banner_3/pc/product_04.jpg);}
+                                li:nth-child(5)>a{background-image: url(../img/container/banner_3/pc/product_05.jpg);}
+                                li:nth-child(6)>a{background-image: url(../img/container/banner_3/pc/product_06.jpg);}
+                                    .three {margin-right:0; }
 
                                 
                             }/* .pro_li*/

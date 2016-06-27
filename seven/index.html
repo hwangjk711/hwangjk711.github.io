@@ -68,7 +68,27 @@
                menuli.css({'border-color':'#333'});
             });
             
-            //---------mainmenuhover---
+ /*banner3------------------------------------------------------------*/
+            var bobBtn = $('.pro_btn>li>button'),
+                bob1 = $('.pro_btn1'),
+                bob2 = $('.pro_btn2'),
+                bob3 = $('.pro_btn3'),
+                bob_ul = $('.bobBtn'); 
+             
+            bob1.on('click', function(){
+               bobBtn.removeClass('color', function(){bob1.addClass('color')});
+               bob_ul.animate({'margin-left':0},700);
+            });
+             
+             bob2.on('click', function(){
+               bobBtn.removeClass('color', function(){bob2.addClass('color')});
+               bob_ul.animate({'margin-left':-100+'%'},700);
+            });
+             
+             bob3.on('click', function(){
+               bobBtn.removeClass('color', function(){bob3.addClass('color')});
+               bob_ul.animate({'margin-left':-200+'%'},700);
+            }); 
             
          });//jQuery
         
@@ -79,6 +99,7 @@
         <header>
             <div id="headBox">
                 <h1><a href="index.html"><snap class="me_hidden">logo</snap></a></h1>
+
                 <ul id="gnb">
                     <li>
                        <a href="#">EVENT</a>
@@ -131,7 +152,8 @@
                        </ul>
                     </li>
                 </ul>
-                <div id="searchBox"><span class="me_hidden">랄라</span></div>
+
+                <div id="searchBox"><span class="me_hidden">검색</span></div>
             </div><!--// #headBox-->
             <span class="h_bar"><!--head_bar--></span>
         </header><!--//    header-->
@@ -139,15 +161,36 @@
         <article>
             <div id="bannerWrap">
                 <ul class="button">
-                    <li><button class="home_btn color"><span class="me_hidden">홈</span></button></li>
-                    <li><button class="evt_btn"><span class="me_hidden">이벤트</span></button></li>
-                    <li><button class="pro_btn"><span class="me_hidden">제품</span></button></li>
-                    <li><button class="do_btn"><span class="me_hidden">도시락</span></button></li>
+                    <li>
+                    <button class="home_btn color">
+                    <span class="me_hidden">홈</span>
+                    </button>
+                    </li>
+                    
+                    <li>
+                    <button class="evt_btn">
+                    <span class="me_hidden">이벤트</span>
+                    </button>
+                    </li>
+                    
+                    <li>
+                    <button class="pro_btn">
+                    <span class="me_hidden">제품</span>
+                    </button>
+                    </li>
+                    
+                    <li>
+                    <button class="do_btn">
+                    <span class="me_hidden">도시락</span>
+                    </button>
+                    </li>
                 </ul> <!--// .button-->
                 
                 <div class="banner">
                 <ul>
-                    <li class="banner_1"><span class="me_hidden">메인배너_1</span></li>
+                    <li class="banner_1"><span class="me_hidden">메인배너_1</span>
+<iframe class="se_video"  src="https://www.youtube.com/embed/e_p1kY2SUFA?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    </li>
                     <li class="banner_2">
                         <span class="me_hidden">이벤트배너</span>
                     <ul class="ev_li">
@@ -177,20 +220,19 @@
                         </ul>
                     </li>
                     <li class="banner_3">
-                       <span class="me_hidden">제품배너</span>
                         <ul class="pro_bob">
                             <li class="bob">Best of Best</li>
                             <li class="bob_box">
-                                <ul>
+                                <ul class="bobBtn">
                                     <li class="best_1"><a href="#"><span>망고푸딩1</span></a></li>
                                     <li class="best_2"><a href="#"><span>망고푸딩2</span></a></li>
                                     <li class="best_3"><a href="#"><span>망고푸딩3</span></a></li>
                                 </ul>
                             </li>
-                            <ul class="pro_btn">
-                                <li><button><span class="me_hidden">bob1</span></button></li>
-                                <li><button><span class="me_hidden">bob2</span></button></li>
-                                <li><button><span class="me_hidden">bob3</span></button></li>
+                            <ul class="bob_btn">
+                                <li class="pro_btn1"><button><span class="me_hidden">bob1</span></button></li>
+                                <li class="pro_btn2"><button><span class="me_hidden">bob2</span></button></li>
+                                <li class="pro_btn3"><button><span class="me_hidden">bob3</span></button></li>
                             </ul>
                             <span class="pro_deco"><!--bar--></span>
                         </ul>

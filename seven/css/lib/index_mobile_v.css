@@ -12,7 +12,7 @@ Error: Undefined variable: "$ORANGE".
 29:                     }/* .button li*\/
 30:                 }/* .button*\/
 31:                 
-32:                 >.banner{width: 100%; height:184.375vw;/*885/480*100*\/ margin-top: 5.833333vw;/*25/480*100*\/ background-color:#faf; overflow: hidden;
+32:                 >.banner{width: 100%; height:184.375vw;/*885/480*100*\/ margin-top: 5.833333vw;/*25/480*100*\/  overflow: hidden;
 
 Backtrace:
 scss/lib/index_mobile_v.scss:27
@@ -149,4 +149,4 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$ORANGE\".\A         on line 27 of scss/lib/index_mobile_v.scss\A \A 22:             >#bannerWrap{width: 100%; height:auto; /*972/480*100*/; padding-top:15px; \A 23:                 >.button{width: 230px; height: 50px; margin: 0 auto;\A 24:                     >li{width: 50px; height: 50px; margin-right: 10px; float: left;\A 25:                         &:last-child{margin-right: 0;}\A 26:                         >button{width:100%; height:100%; background-color:transparent; transition: all 0.1s; border:2px solid #aaa; border-radius: 50%;\A 27:                            &:hover {border: 3px solid $ORANGE; border-radius: 50%; cursor: pointer;}}/*button*/\A 28:                         .color{border: 3px solid $ORANGE; border-radius: 50%;}\A 29:                     }/* .button li*/\A 30:                 }/* .button*/\A 31:                 \A 32:                 >.banner{width: 100%; height:184.375vw;/*885/480*100*/ margin-top: 5.833333vw;/*25/480*100*/ background-color:#faf; overflow: hidden;"; }
+  content: "Error: Undefined variable: \"$ORANGE\".\A         on line 27 of scss/lib/index_mobile_v.scss\A \A 22:             >#bannerWrap{width: 100%; height:auto; /*972/480*100*/; padding-top:15px; \A 23:                 >.button{width: 230px; height: 50px; margin: 0 auto;\A 24:                     >li{width: 50px; height: 50px; margin-right: 10px; float: left;\A 25:                         &:last-child{margin-right: 0;}\A 26:                         >button{width:100%; height:100%; background-color:transparent; transition: all 0.1s; border:2px solid #aaa; border-radius: 50%;\A 27:                            &:hover {border: 3px solid $ORANGE; border-radius: 50%; cursor: pointer;}}/*button*/\A 28:                         .color{border: 3px solid $ORANGE; border-radius: 50%;}\A 29:                     }/* .button li*/\A 30:                 }/* .button*/\A 31:                 \A 32:                 >.banner{width: 100%; height:184.375vw;/*885/480*100*/ margin-top: 5.833333vw;/*25/480*100*/  overflow: hidden;"; }
