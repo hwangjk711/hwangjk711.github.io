@@ -517,7 +517,7 @@
                            
                             <ul class="con_btn">
                                 <li class="process">
-                                <button>작업과정</button></li>
+                                <button><a href="./sev_sub.html" target="_blank" >작업과정</a></button></li>
                                 <li class="sitego"><button><a href="./seven/index.html" target="_blank">SITE</a></button></li>
                             </ul>
                         </div>
@@ -570,6 +570,27 @@
         <script>
         $(document).ready(function(){
             index();
+			
+		 $(function(){
+ 
+            var article_H = $('article').height(),
+                timed = 1000;
+
+
+        $("html, body").on('mousewheel DOMMouseScroll', function(e){
+            var E = e.originalEvent;
+            console.log(E);
+            var delta = E.deltaY;
+            if(delta > 0){
+            $('html, body').stop().animate({'scrollTop':'+=' + article_H},timed);
+                console.log('마우스 휠을 내렸습니다');
+                //$('body').css();
+            }else{$('html, body').stop().animate({'scrollTop':'-=' + article_H},timed);
+                console.log('마우스 휠을 올렸습니다');
+                //$('body').css();
+            };
+        });
+    });	
         });
     </script>
 </body>

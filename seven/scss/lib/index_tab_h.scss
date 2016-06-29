@@ -7,24 +7,28 @@
                 >h1{width:176px; height:32px; margin:0 auto;
                    >a{width: 100%; height: 100%; display: block;}
                }
-                >#gnb{width: 800px; min-width: 769px; height:20px; margin-left: calc(50% - 400px); margin-top:42px; position: absolute;
-                    >li{width:calc(100% / 5 - 3.666666vw); height:100%; padding:0 1.666666vw; border-right:2px solid #333; float:left; text-align: center;
-                        >a{width:100%; height: 20px; display: block; text-decoration: none; color: #333; line-height: 20px;
-                           &:hover{color: #e40613;}
-                       }// a
-                       >ul{width: 100%; height: 0; overflow: hidden;
-                          >li{width: 100%; height: 20px; margin-top: 20px;
-                             >a{width: 100%; height: 100%; text-decoration: none; color: #333; font-size: 0.875rem;
-                                &:hover{color: #1d9433; font-weight: bold;}
-                             }// a
-                          }// li
-                       }// ul
-                       .submenusize{height: 350px;}
-                     &:last-child{border-right:0;}
-                    }/* #gnb li*/
-                }/* #gnb*/
+               >#gnbBox{
+                  >#menuBtn{display: none;}
+                   >#gnb{width: 800px; min-width: 769px; height:20px; margin-left: calc(50% - 400px); margin-top:42px; position: absolute;
+                       >li{width:calc(100% / 5 - 3.666666vw); height:100%; padding:0 1.666666vw; border-right:2px solid #333; float:left; text-align: center;
+                           >a{width:100%; height: 20px; display: block; text-decoration: none; color: #333; line-height: 20px;
+                              &:hover{color: #e40613;}
+                          }// a
+                          >ul{width: 100%; height: 0; overflow: hidden;
+                             >li{width: 100%; height: 20px; margin-top: 20px;
+                                >a{width: 100%; height: 100%; text-decoration: none; color: #333; font-size: 0.875rem;
+                                   &:hover{color: #1d9433; font-weight: bold;}
+                                }// a
+                             }// li
+                          }// ul
+                          .submenusize{height: 350px;}
+                        &:last-child{border-right:0;}
+                       }/* #gnb li*/
+                   }/* #gnb*/
+                  >.back{width: 100%; height: 400px !important; background-color: #fff; z-index: 3000;}
+                  >#navBg{display: none;}
+               }// #gnbBox
                
-               >.back{width: 100%; height: 400px !important; background-color: #fff; z-index: 3000;}
             }/* #headBox*/
             >.h_bar{width:100%; height:14px; display: block; } 
         }/* header*/

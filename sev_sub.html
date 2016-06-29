@@ -7,7 +7,8 @@
         <!--stylesheet-->
     <link rel="stylesheet" href="./css/lib/reset.css">
     <link rel="stylesheet" href="./css/sev_sub.css">
-
+	
+	<script src="js/sev_sub.js"></script>
   	<script src="js/jquery/jquery-1.12.3.min.js"></script>
 	<script src="js/jquery/jquery-migrate-1.3.0.min.js"></script>
 	<script src="js/jquery/jquery-ui.min.js"></script>
@@ -23,7 +24,32 @@
     <![endif]-->
          <script>
         $(document).ready(function(){
+			sev_sub();
+			
+			 $(function(){
+ 
+            var article_H = $('div').height(),
+                timed = 1000;
+
+
+        $("html, body").on('mousewheel DOMMouseScroll', function(e){
+            var E = e.originalEvent;
+            console.log(E);
+            var delta = E.deltaY;
+            if(delta > 0){
+            $('html, body').stop().animate({'scrollTop':'+=' + article_H},timed);
+                console.log('마우스 휠을 내렸습니다');
+                //$('body').css();
+            }else{$('html, body').stop().animate({'scrollTop':'-=' + article_H},timed);
+                console.log('마우스 휠을 올렸습니다');
+                //$('body').css();
+            };
         });
+    });
+			
+        });
+			 
+			 
     </script>   
 
 
@@ -98,18 +124,18 @@
     		<div id="boxWrap">
     		<ul>
     			<li class="pc_home">
-    				<button class="h_next">next</button>
+    				<button class="h_next"><span class="me_hidden">next</span></button>
     			</li>
     			<li class="pc_evn">
-					<button class="e_bef">before</button>
-					<button class="e_next">next</button>
+					<button class="e_bef"><span class="me_hidden">before</span></button>
+					<button class="e_next"><span class="me_hidden">next</span></button>
     			</li>
     			<li class="pc_pro">
-					<button class="p_bef">before</button>
-					<button class="p_next">next</button>
+					<button class="p_bef"><span class="me_hidden">before</span></button>
+					<button class="p_next"><span class="me_hidden">next</span></button>
     			</li>
     			<li class="pc_do">
-					<button class="d_bef">before</button>
+					<button class="d_bef"><span class="me_hidden">before</span></button>
     			</li>
     		</ul>
     		</div>
@@ -127,18 +153,18 @@
     		<div id="tabWrap">
     		<ul>
     			<li class="tab_home">
-    				<button class="h_next">next</button>
+    				<button class="h_next_tab"><span class="me_hidden">next</span></button>
     			</li>
     			<li class="tab_evn">
-					<button class="e_bef">before</button>
-					<button class="e_next">next</button>
+					<button class="e_bef_tab"><span class="me_hidden">before</span></button>
+					<button class="e_next_tab"><span class="me_hidden">next</span></button>
     			</li>
     			<li class="tab_pro">
-					<button class="p_bef">before</button>
-					<button class="p_next">next</button>
+					<button class="p_bef_tab"><span class="me_hidden">before</span></button>
+					<button class="p_next_tab"><span class="me_hidden">next</span></button>
     			</li>
     			<li class="tab_do">
-					<button class="d_bef">before</button>
+					<button class="d_bef_tab"><span class="me_hidden">before</span></button>
     			</li>
     		</ul>
     		</div>
@@ -152,6 +178,7 @@
     			</ul>
     		</div>
     	</div>
+
     </container>
 </body>
 </html>

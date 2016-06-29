@@ -7,11 +7,24 @@
                     background-color: #fff; 
                    >a{width: 100%; height: 100%; display: block;}
                }
-                >#gnb{width: 35px; height:35px;  background-color: #aaf; 
-                      position: absolute; top:0px;left:0px;
-                    >li{display: none;}
-                }//#gnb
-                >#searchBox{width: 35px; height: 35px; background-color: #aaf; 
+               >#gnbBox{width: 35px; height: 35px; position: relative; position: absolute; cursor: pointer; top: 0;
+                  >#menuBtn{width: 100%; height: 100%; background-image: url(../img/header/MENU.png); background-repeat: no-repeat; background-size: contain; background-position: center; background-color:transparent;}
+                  >#gnb{display: none;
+                      >li{
+                         >a{}
+                         >ul{display: none;}
+                      }/* #gnb li*/
+                  }/* #gnb*/
+                  >.gnbBoxAdd{width: 230px; height: 430px; position: absolute; top: -4.166666vw; left: 0; z-index: 3000; display: block !important;
+                     >li{width: 100%; height: 80px; background-color: rgba(36, 141, 58, 0.8); margin-bottom: 10px; text-align: center;
+                        &:last-child{margin-bottom: 0;}
+                        >a{width: 100%; height: 100%; line-height: 80px; text-decoration: none; color: #fff; font-size: 1.5rem;}
+                     }
+                  }
+                  >#navBg{width: 0; height: 0; overflow: hidden;}
+                  >.navBgAdd{width: 100% !important; height: 100% !important; background-color: rgba(0,0,0,0.4); top: 0; left: 0; position: fixed; z-index: 2000;}
+               }// #gnbBox
+                >#searchBox{width: 35px; height: 35px; background-image: url(../img/header/search.png); background-repeat: no-repeat; background-size: contain; background-position: center;
                             position: absolute; top:0px; right:0px;}
             }//#headBox
             >.h_bar{width: 100%; height: 14px; display: block; margin-top:8.333333vw/*40/480*100*/;}    

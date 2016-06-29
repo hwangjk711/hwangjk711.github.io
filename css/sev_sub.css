@@ -5,70 +5,70 @@
 #wrap #box1 > ul .to_pic { background-image: url(../img/seven-eleven_web.png); background-size: contain; background-repeat: no-repeat; background-position: center; }
 #wrap #box1 > ul .text { background-color: rgba(26, 255, 44, 0.1); }
 #wrap #box1 > ul .text > ul { width: 70%; height: 100%; }
-#wrap #box1 > ul .text > ul > li { width: 100%; height: 2rem; margin-top: 20px; margin-left: 70px; line-height: 2rem; color: #595959; font-size: 1rem; }
-#wrap #box1 > ul .text > ul > li:first-child { margin-top: 6rem; margin-bottom: 2rem; height: 2.5rem; font-size: 2.5rem; font-weight: bold; color: #1a932c; }
-#wrap #box1 > ul .text > ul > li:last-child { width: 100%; height: 7rem; margin-top: 5rem; }
+#wrap #box1 > ul .text > ul > li { width: 100%; height: 2.5vw; margin-top: 1.5vw; margin-left: 5vw; line-height: 2.5vw; color: #595959; font-size: 1.2vw; }
+#wrap #box1 > ul .text > ul > li:first-child { margin-top: 6vw; margin-bottom: 1.8vw; height: 4vw; font-size: 3vw; font-weight: bold; color: #1a932c; }
+#wrap #box1 > ul .text > ul > li:last-child { width: 100%; height: 8vw; margin-top: 6vw; }
 #wrap #box1 > ul .text > ul > li > a { text-decoration: none; color: #595959; }
 #wrap #box1 > ul .text > ul > li .concept { width: 100%; height: 100%; }
-#wrap #box1 > ul .text > ul > li .concept > li { width: 7rem; height: 100%; background-color: #1a932c; float: left; margin-right: 2.5rem; border-radius: 20rem; color: #fff; line-height: 7rem; text-align: center; box-shadow: 2px 2px 2px  #007215; }
+#wrap #box1 > ul .text > ul > li .concept > li { width: 8vw; height: 100%; background-color: #1a932c; float: left; margin-right: 2.5vw; border-radius: 5vw; color: #fff; line-height: 8vw; text-align: center; box-shadow: 2px 2px 2px  #007215; }
 #wrap #box1 > ul .text > ul > li .concept .concept_1 { letter-spacing: -0.5px; }
 #wrap #box2 { width: 100%; height: 100vh; }
 #wrap #box2 > ul { width: 100%; height: 100%; }
 #wrap #box2 > ul > li { width: 50%; height: 100%; float: left; font-family: 'Noto Sans KR'; }
 #wrap #box2 > ul .to_pic { background-color: rgba(26, 255, 44, 0.1); background-image: url(../img/seven-eleven_web.png); background-size: contain; background-repeat: no-repeat; background-position: center; }
 #wrap #box2 > ul .text > ul { width: 100%; height: 100%; }
-#wrap #box2 > ul .text > ul > li { width: 70%; height: 15rem; margin-top: 20px; margin-left: 70px; line-height: 2rem; color: #595959; font-size: 1rem; }
-#wrap #box2 > ul .text > ul > li:first-child { margin-top: 6rem; margin-bottom: 2rem; height: 2.5rem; font-size: 2.5rem; font-weight: bold; color: #1a932c; }
+#wrap #box2 > ul .text > ul > li { width: 70%; height: 18vw; margin-top: 2vw; margin-left: 5vw; line-height: 2vw; color: #595959; font-size: 1.2vw; }
+#wrap #box2 > ul .text > ul > li:first-child { margin-top: 4rem; margin-bottom: 1.5vw; height: 4vw; font-size: 3vw; font-weight: bold; color: #1a932c; }
 #wrap #box2 > ul .text > ul > li > .color { width: 100%; height: 100%; }
-#wrap #box2 > ul .text > ul > li > .color > li { width: 100%; height: 4rem; margin-top: 20px; }
+#wrap #box2 > ul .text > ul > li > .color > li { width: 100%; height: 4.8vw; margin-top: 1.5vw; }
 #wrap #box2 > ul .text > ul > li > .color > li > ul { width: 50%; height: 100%; }
-#wrap #box2 > ul .text > ul > li > .color > li > ul .mc { width: 4rem; height: 100%; background-color: #ef7d00; border-radius: 2rem; float: left; margin-right: 2rem; }
-#wrap #box2 > ul .text > ul > li > .color > li > ul .mc_2 { width: 4rem; height: 100%; background-color: #e40613; border-radius: 2rem; float: left; margin-right: 2rem; }
-#wrap #box2 > ul .text > ul > li > .color > li > ul .mc_3 { width: 4rem; height: 100%; background-color: #1a932c; border-radius: 2rem; float: left; margin-right: 2rem; }
-#wrap #box2 > ul .text > ul .font { width: 70%; height: 12rem; background-image: url(../img/font.png); background-repeat: no-repeat; background-size: 100%; background-position: center; }
+#wrap #box2 > ul .text > ul > li > .color > li > ul .mc { width: 4.8vw; height: 100%; background-color: #ef7d00; border-radius: 2rem; float: left; margin-right: 2vw; }
+#wrap #box2 > ul .text > ul > li > .color > li > ul .mc_2 { width: 4.8vw; height: 100%; background-color: #e40613; border-radius: 2rem; float: left; margin-right: 2vw; }
+#wrap #box2 > ul .text > ul > li > .color > li > ul .mc_3 { width: 4.8vw; height: 100%; background-color: #1a932c; border-radius: 2rem; float: left; margin-right: 2vw; }
+#wrap #box2 > ul .text > ul .font { width: 70%; height: 15vw; background-image: url(../img/font.png); background-repeat: no-repeat; background-size: 100%; background-position: center; }
 #wrap #box3 { width: 100%; height: 100vh; }
 #wrap #box3 #boxWrap { width: 50%; height: 100%; overflow: hidden; float: left; }
-#wrap #box3 #boxWrap > ul { width: 400%; height: 100%; margin-left: -300%; }
+#wrap #box3 #boxWrap > ul { width: 400%; height: 100%; }
 #wrap #box3 #boxWrap > ul > li { width: 25%; height: 100%; float: left; }
-#wrap #box3 #boxWrap > ul .pc_home { background-image: url(../img/sev_mock1.png); background-repeat: no-repeat; background-position: center; background-size: contain; position: relative; }
-#wrap #box3 #boxWrap > ul .pc_home .h_next { width: 3rem; height: 3rem; position: absolute; right: 1rem; bottom: 1rem; }
+#wrap #box3 #boxWrap > ul .pc_home { background-image: url(../img/sev_mock1.png); background-repeat: no-repeat; background-position: 0 16px; background-size: contain; position: relative; }
+#wrap #box3 #boxWrap > ul .pc_home .h_next { width: 4vw; height: 4vw; position: absolute; right: 1.5vw; bottom: 1.5vw; background-image: url(../img/s_right.png); background-repeat: no-repeat; background-size: contain; background-position: center; background-color: transparent; }
 #wrap #box3 #boxWrap > ul .pc_evn { background-image: url(../img/sev_mock2.png); background-repeat: no-repeat; background-position: 0 16px; background-size: contain; position: relative; }
-#wrap #box3 #boxWrap > ul .pc_evn .e_bef { width: 3rem; height: 3rem; position: absolute; left: 1rem; bottom: 1rem; }
-#wrap #box3 #boxWrap > ul .pc_evn .e_next { width: 3rem; height: 3rem; position: absolute; right: 1rem; bottom: 1rem; }
+#wrap #box3 #boxWrap > ul .pc_evn .e_bef { width: 4vw; height: 4vw; position: absolute; left: 1.5vw; bottom: 1.5vw; background-image: url(../img/s_left.png); background-repeat: no-repeat; background-size: contain; background-position: center; background-color: transparent; }
+#wrap #box3 #boxWrap > ul .pc_evn .e_next { width: 4vw; height: 4vw; position: absolute; right: 1.5vw; bottom: 1.5vw; background-image: url(../img/s_right.png); background-repeat: no-repeat; background-size: contain; background-position: center; background-color: transparent; }
 #wrap #box3 #boxWrap > ul .pc_pro { background-image: url(../img/sev_mock3.png); background-repeat: no-repeat; background-position: 0 16px; background-size: contain; position: relative; }
-#wrap #box3 #boxWrap > ul .pc_pro .p_bef { width: 3rem; height: 3rem; position: absolute; left: 1rem; bottom: 1rem; }
-#wrap #box3 #boxWrap > ul .pc_pro .p_next { width: 3rem; height: 3rem; position: absolute; right: 1rem; bottom: 1rem; }
+#wrap #box3 #boxWrap > ul .pc_pro .p_bef { width: 4vw; height: 4vw; position: absolute; left: 1.5vw; bottom: 1.5vw; background-image: url(../img/s_left.png); background-repeat: no-repeat; background-size: contain; background-position: center; background-color: transparent; }
+#wrap #box3 #boxWrap > ul .pc_pro .p_next { width: 4vw; height: 4vw; position: absolute; right: 1.5vw; bottom: 1.5vw; background-image: url(../img/s_right.png); background-repeat: no-repeat; background-size: contain; background-position: center; background-color: transparent; }
 #wrap #box3 #boxWrap > ul .pc_do { background-image: url(../img/sev_mock4.png); background-repeat: no-repeat; background-position: 0 16px; background-size: contain; position: relative; }
-#wrap #box3 #boxWrap > ul .pc_do .d_bef { width: 3rem; height: 3rem; position: absolute; left: 1rem; bottom: 1rem; }
+#wrap #box3 #boxWrap > ul .pc_do .d_bef { width: 4vw; height: 4vw; position: absolute; right: 1.5vw; bottom: 1.5vw; background-image: url(../img/s_left.png); background-repeat: no-repeat; background-size: contain; background-position: center; background-color: transparent; }
 #wrap #box3 #codding { width: 50%; height: 100%; float: left; overflow: hidden; }
-#wrap #box3 #codding > ul { width: 100%; height: 100%; }
-#wrap #box3 #codding > ul > li { width: 100%; height: 100%; }
+#wrap #box3 #codding > ul { width: 400%; height: 100%; }
+#wrap #box3 #codding > ul > li { width: 25%; height: 100%; float: left; }
 #wrap #box3 #codding > ul .pc_home_c { background-image: url(../img/sev_mock1_p.png); background-repeat: no-repeat; background-size: 70%; background-position: center; }
-#wrap #box3 #codding > ul .pc_evn_c { background-image: url(../img/sev_mock2_p.png); background-repeat: no-repeat; background-size: 66%; background-position: center; }
-#wrap #box3 #codding > ul .pc_pro_c { background-image: url(../img/sev_mock3_p.png); background-repeat: no-repeat; background-size: 70%; background-position: center; }
-#wrap #box3 #codding > ul .pc_do_c { background-image: url(../img/sev_mock4_p.png); background-repeat: no-repeat; background-size: 70%; background-position: center; }
+#wrap #box3 #codding > ul .pc_evn_c { background-image: url(../img/sev_mock2_p.png); background-repeat: no-repeat; background-size: 90%; background-position: center; background-size: 90%; }
+#wrap #box3 #codding > ul .pc_pro_c { background-image: url(../img/sev_mock3_p.png); background-repeat: no-repeat; background-size: 80%; background-position: 7vw 4vw; }
+#wrap #box3 #codding > ul .pc_do_c { background-image: url(../img/sev_mock4_p.png); background-repeat: no-repeat; background-size: 80%; background-position: center; }
 #wrap #box3 #codding .codewith { width: 100%; height: 100%; }
 #wrap #box4 { width: 100%; height: 100vh; }
 #wrap #box4 #tabWrap { width: 50%; height: 100%; overflow: hidden; float: left; }
 #wrap #box4 #tabWrap > ul { width: 400%; height: 100%; }
 #wrap #box4 #tabWrap > ul > li { width: 25%; height: 100%; float: left; }
-#wrap #box4 #tabWrap > ul .tab_home { background-image: url(../img/sev_mock1.png); background-repeat: no-repeat; background-position: center; background-size: contain; position: relative; }
-#wrap #box4 #tabWrap > ul .tab_home .h_next { width: 3rem; height: 3rem; position: absolute; right: 1rem; bottom: 1rem; }
-#wrap #box4 #tabWrap > ul .tab_evn { background-image: url(../img/sev_mock2.png); background-repeat: no-repeat; background-position: 0 16px; background-size: contain; position: relative; }
-#wrap #box4 #tabWrap > ul .tab_evn .e_bef { width: 3rem; height: 3rem; position: absolute; left: 1rem; bottom: 1rem; }
-#wrap #box4 #tabWrap > ul .tab_evn .e_next { width: 3rem; height: 3rem; position: absolute; right: 1rem; bottom: 1rem; }
-#wrap #box4 #tabWrap > ul .tab_pro { background-image: url(../img/sev_mock3.png); background-repeat: no-repeat; background-position: 0 16px; background-size: contain; position: relative; }
-#wrap #box4 #tabWrap > ul .tab_pro .p_bef { width: 3rem; height: 3rem; position: absolute; left: 1rem; bottom: 1rem; }
-#wrap #box4 #tabWrap > ul .tab_pro .p_next { width: 3rem; height: 3rem; position: absolute; right: 1rem; bottom: 1rem; }
-#wrap #box4 #tabWrap > ul .tab_do { background-image: url(../img/sev_mock4.png); background-repeat: no-repeat; background-position: 0 16px; background-size: contain; position: relative; }
-#wrap #box4 #tabWrap > ul .tab_do .d_bef { width: 3rem; height: 3rem; position: absolute; left: 1rem; bottom: 1rem; }
+#wrap #box4 #tabWrap > ul .tab_home { background-image: url(../img/sev_mock1_tab.png); background-repeat: no-repeat; background-position: center; background-size: contain; position: relative; }
+#wrap #box4 #tabWrap > ul .tab_home .h_next_tab { width: 4vw; height: 4vw; position: absolute; right: 1.5vw; bottom: 1.5vw; background-image: url(../img/s_right.png); background-repeat: no-repeat; background-size: contain; background-position: center; background-color: transparent; }
+#wrap #box4 #tabWrap > ul .tab_evn { background-image: url(../img/sev_mock2_tab.png); background-repeat: no-repeat; background-position: center; background-size: contain; position: relative; }
+#wrap #box4 #tabWrap > ul .tab_evn .e_bef_tab { width: 4vw; height: 4vw; position: absolute; left: 1.5vw; bottom: 1.5vw; background-image: url(../img/s_left.png); background-repeat: no-repeat; background-size: contain; background-position: center; background-color: transparent; }
+#wrap #box4 #tabWrap > ul .tab_evn .e_next_tab { width: 4vw; height: 4vw; position: absolute; right: 1.5vw; bottom: 1.5vw; background-image: url(../img/s_right.png); background-repeat: no-repeat; background-size: contain; background-position: center; background-color: transparent; }
+#wrap #box4 #tabWrap > ul .tab_pro { background-image: url(../img/sev_mock3_tab.png); background-repeat: no-repeat; background-position: center; background-size: contain; position: relative; }
+#wrap #box4 #tabWrap > ul .tab_pro .p_bef_tab { width: 4vw; height: 4vw; position: absolute; left: 1.5vw; bottom: 1.5vw; background-image: url(../img/s_left.png); background-repeat: no-repeat; background-size: contain; background-position: center; background-color: transparent; }
+#wrap #box4 #tabWrap > ul .tab_pro .p_next_tab { width: 4vw; height: 4vw; position: absolute; right: 1.5vw; bottom: 1.5vw; background-image: url(../img/s_right.png); background-repeat: no-repeat; background-size: contain; background-position: center; background-color: transparent; }
+#wrap #box4 #tabWrap > ul .tab_do { background-image: url(../img/sev_mock4_tab.png); background-repeat: no-repeat; background-position: center; background-size: contain; position: relative; }
+#wrap #box4 #tabWrap > ul .tab_do .d_bef_tab { width: 4vw; height: 4vw; position: absolute; right: 1.5vw; bottom: 1.5vw; background-image: url(../img/s_left.png); background-repeat: no-repeat; background-size: contain; background-position: center; background-color: transparent; }
 #wrap #box4 #tabCode { width: 50%; height: 100%; float: left; overflow: hidden; }
-#wrap #box4 #tabCode > ul { width: 100%; height: 100%; }
-#wrap #box4 #tabCode > ul > li { width: 100%; height: 100%; }
-#wrap #box4 #tabCode > ul .tab_home_c { background-image: url(../img/sev_mock1_p.png); background-repeat: no-repeat; background-size: 70%; background-position: center; }
-#wrap #box4 #tabCode > ul .tab_evn_c { background-image: url(../img/sev_mock2_p.png); background-repeat: no-repeat; background-size: 66%; background-position: center; }
-#wrap #box4 #tabCode > ul .tab_pro_c { background-image: url(../img/sev_mock3_p.png); background-repeat: no-repeat; background-size: 70%; background-position: center; }
-#wrap #box4 #tabCode > ul .tab_do_c { background-image: url(../img/sev_mock4_p.png); background-repeat: no-repeat; background-size: 70%; background-position: center; }
+#wrap #box4 #tabCode > ul { width: 400%; height: 100%; }
+#wrap #box4 #tabCode > ul > li { width: 25%; height: 100%; float: left; }
+#wrap #box4 #tabCode > ul .tab_home_c { background-image: url(../img/sev_mock1_mob.png); background-repeat: no-repeat; background-position: center; background-size: contain; position: relative; }
+#wrap #box4 #tabCode > ul .tab_evn_c { background-image: url(../img/sev_mock1_mob.png); background-repeat: no-repeat; background-position: center; background-size: contain; position: relative; }
+#wrap #box4 #tabCode > ul .tab_pro_c { background-image: url(../img/sev_mock1_mob.png); background-repeat: no-repeat; background-position: center; background-size: contain; position: relative; }
+#wrap #box4 #tabCode > ul .tab_do_c { background-image: url(../img/sev_mock1_mob.png); background-repeat: no-repeat; background-position: center; background-size: contain; position: relative; }
 #wrap #box4 #tabCode .codewith { width: 100%; height: 100%; }
 
 /*# sourceMappingURL=sev_sub.css.map */

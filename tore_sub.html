@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/lib/reset.css">
     <link rel="stylesheet" href="./css/tore_sub.css">
 
+ 	<script src="js/tore_sub.js"></script>
   	<script src="js/jquery/jquery-1.12.3.min.js"></script>
 	<script src="js/jquery/jquery-migrate-1.3.0.min.js"></script>
 	<script src="js/jquery/jquery-ui.min.js"></script>
@@ -23,6 +24,28 @@
     <![endif]-->
          <script>
         $(document).ready(function(){
+			tore_sub();
+			
+			 $(function(){
+ 
+            var article_H = $('div').height(),
+                timed = 1000;
+
+
+        $("html, body").on('mousewheel DOMMouseScroll', function(e){
+            var E = e.originalEvent;
+            console.log(E);
+            var delta = E.deltaY;
+            if(delta > 0){
+            $('html, body').stop().animate({'scrollTop':'+=' + article_H},timed);
+                console.log('마우스 휠을 내렸습니다');
+                //$('body').css();
+            }else{$('html, body').stop().animate({'scrollTop':'-=' + article_H},timed);
+                console.log('마우스 휠을 올렸습니다');
+                //$('body').css();
+            };
+        });
+    });
         });
     </script>   
 
@@ -98,7 +121,7 @@
     		<div id="boxWrap">
     			<ul>
     				<li class="mockup">
-    					<button class="next"> next </button>
+    					<button class="next"> <span class="me_hidden">next</span> </button>
     				</li>
     				<li class="image">
     					<ul class="site_button">
@@ -109,13 +132,13 @@
     						<li><button class="video">&#35;video</button></li>
     						<li><button class="footer">&lt;footer&gt;</button></li>
     					</ul><!--.site_button-->
-    					<button class="before"> before </button>
+    					<button class="before"> <span class="me_hidden">before</span> </button>
     				</li>
     			</ul>
     		</div>
 			<div id="codding">
 				<ul>
-    					<li class="title_c codewith"> 오른쪽 태그를<br/> 클릭하세요.</li>
+    					<li class="title_c "> 오른쪽 태그를<br/> 클릭하세요.</li>
     					<li class="header_c"></li>
     					<li class="bb_c"></li>
     					<li class="pro_c"></li>
